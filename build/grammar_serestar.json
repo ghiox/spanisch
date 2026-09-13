@@ -1,0 +1,329 @@
+{
+  "id": "serestar",
+  "title": "ser vs. estar",
+  "rule": {
+    "lines": [
+      "ser = Eigenschaft, Identität, Beruf, Herkunft, Uhrzeit: soy, eres, es, somos, sois, son.",
+      "estar = Ort, Zustand, Befinden: estoy, estás, está, estamos, estáis, están.",
+      "estar + Gerundio = gerade jetzt: Estoy comiendo.",
+      "Bedeutungswechsel: es aburrido (langweilig) / está aburrido (gelangweilt).",
+      "Bedeutungswechsel: es listo (schlau) / está listo (bereit)."
+    ],
+    "examples": [
+      { "es": "Marta es de Madrid.", "de": "Marta ist aus Madrid." },
+      { "es": "El libro está en la mesa.", "de": "Das Buch liegt auf dem Tisch." },
+      { "es": "Hoy estamos muy cansados.", "de": "Heute sind wir sehr müde." },
+      { "es": "Son las ocho de la mañana.", "de": "Es ist acht Uhr morgens." }
+    ]
+  },
+  "items": [
+    {
+      "id": "serestar-1",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Pedro está aburrido.",
+      "q": "Was bedeutet der Satz?",
+      "options": ["Pedro ist gelangweilt.", "Pedro ist langweilig."],
+      "answer": 0,
+      "ruleTag": "estar aburrido = gelangweilt",
+      "expl": "Mit estar beschreibst du seinen Zustand gerade jetzt: Pedro langweilt sich."
+    },
+    {
+      "id": "serestar-2",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "La película es aburrida.",
+      "q": "Was bedeutet der Satz?",
+      "options": ["Der Film ist langweilig.", "Der Film langweilt sich gerade."],
+      "answer": 0,
+      "ruleTag": "ser aburrido = langweilig",
+      "expl": "Mit ser nennst du eine Eigenschaft des Films: Er ist langweilig."
+    },
+    {
+      "id": "serestar-3",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Mi hermano está listo.",
+      "q": "Was bedeutet der Satz?",
+      "options": ["Mein Bruder ist fertig, er kann los.", "Mein Bruder ist schlau."],
+      "answer": 0,
+      "ruleTag": "estar listo = bereit",
+      "expl": "estar listo heißt bereit oder fertig sein, nicht schlau sein."
+    },
+    {
+      "id": "serestar-4",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Mi hermana es muy lista.",
+      "q": "Was bedeutet der Satz?",
+      "options": ["Meine Schwester ist sehr schlau.", "Meine Schwester ist gerade fertig."],
+      "answer": 0,
+      "ruleTag": "ser listo = schlau",
+      "expl": "ser listo beschreibt eine feste Eigenschaft: Sie ist intelligent."
+    },
+    {
+      "id": "serestar-5",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Estoy en la escuela.",
+      "q": "Was drückt estar hier aus?",
+      "options": ["den Ort", "den Beruf", "die Herkunft"],
+      "answer": 0,
+      "ruleTag": "estar = Ort",
+      "expl": "Wo eine Person oder eine Sache ist, sagst du mit estar."
+    },
+    {
+      "id": "serestar-6",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Estamos comiendo ahora.",
+      "q": "Was bedeutet der Satz?",
+      "options": ["Wir essen gerade.", "Wir essen jeden Tag."],
+      "answer": 0,
+      "ruleTag": "estar + Gerundio = gerade jetzt",
+      "expl": "estar + Gerundio zeigt, dass die Handlung genau in diesem Moment läuft."
+    },
+    {
+      "id": "serestar-7",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Hoy estoy muy cansado.",
+      "q": "Was sagt der Satz über dich?",
+      "options": ["ein Zustand heute", "eine feste Eigenschaft"],
+      "answer": 0,
+      "ruleTag": "estar = Zustand/Befinden",
+      "expl": "Müde bist du nur gerade jetzt, deshalb steht estar."
+    },
+    {
+      "id": "serestar-8",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Soy de México.",
+      "q": "Was drückt ser hier aus?",
+      "options": ["die Herkunft", "den Ort gerade jetzt"],
+      "answer": 0,
+      "ruleTag": "ser de = Herkunft",
+      "expl": "Woher jemand kommt, sagst du mit ser de, auch wenn er woanders ist."
+    },
+    {
+      "id": "serestar-9",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Mi madre ___ en el jardín.",
+      "options": ["es", "está"],
+      "answer": 1,
+      "ruleTag": "estar = Ort",
+      "expl": "Wo eine Person ist, sagst du mit estar: Sie ist im Garten."
+    },
+    {
+      "id": "serestar-10",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Hoy ___ muy contenta.",
+      "options": ["soy", "estoy"],
+      "answer": 1,
+      "ruleTag": "estar = Befinden",
+      "expl": "contento zeigt, wie du dich gerade fühlst, also estar."
+    },
+    {
+      "id": "serestar-11",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Los niños ___ jugando en el parque.",
+      "options": ["son", "están"],
+      "answer": 1,
+      "ruleTag": "estar + Gerundio",
+      "expl": "Die Verlaufsform bildest du nur mit estar: están jugando."
+    },
+    {
+      "id": "serestar-12",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "El café ya ___ frío.",
+      "options": ["es", "está"],
+      "answer": 1,
+      "ruleTag": "estar = Zustand",
+      "expl": "Der Kaffee ist kalt geworden, das ist ein Zustand, also está."
+    },
+    {
+      "id": "serestar-13",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Nosotros ___ en el cine.",
+      "options": ["somos", "estamos"],
+      "answer": 1,
+      "ruleTag": "estar = Ort",
+      "expl": "Wo wir sind, sagst du mit estar: estamos en el cine."
+    },
+    {
+      "id": "serestar-14",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "La ventana ___ abierta.",
+      "options": ["es", "está"],
+      "answer": 1,
+      "ruleTag": "abierto/cerrado = estar",
+      "expl": "Offen oder zu ist ein Zustand des Fensters, deshalb steht hier estar."
+    },
+    {
+      "id": "serestar-15",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Mi hermano ___ enfermo hoy.",
+      "options": ["es", "está"],
+      "answer": 1,
+      "ruleTag": "estar enfermo = krank sein",
+      "expl": "Krank sein ist ein vorübergehender Zustand, also está."
+    },
+    {
+      "id": "serestar-16",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Pedro ___ profesor de música.",
+      "options": ["es", "está"],
+      "answer": 0,
+      "ruleTag": "ser = Beruf",
+      "expl": "Den Beruf nennst du mit ser: Pedro ist Musiklehrer."
+    },
+    {
+      "id": "serestar-17",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "___ las cinco de la tarde.",
+      "options": ["Son", "Están"],
+      "answer": 0,
+      "ruleTag": "ser = Uhrzeit",
+      "expl": "Die Uhrzeit sagst du immer mit ser: Son las cinco."
+    },
+    {
+      "id": "serestar-18",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Yo ___ de Alemania.",
+      "options": ["soy", "estoy"],
+      "answer": 0,
+      "ruleTag": "ser de = Herkunft",
+      "expl": "Die Herkunft steht mit ser de: Soy de Alemania."
+    },
+    {
+      "id": "serestar-19",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Yo ___ en la oficina ahora.",
+      "hint": "(estar, yo)",
+      "answers": ["estoy"],
+      "ruleTag": "estar = Ort",
+      "expl": "Ort mit estar, 1. Person Singular: estoy."
+    },
+    {
+      "id": "serestar-20",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Los libros ___ en la mesa.",
+      "hint": "(estar, ellos)",
+      "answers": ["están", "estan"],
+      "ruleTag": "estar = Ort",
+      "expl": "Wo die Bücher liegen, sagst du mit estar: están."
+    },
+    {
+      "id": "serestar-21",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Nosotros ___ estudiando español.",
+      "hint": "(estar, nosotros)",
+      "answers": ["estamos"],
+      "ruleTag": "estar + Gerundio",
+      "expl": "Verlaufsform nur mit estar: estamos estudiando."
+    },
+    {
+      "id": "serestar-22",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "¿Cómo ___ hoy?",
+      "hint": "(estar, tú) – Befinden",
+      "answers": ["estás", "estas"],
+      "ruleTag": "estar = Befinden",
+      "expl": "Nach dem Befinden fragst du mit estar: ¿Cómo estás?"
+    },
+    {
+      "id": "serestar-23",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Ella ___ muy cansada hoy.",
+      "hint": "(estar, ella)",
+      "answers": ["está", "esta"],
+      "ruleTag": "estar = Zustand",
+      "expl": "Müdigkeit ist ein vorübergehender Zustand, also está."
+    },
+    {
+      "id": "serestar-24",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "El baño ___ a la derecha.",
+      "hint": "(estar, Ort)",
+      "answers": ["está", "esta"],
+      "ruleTag": "estar = Ort",
+      "expl": "Wo etwas liegt, sagst du mit estar: está a la derecha."
+    },
+    {
+      "id": "serestar-25",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Vosotros ___ en casa.",
+      "hint": "(estar, vosotros)",
+      "answers": ["estáis", "estais"],
+      "ruleTag": "estar = Ort",
+      "expl": "Ort mit estar, 2. Person Plural: estáis."
+    },
+    {
+      "id": "serestar-26",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Hoy el niño ___ aburrido.",
+      "hint": "gelangweilt",
+      "answers": ["está", "esta"],
+      "ruleTag": "estar aburrido = gelangweilt",
+      "expl": "Gelangweilt sein ist ein Zustand, deshalb está aburrido."
+    },
+    {
+      "id": "serestar-27",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Nosotros ya ___ listos para salir.",
+      "hint": "(estar, nosotros) – bereit",
+      "answers": ["estamos"],
+      "ruleTag": "estar listo = bereit",
+      "expl": "Bereit sein heißt estar listo: estamos listos."
+    },
+    {
+      "id": "serestar-28",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Tú ___ mi mejor amigo.",
+      "hint": "(ser, tú)",
+      "answers": ["eres"],
+      "ruleTag": "ser = Identität",
+      "expl": "Wer jemand ist, sagst du mit ser: eres mi mejor amigo."
+    },
+    {
+      "id": "serestar-29",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "___ las nueve de la noche.",
+      "hint": "(ser, Uhrzeit)",
+      "answers": ["son", "Son"],
+      "ruleTag": "ser = Uhrzeit",
+      "expl": "Die Uhrzeit steht immer mit ser: Son las nueve."
+    },
+    {
+      "id": "serestar-30",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Mis padres ___ de España.",
+      "hint": "(ser, ellos)",
+      "answers": ["son"],
+      "ruleTag": "ser de = Herkunft",
+      "expl": "Herkunft mit ser de: son de España."
+    }
+  ]
+}

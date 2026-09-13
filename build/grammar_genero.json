@@ -1,0 +1,329 @@
+{
+  "id": "genero",
+  "title": "Genus & Artikel",
+  "rule": {
+    "lines": [
+      "Nomen auf -o sind meist maskulin: el libro, el trabajo.",
+      "Nomen auf -a sind meist feminin: la casa, la mesa.",
+      "-ción, -sión, -dad, -tad, -umbre sind immer feminin: la canción, la ciudad.",
+      "Wörter auf -ma aus dem Griechischen sind oft maskulin: el problema, el tema.",
+      "Artikel: el/la, Plural los/las; unbestimmt un/una. Ausnahmen: la mano, el día."
+    ],
+    "examples": [
+      { "es": "El libro está sobre la mesa.", "de": "Das Buch liegt auf dem Tisch." },
+      { "es": "Vivo en una ciudad grande.", "de": "Ich wohne in einer großen Stadt." },
+      { "es": "El problema es muy difícil.", "de": "Das Problem ist sehr schwierig." },
+      { "es": "Las manos están frías.", "de": "Die Hände sind kalt." }
+    ]
+  },
+  "items": [
+    {
+      "id": "genero-1",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Mi problema es muy difícil.",
+      "q": "Welches Genus hat problema?",
+      "options": ["maskulin", "feminin"],
+      "answer": 0,
+      "ruleTag": "-ma (griech.) → maskulin",
+      "expl": "Trotz der Endung -a ist problema maskulin: el problema."
+    },
+    {
+      "id": "genero-2",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Tu ciudad es muy grande.",
+      "q": "Welches Genus hat ciudad?",
+      "options": ["feminin", "maskulin"],
+      "answer": 0,
+      "ruleTag": "-dad → feminin",
+      "expl": "Alle Wörter auf -dad sind feminin: la ciudad."
+    },
+    {
+      "id": "genero-3",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Su casa está cerca del centro.",
+      "q": "Warum ist casa feminin?",
+      "options": ["wegen der Endung -a", "wegen der Endung -o", "weil es eine Ausnahme ist"],
+      "answer": 0,
+      "ruleTag": "-a → meist feminin",
+      "expl": "Nomen auf -a sind normalerweise feminin: la casa."
+    },
+    {
+      "id": "genero-4",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Mi trabajo empieza a las ocho.",
+      "q": "Welches Genus hat trabajo?",
+      "options": ["maskulin", "feminin"],
+      "answer": 0,
+      "ruleTag": "-o → meist maskulin",
+      "expl": "Nomen auf -o sind normalerweise maskulin: el trabajo."
+    },
+    {
+      "id": "genero-5",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Mi mano no es muy grande.",
+      "q": "Welches Genus hat mano?",
+      "options": ["feminin, eine Ausnahme", "maskulin wegen -o"],
+      "answer": 0,
+      "ruleTag": "la mano = Ausnahme",
+      "expl": "mano endet auf -o, ist aber feminin: la mano."
+    },
+    {
+      "id": "genero-6",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Cada día estudio español.",
+      "q": "Welches Genus hat día?",
+      "options": ["feminin wegen -a", "maskulin, eine Ausnahme"],
+      "answer": 1,
+      "ruleTag": "el día = Ausnahme",
+      "expl": "día endet auf -a, ist aber maskulin: el día."
+    },
+    {
+      "id": "genero-7",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Mi canción favorita es de España.",
+      "q": "Welche Regel gilt für canción?",
+      "options": ["-ción ist immer feminin", "-ción ist immer maskulin", "-ción kann beides sein"],
+      "answer": 0,
+      "ruleTag": "-ción → feminin",
+      "expl": "Wörter auf -ción sind ohne Ausnahme feminin: la canción."
+    },
+    {
+      "id": "genero-8",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Cambiar de costumbre es difícil.",
+      "q": "Welches Genus hat costumbre?",
+      "options": ["maskulin", "feminin"],
+      "answer": 1,
+      "ruleTag": "-umbre → feminin",
+      "expl": "Nomen auf -umbre sind feminin: la costumbre."
+    },
+    {
+      "id": "genero-9",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "___ problema es muy difícil.",
+      "options": ["La", "El"],
+      "answer": 1,
+      "ruleTag": "-ma (griech.) → el",
+      "expl": "problema ist trotz der Endung -a maskulin (griech. Ursprung): el problema."
+    },
+    {
+      "id": "genero-10",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Vivo en ___ ciudad muy grande.",
+      "options": ["una", "un"],
+      "answer": 0,
+      "ruleTag": "-dad → feminin",
+      "expl": "ciudad endet auf -dad und ist feminin: una ciudad."
+    },
+    {
+      "id": "genero-11",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Mañana es ___ día importante.",
+      "options": ["un", "una"],
+      "answer": 0,
+      "ruleTag": "el día = Ausnahme",
+      "expl": "día ist maskulin, obwohl es auf -a endet: un día."
+    },
+    {
+      "id": "genero-12",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Levanto ___ mano para preguntar.",
+      "options": ["el", "la"],
+      "answer": 1,
+      "ruleTag": "la mano = Ausnahme",
+      "expl": "mano ist feminin, obwohl es auf -o endet: la mano."
+    },
+    {
+      "id": "genero-13",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Escucho ___ canción en la radio.",
+      "options": ["un", "una"],
+      "answer": 1,
+      "ruleTag": "-ción → feminin",
+      "expl": "canción endet auf -ción und ist feminin: una canción."
+    },
+    {
+      "id": "genero-14",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "___ libro está sobre la mesa.",
+      "options": ["El", "La"],
+      "answer": 0,
+      "ruleTag": "-o → meist maskulin",
+      "expl": "libro endet auf -o und ist maskulin: el libro."
+    },
+    {
+      "id": "genero-15",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "___ universidad abre a las nueve.",
+      "options": ["El", "La"],
+      "answer": 1,
+      "ruleTag": "-dad → feminin",
+      "expl": "universidad endet auf -dad und ist feminin: la universidad."
+    },
+    {
+      "id": "genero-16",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Busco ___ trabajo en Madrid.",
+      "options": ["un", "una"],
+      "answer": 0,
+      "ruleTag": "-o → meist maskulin",
+      "expl": "trabajo endet auf -o und ist maskulin: un trabajo."
+    },
+    {
+      "id": "genero-17",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "___ tema del libro es interesante.",
+      "options": ["La", "El"],
+      "answer": 1,
+      "ruleTag": "-ma (griech.) → el",
+      "expl": "tema kommt aus dem Griechischen und ist maskulin: el tema."
+    },
+    {
+      "id": "genero-18",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Necesito ___ respuesta urgente.",
+      "options": ["una", "un"],
+      "answer": 0,
+      "ruleTag": "-a → meist feminin",
+      "expl": "respuesta endet auf -a und ist feminin: una respuesta."
+    },
+    {
+      "id": "genero-19",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "___ problemas son difíciles.",
+      "hint": "die (bestimmt, Plural)",
+      "answers": ["los", "Los"],
+      "ruleTag": "-ma → maskulin, Plural los",
+      "expl": "problema ist maskulin, im Plural also los problemas."
+    },
+    {
+      "id": "genero-20",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "___ ciudades de España son muy grandes.",
+      "hint": "die (bestimmt, Plural)",
+      "answers": ["las", "Las"],
+      "ruleTag": "-dad → feminin, Plural las",
+      "expl": "ciudad ist feminin, im Plural also las ciudades."
+    },
+    {
+      "id": "genero-21",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Tengo ___ problema con el coche.",
+      "hint": "ein (unbestimmt)",
+      "answers": ["un"],
+      "ruleTag": "-ma → maskulin",
+      "expl": "problema ist trotz der Endung -a maskulin (griech. Ursprung): un problema."
+    },
+    {
+      "id": "genero-22",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "___ mano me duele desde ayer.",
+      "hint": "die (bestimmt, Singular)",
+      "answers": ["la", "La"],
+      "ruleTag": "la mano = Ausnahme",
+      "expl": "mano ist feminin, obwohl es auf -o endet: la mano."
+    },
+    {
+      "id": "genero-23",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "___ días pasan muy rápido.",
+      "hint": "die (bestimmt, Plural)",
+      "answers": ["los", "Los"],
+      "ruleTag": "el día = Ausnahme",
+      "expl": "día ist maskulin, im Plural also los días."
+    },
+    {
+      "id": "genero-24",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Me gustan ___ canciones de este grupo.",
+      "hint": "die (bestimmt, Plural)",
+      "answers": ["las"],
+      "ruleTag": "-ción → feminin, Plural las",
+      "expl": "canción ist feminin, im Plural also las canciones."
+    },
+    {
+      "id": "genero-25",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "___ verdad siempre es importante.",
+      "hint": "die (bestimmt, Singular)",
+      "answers": ["la", "La"],
+      "ruleTag": "-dad → feminin",
+      "expl": "verdad endet auf -dad und ist feminin: la verdad."
+    },
+    {
+      "id": "genero-26",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Quiero comprar ___ casa grande.",
+      "hint": "eine (unbestimmt)",
+      "answers": ["una"],
+      "ruleTag": "-a → meist feminin",
+      "expl": "casa endet auf -a und ist feminin: una casa."
+    },
+    {
+      "id": "genero-27",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "___ libros están en la mesa.",
+      "hint": "die (bestimmt, Plural)",
+      "answers": ["los", "Los"],
+      "ruleTag": "-o → maskulin, Plural los",
+      "expl": "libro ist maskulin, im Plural also los libros."
+    },
+    {
+      "id": "genero-28",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "El profesor explica ___ tema de hoy.",
+      "hint": "der/das (bestimmt, Singular)",
+      "answers": ["el"],
+      "ruleTag": "-ma (griech.) → el",
+      "expl": "tema kommt aus dem Griechischen und ist maskulin: el tema."
+    },
+    {
+      "id": "genero-29",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Hay ___ solución para este problema.",
+      "hint": "eine (unbestimmt)",
+      "answers": ["una"],
+      "ruleTag": "-ción → feminin",
+      "expl": "solución endet auf -ción und ist feminin: una solución."
+    },
+    {
+      "id": "genero-30",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "___ manos de mi madre son muy suaves.",
+      "hint": "die (bestimmt, Plural)",
+      "answers": ["las", "Las"],
+      "ruleTag": "la mano = Ausnahme",
+      "expl": "mano ist feminin, im Plural also las manos."
+    }
+  ]
+}

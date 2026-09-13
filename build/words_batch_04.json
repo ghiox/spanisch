@@ -1,0 +1,1002 @@
+[
+  {
+    "r": 639,
+    "es": "jugar",
+    "pos": "verb",
+    "de": "spielen",
+    "ej": {
+      "es": "Los niños juegan en el parque.",
+      "de": "Die Kinder spielen im Park."
+    }
+  },
+  {
+    "r": 640,
+    "es": "cambio",
+    "pos": "noun-m",
+    "de": "Änderung; Wechsel",
+    "ej": {
+      "es": "Hay un cambio en el plan.",
+      "de": "Es gibt eine Änderung im Plan."
+    }
+  },
+  {
+    "r": 641,
+    "es": "película",
+    "pos": "noun-f",
+    "de": "Film",
+    "ej": {
+      "es": "La película es muy larga.",
+      "de": "Der Film ist sehr lang."
+    }
+  },
+  {
+    "r": 642,
+    "es": "millón",
+    "pos": "noun-m",
+    "de": "Million",
+    "ej": {
+      "es": "La ciudad tiene un millón de habitantes.",
+      "de": "Die Stadt hat eine Million Einwohner."
+    }
+  },
+  {
+    "r": 644,
+    "es": "llamada",
+    "pos": "noun-f",
+    "de": "Anruf",
+    "ej": {
+      "es": "Tengo que hacer una llamada.",
+      "de": "Ich muss einen Anruf machen."
+    }
+  },
+  {
+    "r": 645,
+    "es": "resto",
+    "pos": "noun-m",
+    "de": "Rest",
+    "ej": {
+      "es": "El resto es para ti.",
+      "de": "Der Rest ist für dich."
+    }
+  },
+  {
+    "r": 647,
+    "es": "extraño",
+    "pos": "adj",
+    "de": "seltsam; fremd",
+    "ej": {
+      "es": "Es un hombre muy extraño.",
+      "de": "Er ist ein sehr seltsamer Mann."
+    }
+  },
+  {
+    "r": 649,
+    "es": "presidente",
+    "pos": "noun-m",
+    "de": "Präsident",
+    "ej": {
+      "es": "El presidente habla mañana.",
+      "de": "Der Präsident spricht morgen."
+    }
+  },
+  {
+    "r": 652,
+    "es": "ropa",
+    "pos": "noun-f",
+    "de": "Kleidung",
+    "ej": {
+      "es": "Mi ropa está en la cama.",
+      "de": "Meine Kleidung liegt auf dem Bett."
+    }
+  },
+  {
+    "r": 655,
+    "es": "agente",
+    "pos": "noun-m",
+    "de": "Agent; Beamter",
+    "ej": {
+      "es": "El agente hace muchas preguntas.",
+      "de": "Der Agent stellt viele Fragen."
+    }
+  },
+  {
+    "r": 657,
+    "es": "información",
+    "pos": "noun-f",
+    "de": "Information",
+    "ej": {
+      "es": "Necesito más información, por favor.",
+      "de": "Ich brauche mehr Informationen, bitte."
+    }
+  },
+  {
+    "r": 658,
+    "es": "raro",
+    "pos": "adj",
+    "de": "seltsam; selten",
+    "ej": {
+      "es": "Qué raro, no está aquí.",
+      "de": "Wie seltsam, er ist nicht hier."
+    }
+  },
+  {
+    "r": 664,
+    "es": "general",
+    "pos": "adj",
+    "de": "allgemein",
+    "ej": {
+      "es": "Es una regla general.",
+      "de": "Das ist eine allgemeine Regel."
+    }
+  },
+  {
+    "r": 665,
+    "es": "trato",
+    "pos": "noun-m",
+    "de": "Abmachung; Umgang",
+    "ej": {
+      "es": "Tenemos un trato, ¿verdad?",
+      "de": "Wir haben eine Abmachung, oder?"
+    }
+  },
+  {
+    "r": 666,
+    "es": "usar",
+    "pos": "verb",
+    "de": "benutzen",
+    "ej": {
+      "es": "¿Puedo usar tu teléfono?",
+      "de": "Darf ich dein Telefon benutzen?"
+    }
+  },
+  {
+    "r": 667,
+    "es": "perfecto",
+    "pos": "adj",
+    "de": "perfekt",
+    "ej": {
+      "es": "Tu español es perfecto.",
+      "de": "Dein Spanisch ist perfekt."
+    }
+  },
+  {
+    "r": 668,
+    "es": "derecho",
+    "pos": "noun-m",
+    "de": "Recht",
+    "ej": {
+      "es": "Tienes derecho a hablar.",
+      "de": "Du hast das Recht zu sprechen."
+    }
+  },
+  {
+    "r": 669,
+    "es": "modo",
+    "pos": "noun-m",
+    "de": "Art; Weise",
+    "ej": {
+      "es": "No me gusta ese modo de hablar.",
+      "de": "Diese Art zu sprechen gefällt mir nicht."
+    }
+  },
+  {
+    "r": 670,
+    "es": "ayer",
+    "pos": "adv",
+    "de": "gestern",
+    "ej": {
+      "es": "Ayer fui al cine.",
+      "de": "Gestern war ich im Kino."
+    }
+  },
+  {
+    "r": 672,
+    "es": "demás",
+    "pos": "adj",
+    "de": "übrige; andere",
+    "ej": {
+      "es": "Los demás ya están aquí.",
+      "de": "Die anderen sind schon hier."
+    }
+  },
+  {
+    "r": 675,
+    "es": "noticia",
+    "pos": "noun-f",
+    "de": "Nachricht (Neuigkeit)",
+    "ej": {
+      "es": "Tengo una buena noticia.",
+      "de": "Ich habe eine gute Nachricht."
+    }
+  },
+  {
+    "r": 676,
+    "es": "asesino",
+    "pos": "noun-m",
+    "de": "Mörder",
+    "ej": {
+      "es": "La policía busca al asesino.",
+      "de": "Die Polizei sucht den Mörder."
+    }
+  },
+  {
+    "r": 678,
+    "es": "control",
+    "pos": "noun-m",
+    "de": "Kontrolle",
+    "ej": {
+      "es": "Todo está bajo control.",
+      "de": "Alles ist unter Kontrolle."
+    }
+  },
+  {
+    "r": 679,
+    "es": "odio",
+    "pos": "noun-m",
+    "de": "Hass",
+    "ej": {
+      "es": "Su odio es muy grande.",
+      "de": "Sein Hass ist sehr groß."
+    }
+  },
+  {
+    "r": 680,
+    "es": "frente",
+    "pos": "noun-f",
+    "de": "Stirn; (frente a) gegenüber",
+    "ej": {
+      "es": "El banco está frente a la iglesia.",
+      "de": "Die Bank liegt gegenüber der Kirche."
+    }
+  },
+  {
+    "r": 681,
+    "es": "sexo",
+    "pos": "noun-m",
+    "de": "Geschlecht; Sex",
+    "ej": {
+      "es": "El sexo del bebé es un secreto.",
+      "de": "Das Geschlecht des Babys ist ein Geheimnis."
+    }
+  },
+  {
+    "r": 684,
+    "es": "divertido",
+    "pos": "adj",
+    "de": "lustig",
+    "ej": {
+      "es": "La fiesta fue muy divertida.",
+      "de": "Die Party war sehr lustig."
+    }
+  },
+  {
+    "r": 686,
+    "es": "recordar",
+    "pos": "verb",
+    "de": "sich erinnern",
+    "ej": {
+      "es": "No recuerdo su nombre.",
+      "de": "Ich erinnere mich nicht an seinen Namen."
+    }
+  },
+  {
+    "r": 687,
+    "es": "amiga",
+    "pos": "noun-f",
+    "de": "Freundin",
+    "ej": {
+      "es": "Mi amiga vive en Madrid.",
+      "de": "Meine Freundin wohnt in Madrid."
+    }
+  },
+  {
+    "r": 688,
+    "es": "grupo",
+    "pos": "noun-m",
+    "de": "Gruppe",
+    "ej": {
+      "es": "Somos un grupo de cinco personas.",
+      "de": "Wir sind eine Gruppe von fünf Personen."
+    }
+  },
+  {
+    "r": 689,
+    "es": "asunto",
+    "pos": "noun-m",
+    "de": "Angelegenheit",
+    "ej": {
+      "es": "Es un asunto muy serio.",
+      "de": "Das ist eine sehr ernste Angelegenheit."
+    }
+  },
+  {
+    "r": 691,
+    "es": "mensaje",
+    "pos": "noun-m",
+    "de": "Nachricht (Mitteilung)",
+    "ej": {
+      "es": "Te dejé un mensaje ayer.",
+      "de": "Ich habe dir gestern eine Nachricht hinterlassen."
+    }
+  },
+  {
+    "r": 692,
+    "es": "encima",
+    "pos": "adv",
+    "de": "obendrauf; darüber",
+    "ej": {
+      "es": "El libro está encima de la mesa.",
+      "de": "Das Buch liegt auf dem Tisch."
+    }
+  },
+  {
+    "r": 693,
+    "es": "atención",
+    "pos": "noun-f",
+    "de": "Aufmerksamkeit",
+    "ej": {
+      "es": "Presta atención, por favor.",
+      "de": "Pass bitte auf."
+    }
+  },
+  {
+    "r": 694,
+    "es": "diferente",
+    "pos": "adj",
+    "de": "anders; verschieden",
+    "ej": {
+      "es": "Este libro es diferente.",
+      "de": "Dieses Buch ist anders."
+    }
+  },
+  {
+    "r": 696,
+    "es": "callar",
+    "pos": "verb",
+    "de": "schweigen",
+    "ej": {
+      "es": "¡Cállate, por favor!",
+      "de": "Sei bitte still!"
+    }
+  },
+  {
+    "r": 697,
+    "es": "daño",
+    "pos": "noun-m",
+    "de": "Schaden; Schmerz",
+    "ej": {
+      "es": "El golpe me hizo daño.",
+      "de": "Der Schlag hat mir wehgetan."
+    }
+  },
+  {
+    "r": 698,
+    "es": "suceder",
+    "pos": "verb",
+    "de": "geschehen",
+    "ej": {
+      "es": "¿Qué sucede aquí?",
+      "de": "Was geschieht hier?"
+    }
+  },
+  {
+    "r": 699,
+    "es": "cambiar",
+    "pos": "verb",
+    "de": "ändern; wechseln",
+    "ej": {
+      "es": "Quiero cambiar de trabajo.",
+      "de": "Ich will den Job wechseln."
+    }
+  },
+  {
+    "r": 700,
+    "es": "siguiente",
+    "pos": "adj",
+    "de": "nächste",
+    "ej": {
+      "es": "El siguiente, por favor.",
+      "de": "Der Nächste, bitte."
+    }
+  },
+  {
+    "r": 701,
+    "es": "sino",
+    "pos": "conj",
+    "de": "sondern",
+    "ej": {
+      "es": "No es rojo, sino azul.",
+      "de": "Es ist nicht rot, sondern blau."
+    }
+  },
+  {
+    "r": 704,
+    "es": "médico",
+    "pos": "noun-m",
+    "de": "Arzt",
+    "ej": {
+      "es": "Voy al médico mañana.",
+      "de": "Ich gehe morgen zum Arzt."
+    }
+  },
+  {
+    "r": 705,
+    "es": "boca",
+    "pos": "noun-f",
+    "de": "Mund",
+    "ej": {
+      "es": "Abre la boca, por favor.",
+      "de": "Öffne bitte den Mund."
+    }
+  },
+  {
+    "r": 707,
+    "es": "error",
+    "pos": "noun-m",
+    "de": "Fehler",
+    "ej": {
+      "es": "Fue un error muy grande.",
+      "de": "Das war ein sehr großer Fehler."
+    }
+  },
+  {
+    "r": 708,
+    "es": "jamás",
+    "pos": "adv",
+    "de": "nie",
+    "ej": {
+      "es": "Jamás he estado allí.",
+      "de": "Ich war nie dort."
+    }
+  },
+  {
+    "r": 709,
+    "es": "largo",
+    "pos": "adj",
+    "de": "lang",
+    "ej": {
+      "es": "El camino es muy largo.",
+      "de": "Der Weg ist sehr lang."
+    }
+  },
+  {
+    "r": 710,
+    "es": "pena",
+    "pos": "noun-f",
+    "de": "Kummer; Mitleid; (qué pena) schade",
+    "ej": {
+      "es": "Qué pena, no hay entradas.",
+      "de": "Wie schade, es gibt keine Karten."
+    }
+  },
+  {
+    "r": 711,
+    "es": "voz",
+    "pos": "noun-f",
+    "de": "Stimme",
+    "ej": {
+      "es": "Tiene una voz muy bonita.",
+      "de": "Sie hat eine sehr schöne Stimme."
+    }
+  },
+  {
+    "r": 712,
+    "es": "futuro",
+    "pos": "noun-m",
+    "de": "Zukunft",
+    "ej": {
+      "es": "Pienso en el futuro.",
+      "de": "Ich denke an die Zukunft."
+    }
+  },
+  {
+    "r": 714,
+    "es": "secreto",
+    "pos": "noun-m",
+    "de": "Geheimnis",
+    "ej": {
+      "es": "Te cuento un secreto.",
+      "de": "Ich erzähle dir ein Geheimnis."
+    }
+  },
+  {
+    "r": 715,
+    "es": "baño",
+    "pos": "noun-m",
+    "de": "Bad; Toilette",
+    "ej": {
+      "es": "¿Dónde está el baño?",
+      "de": "Wo ist die Toilette?"
+    }
+  },
+  {
+    "r": 716,
+    "es": "mil",
+    "pos": "num",
+    "de": "tausend",
+    "ej": {
+      "es": "El coche cuesta mil euros.",
+      "de": "Das Auto kostet tausend Euro."
+    }
+  },
+  {
+    "r": 720,
+    "es": "novia",
+    "pos": "noun-f",
+    "de": "Freundin; Braut",
+    "ej": {
+      "es": "Su novia es española.",
+      "de": "Seine Freundin ist Spanierin."
+    }
+  },
+  {
+    "r": 721,
+    "es": "propio",
+    "pos": "adj",
+    "de": "eigen",
+    "ej": {
+      "es": "Tengo mi propio coche.",
+      "de": "Ich habe mein eigenes Auto."
+    }
+  },
+  {
+    "r": 722,
+    "es": "sueño",
+    "pos": "noun-m",
+    "de": "Traum; Müdigkeit",
+    "ej": {
+      "es": "Tengo mucho sueño hoy.",
+      "de": "Ich bin heute sehr müde."
+    }
+  },
+  {
+    "r": 724,
+    "es": "fuerza",
+    "pos": "noun-f",
+    "de": "Kraft",
+    "ej": {
+      "es": "No tengo fuerza para levantar la caja.",
+      "de": "Ich habe nicht die Kraft, die Kiste zu heben."
+    }
+  },
+  {
+    "r": 728,
+    "es": "ambos",
+    "pos": "adj",
+    "de": "beide",
+    "ej": {
+      "es": "Ambos hermanos viven aquí.",
+      "de": "Beide Brüder wohnen hier."
+    }
+  },
+  {
+    "r": 733,
+    "es": "dolor",
+    "pos": "noun-m",
+    "de": "Schmerz",
+    "ej": {
+      "es": "Tengo dolor de cabeza.",
+      "de": "Ich habe Kopfschmerzen."
+    }
+  },
+  {
+    "r": 735,
+    "es": "encantar",
+    "pos": "verb",
+    "de": "sehr gefallen; begeistern",
+    "ej": {
+      "es": "Me encanta la música española.",
+      "de": "Ich liebe spanische Musik."
+    }
+  },
+  {
+    "r": 736,
+    "es": "edad",
+    "pos": "noun-f",
+    "de": "Alter",
+    "ej": {
+      "es": "¿Qué edad tienes?",
+      "de": "Wie alt bist du?"
+    }
+  },
+  {
+    "r": 738,
+    "es": "pie",
+    "pos": "noun-m",
+    "de": "Fuß",
+    "ej": {
+      "es": "Me duele el pie derecho.",
+      "de": "Mein rechter Fuß tut weh."
+    }
+  },
+  {
+    "r": 739,
+    "es": "negro",
+    "pos": "adj",
+    "de": "schwarz",
+    "ej": {
+      "es": "Llevo un vestido negro.",
+      "de": "Ich trage ein schwarzes Kleid."
+    }
+  },
+  {
+    "r": 740,
+    "es": "ganar",
+    "pos": "verb",
+    "de": "gewinnen; verdienen",
+    "ej": {
+      "es": "Nuestro equipo ganó el partido.",
+      "de": "Unsere Mannschaft hat das Spiel gewonnen."
+    }
+  },
+  {
+    "r": 742,
+    "es": "aire",
+    "pos": "noun-m",
+    "de": "Luft",
+    "ej": {
+      "es": "Necesito aire fresco.",
+      "de": "Ich brauche frische Luft."
+    }
+  },
+  {
+    "r": 743,
+    "es": "lamentar",
+    "pos": "verb",
+    "de": "bedauern",
+    "ej": {
+      "es": "Lo lamento mucho.",
+      "de": "Es tut mir sehr leid."
+    }
+  },
+  {
+    "r": 745,
+    "es": "asesinato",
+    "pos": "noun-m",
+    "de": "Mord",
+    "ej": {
+      "es": "La policía investiga un asesinato.",
+      "de": "Die Polizei untersucht einen Mord."
+    }
+  },
+  {
+    "r": 747,
+    "es": "adónde",
+    "pos": "adv",
+    "de": "wohin",
+    "ej": {
+      "es": "¿Adónde vas?",
+      "de": "Wohin gehst du?"
+    }
+  },
+  {
+    "r": 749,
+    "es": "disculpar",
+    "pos": "verb",
+    "de": "entschuldigen",
+    "ej": {
+      "es": "Disculpe, ¿dónde está el baño?",
+      "de": "Entschuldigung, wo ist die Toilette?"
+    }
+  },
+  {
+    "r": 751,
+    "es": "cita",
+    "pos": "noun-f",
+    "de": "Termin; Verabredung",
+    "ej": {
+      "es": "Tengo una cita con el médico.",
+      "de": "Ich habe einen Termin beim Arzt."
+    }
+  },
+  {
+    "r": 754,
+    "es": "sistema",
+    "pos": "noun-m",
+    "de": "System",
+    "ej": {
+      "es": "El sistema no funciona hoy.",
+      "de": "Das System funktioniert heute nicht."
+    }
+  },
+  {
+    "r": 755,
+    "es": "gusto",
+    "pos": "noun-m",
+    "de": "Geschmack; Vergnügen",
+    "ej": {
+      "es": "Mucho gusto, soy Ana.",
+      "de": "Sehr angenehm, ich bin Ana."
+    }
+  },
+  {
+    "r": 756,
+    "es": "pobre",
+    "pos": "adj",
+    "de": "arm",
+    "ej": {
+      "es": "Es una familia pobre.",
+      "de": "Es ist eine arme Familie."
+    }
+  },
+  {
+    "r": 757,
+    "es": "negocio",
+    "pos": "noun-m",
+    "de": "Geschäft",
+    "ej": {
+      "es": "Su negocio va muy bien.",
+      "de": "Sein Geschäft läuft sehr gut."
+    }
+  },
+  {
+    "r": 758,
+    "es": "mente",
+    "pos": "noun-f",
+    "de": "Verstand; Geist",
+    "ej": {
+      "es": "Tiene una mente muy clara.",
+      "de": "Er hat einen sehr klaren Verstand."
+    }
+  },
+  {
+    "r": 759,
+    "es": "tuyo",
+    "pos": "pron",
+    "de": "deiner; deins",
+    "ej": {
+      "es": "Este libro es tuyo.",
+      "de": "Dieses Buch ist deins."
+    }
+  },
+  {
+    "r": 760,
+    "es": "campo",
+    "pos": "noun-m",
+    "de": "Feld; Land",
+    "ej": {
+      "es": "Vivimos en el campo.",
+      "de": "Wir leben auf dem Land."
+    }
+  },
+  {
+    "r": 762,
+    "es": "situación",
+    "pos": "noun-f",
+    "de": "Situation",
+    "ej": {
+      "es": "La situación es difícil.",
+      "de": "Die Situation ist schwierig."
+    }
+  },
+  {
+    "r": 763,
+    "es": "tras",
+    "pos": "prep",
+    "de": "nach; hinter",
+    "ej": {
+      "es": "Tras la cena vemos una película.",
+      "de": "Nach dem Abendessen sehen wir einen Film."
+    }
+  },
+  {
+    "r": 764,
+    "es": "hotel",
+    "pos": "noun-m",
+    "de": "Hotel",
+    "ej": {
+      "es": "El hotel está muy cerca.",
+      "de": "Das Hotel ist sehr nah."
+    }
+  },
+  {
+    "r": 765,
+    "es": "vosotros",
+    "pos": "pron",
+    "de": "ihr",
+    "ej": {
+      "es": "¿Vosotros venís mañana?",
+      "de": "Kommt ihr morgen?"
+    }
+  },
+  {
+    "r": 766,
+    "es": "funcionar",
+    "pos": "verb",
+    "de": "funktionieren",
+    "ej": {
+      "es": "La radio no funciona.",
+      "de": "Das Radio funktioniert nicht."
+    }
+  },
+  {
+    "r": 767,
+    "es": "foto",
+    "pos": "noun-f",
+    "de": "Foto",
+    "ej": {
+      "es": "Voy a hacer una foto.",
+      "de": "Ich mache ein Foto."
+    }
+  },
+  {
+    "r": 768,
+    "es": "abogado",
+    "pos": "noun-m",
+    "de": "Anwalt",
+    "ej": {
+      "es": "Mi abogado llega ahora.",
+      "de": "Mein Anwalt kommt jetzt."
+    }
+  },
+  {
+    "r": 771,
+    "es": "alrededor",
+    "pos": "adv",
+    "de": "herum; ungefähr",
+    "ej": {
+      "es": "Hay árboles alrededor de la casa.",
+      "de": "Um das Haus stehen Bäume."
+    }
+  },
+  {
+    "r": 772,
+    "es": "próximo",
+    "pos": "adj",
+    "de": "nächste",
+    "ej": {
+      "es": "El próximo tren sale pronto.",
+      "de": "Der nächste Zug fährt bald."
+    }
+  },
+  {
+    "r": 773,
+    "es": "terminar",
+    "pos": "verb",
+    "de": "beenden; enden",
+    "ej": {
+      "es": "La película termina a las diez.",
+      "de": "Der Film endet um zehn."
+    }
+  },
+  {
+    "r": 775,
+    "es": "pagar",
+    "pos": "verb",
+    "de": "bezahlen",
+    "ej": {
+      "es": "¿Puedo pagar con tarjeta?",
+      "de": "Kann ich mit Karte bezahlen?"
+    }
+  },
+  {
+    "r": 778,
+    "es": "personal",
+    "pos": "adj",
+    "de": "persönlich",
+    "ej": {
+      "es": "Es un problema personal.",
+      "de": "Das ist ein persönliches Problem."
+    }
+  },
+  {
+    "r": 780,
+    "es": "ocurrir",
+    "pos": "verb",
+    "de": "geschehen; passieren",
+    "ej": {
+      "es": "Eso ocurrió hace dos años.",
+      "de": "Das geschah vor zwei Jahren."
+    }
+  },
+  {
+    "r": 783,
+    "es": "mitad",
+    "pos": "noun-f",
+    "de": "Hälfte",
+    "ej": {
+      "es": "La mitad es para ti.",
+      "de": "Die Hälfte ist für dich."
+    }
+  },
+  {
+    "r": 785,
+    "es": "pelo",
+    "pos": "noun-m",
+    "de": "Haar",
+    "ej": {
+      "es": "Tiene el pelo muy corto.",
+      "de": "Sie hat sehr kurze Haare."
+    }
+  },
+  {
+    "r": 788,
+    "es": "oficial",
+    "pos": "adj",
+    "de": "offiziell; amtlich",
+    "ej": {
+      "es": "Todavía no hay una respuesta oficial.",
+      "de": "Es gibt noch keine offizielle Antwort."
+    }
+  },
+  {
+    "r": 790,
+    "es": "compañía",
+    "pos": "noun-f",
+    "de": "Firma; Gesellschaft",
+    "ej": {
+      "es": "Trabajo en una compañía grande.",
+      "de": "Ich arbeite in einer großen Firma."
+    }
+  },
+  {
+    "r": 791,
+    "es": "relación",
+    "pos": "noun-f",
+    "de": "Beziehung",
+    "ej": {
+      "es": "Tienen una buena relación.",
+      "de": "Sie haben eine gute Beziehung."
+    }
+  },
+  {
+    "r": 794,
+    "es": "montón",
+    "pos": "noun-m",
+    "de": "Haufen; Menge",
+    "ej": {
+      "es": "Tengo un montón de trabajo.",
+      "de": "Ich habe einen Haufen Arbeit."
+    }
+  },
+  {
+    "r": 797,
+    "es": "cena",
+    "pos": "noun-f",
+    "de": "Abendessen",
+    "ej": {
+      "es": "La cena está lista.",
+      "de": "Das Abendessen ist fertig."
+    }
+  },
+  {
+    "r": 799,
+    "es": "través",
+    "pos": "prep",
+    "de": "(a través de) durch; mittels",
+    "ej": {
+      "es": "Lo supe a través de un amigo.",
+      "de": "Ich habe es durch einen Freund erfahren."
+    }
+  },
+  {
+    "r": 800,
+    "es": "accidente",
+    "pos": "noun-m",
+    "de": "Unfall",
+    "ej": {
+      "es": "Hubo un accidente en la calle.",
+      "de": "Es gab einen Unfall auf der Straße."
+    }
+  },
+  {
+    "r": 803,
+    "es": "caja",
+    "pos": "noun-f",
+    "de": "Kiste; Kasse",
+    "ej": {
+      "es": "La caja está vacía.",
+      "de": "Die Kiste ist leer."
+    }
+  },
+  {
+    "r": 804,
+    "es": "tranquilo",
+    "pos": "adj",
+    "de": "ruhig",
+    "ej": {
+      "es": "El pueblo es muy tranquilo.",
+      "de": "Das Dorf ist sehr ruhig."
+    }
+  }
+]

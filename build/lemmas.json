@@ -1,0 +1,4622 @@
+[
+ {
+  "r": 1,
+  "es": "de",
+  "pos": "prep"
+ },
+ {
+  "r": 2,
+  "es": "que",
+  "pos": "conj"
+ },
+ {
+  "r": 3,
+  "es": "no",
+  "pos": "adv"
+ },
+ {
+  "r": 4,
+  "es": "a",
+  "pos": "prep"
+ },
+ {
+  "r": 5,
+  "es": "el",
+  "pos": "art"
+ },
+ {
+  "r": 7,
+  "es": "y",
+  "pos": "conj"
+ },
+ {
+  "r": 8,
+  "es": "ser",
+  "pos": "verb"
+ },
+ {
+  "r": 9,
+  "es": "en",
+  "pos": "prep"
+ },
+ {
+  "r": 10,
+  "es": "lo",
+  "pos": "pron"
+ },
+ {
+  "r": 11,
+  "es": "un",
+  "pos": "art"
+ },
+ {
+  "r": 12,
+  "es": "por",
+  "pos": "prep"
+ },
+ {
+  "r": 13,
+  "es": "qué",
+  "pos": "pron"
+ },
+ {
+  "r": 14,
+  "es": "me",
+  "pos": "pron"
+ },
+ {
+  "r": 17,
+  "es": "se",
+  "pos": "pron"
+ },
+ {
+  "r": 18,
+  "es": "te",
+  "pos": "pron"
+ },
+ {
+  "r": 19,
+  "es": "con",
+  "pos": "prep"
+ },
+ {
+  "r": 20,
+  "es": "para",
+  "pos": "prep"
+ },
+ {
+  "r": 21,
+  "es": "estar",
+  "pos": "verb"
+ },
+ {
+  "r": 22,
+  "es": "mi",
+  "pos": "adj"
+ },
+ {
+  "r": 23,
+  "es": "pero",
+  "pos": "conj"
+ },
+ {
+  "r": 24,
+  "es": "sí",
+  "pos": "adv"
+ },
+ {
+  "r": 25,
+  "es": "si",
+  "pos": "conj"
+ },
+ {
+  "r": 26,
+  "es": "bien",
+  "pos": "adv"
+ },
+ {
+  "r": 27,
+  "es": "eso",
+  "pos": "pron"
+ },
+ {
+  "r": 28,
+  "es": "su",
+  "pos": "adj"
+ },
+ {
+  "r": 30,
+  "es": "yo",
+  "pos": "pron"
+ },
+ {
+  "r": 31,
+  "es": "del",
+  "pos": "prep"
+ },
+ {
+  "r": 32,
+  "es": "como",
+  "pos": "conj"
+ },
+ {
+  "r": 33,
+  "es": "aquí",
+  "pos": "adv"
+ },
+ {
+  "r": 34,
+  "es": "tu",
+  "pos": "adj"
+ },
+ {
+  "r": 35,
+  "es": "al",
+  "pos": "prep"
+ },
+ {
+  "r": 36,
+  "es": "más",
+  "pos": "adv"
+ },
+ {
+  "r": 37,
+  "es": "le",
+  "pos": "pron"
+ },
+ {
+  "r": 38,
+  "es": "esto",
+  "pos": "pron"
+ },
+ {
+  "r": 39,
+  "es": "todo",
+  "pos": "adj"
+ },
+ {
+  "r": 40,
+  "es": "ya",
+  "pos": "adv"
+ },
+ {
+  "r": 42,
+  "es": "ahora",
+  "pos": "adv"
+ },
+ {
+  "r": 43,
+  "es": "muy",
+  "pos": "adv"
+ },
+ {
+  "r": 44,
+  "es": "haber",
+  "pos": "verb"
+ },
+ {
+  "r": 45,
+  "es": "este",
+  "pos": "pron"
+ },
+ {
+  "r": 46,
+  "es": "así",
+  "pos": "adv"
+ },
+ {
+  "r": 47,
+  "es": "ir",
+  "pos": "verb"
+ },
+ {
+  "r": 48,
+  "es": "algo",
+  "pos": "pron"
+ },
+ {
+  "r": 50,
+  "es": "bueno",
+  "pos": "adj"
+ },
+ {
+  "r": 51,
+  "es": "tener",
+  "pos": "verb"
+ },
+ {
+  "r": 52,
+  "es": "él",
+  "pos": "pron"
+ },
+ {
+  "r": 53,
+  "es": "cuando",
+  "pos": "conj"
+ },
+ {
+  "r": 55,
+  "es": "saber",
+  "pos": "verb"
+ },
+ {
+  "r": 56,
+  "es": "tú",
+  "pos": "pron"
+ },
+ {
+  "r": 57,
+  "es": "nos",
+  "pos": "pron"
+ },
+ {
+  "r": 58,
+  "es": "nada",
+  "pos": "pron"
+ },
+ {
+  "r": 59,
+  "es": "cómo",
+  "pos": "adv"
+ },
+ {
+  "r": 61,
+  "es": "o",
+  "pos": "conj"
+ },
+ {
+  "r": 65,
+  "es": "poder",
+  "pos": "verb"
+ },
+ {
+  "r": 66,
+  "es": "ella",
+  "pos": "pron"
+ },
+ {
+  "r": 67,
+  "es": "querer",
+  "pos": "verb"
+ },
+ {
+  "r": 68,
+  "es": "hacer",
+  "pos": "verb"
+ },
+ {
+  "r": 70,
+  "es": "gracias",
+  "pos": "intj"
+ },
+ {
+  "r": 71,
+  "es": "vez",
+  "pos": "noun-f"
+ },
+ {
+  "r": 74,
+  "es": "solo",
+  "pos": "adv"
+ },
+ {
+  "r": 76,
+  "es": "porque",
+  "pos": "conj"
+ },
+ {
+  "r": 79,
+  "es": "creer",
+  "pos": "verb"
+ },
+ {
+  "r": 85,
+  "es": "ese",
+  "pos": "pron"
+ },
+ {
+  "r": 86,
+  "es": "usted",
+  "pos": "pron"
+ },
+ {
+  "r": 87,
+  "es": "entonces",
+  "pos": "adv"
+ },
+ {
+  "r": 88,
+  "es": "hola",
+  "pos": "intj"
+ },
+ {
+  "r": 90,
+  "es": "verdad",
+  "pos": "noun-f"
+ },
+ {
+  "r": 91,
+  "es": "casa",
+  "pos": "noun-f"
+ },
+ {
+  "r": 92,
+  "es": "tan",
+  "pos": "adv"
+ },
+ {
+  "r": 93,
+  "es": "quién",
+  "pos": "pron"
+ },
+ {
+  "r": 95,
+  "es": "tiempo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 96,
+  "es": "dos",
+  "pos": "num"
+ },
+ {
+  "r": 98,
+  "es": "nunca",
+  "pos": "adv"
+ },
+ {
+  "r": 99,
+  "es": "dónde",
+  "pos": "adv"
+ },
+ {
+  "r": 102,
+  "es": "favor",
+  "pos": "noun-m"
+ },
+ {
+  "r": 103,
+  "es": "mucho",
+  "pos": "adj"
+ },
+ {
+  "r": 104,
+  "es": "mí",
+  "pos": "pron"
+ },
+ {
+  "r": 106,
+  "es": "sentir",
+  "pos": "verb"
+ },
+ {
+  "r": 107,
+  "es": "señor",
+  "pos": "noun-m"
+ },
+ {
+  "r": 108,
+  "es": "mejor",
+  "pos": "adj"
+ },
+ {
+  "r": 111,
+  "es": "decir",
+  "pos": "verb"
+ },
+ {
+  "r": 112,
+  "es": "también",
+  "pos": "adv"
+ },
+ {
+  "r": 113,
+  "es": "sobre",
+  "pos": "prep"
+ },
+ {
+  "r": 114,
+  "es": "dios",
+  "pos": "noun-m"
+ },
+ {
+  "r": 115,
+  "es": "sin",
+  "pos": "prep"
+ },
+ {
+  "r": 118,
+  "es": "ti",
+  "pos": "pron"
+ },
+ {
+  "r": 120,
+  "es": "ver",
+  "pos": "verb"
+ },
+ {
+  "r": 121,
+  "es": "hombre",
+  "pos": "noun-m"
+ },
+ {
+  "r": 122,
+  "es": "vida",
+  "pos": "noun-f"
+ },
+ {
+  "r": 123,
+  "es": "alguien",
+  "pos": "pron"
+ },
+ {
+  "r": 124,
+  "es": "cosa",
+  "pos": "noun-f"
+ },
+ {
+  "r": 125,
+  "es": "siempre",
+  "pos": "adv"
+ },
+ {
+  "r": 126,
+  "es": "hasta",
+  "pos": "prep"
+ },
+ {
+  "r": 127,
+  "es": "ahí",
+  "pos": "adv"
+ },
+ {
+  "r": 129,
+  "es": "año",
+  "pos": "noun-m"
+ },
+ {
+  "r": 130,
+  "es": "antes",
+  "pos": "adv"
+ },
+ {
+  "r": 132,
+  "es": "ni",
+  "pos": "conj"
+ },
+ {
+  "r": 133,
+  "es": "poco",
+  "pos": "adv"
+ },
+ {
+  "r": 134,
+  "es": "día",
+  "pos": "noun-m"
+ },
+ {
+  "r": 135,
+  "es": "uno",
+  "pos": "num"
+ },
+ {
+  "r": 136,
+  "es": "noche",
+  "pos": "noun-f"
+ },
+ {
+  "r": 137,
+  "es": "hecho",
+  "pos": "noun-m"
+ },
+ {
+  "r": 140,
+  "es": "otro",
+  "pos": "adj"
+ },
+ {
+  "r": 141,
+  "es": "acuerdo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 142,
+  "es": "trabajo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 143,
+  "es": "nosotros",
+  "pos": "pron"
+ },
+ {
+  "r": 144,
+  "es": "parecer",
+  "pos": "verb"
+ },
+ {
+  "r": 145,
+  "es": "gente",
+  "pos": "noun-f"
+ },
+ {
+  "r": 147,
+  "es": "padre",
+  "pos": "noun-m"
+ },
+ {
+  "r": 148,
+  "es": "mirar",
+  "pos": "verb"
+ },
+ {
+  "r": 149,
+  "es": "mismo",
+  "pos": "adj"
+ },
+ {
+  "r": 151,
+  "es": "nadie",
+  "pos": "pron"
+ },
+ {
+  "r": 154,
+  "es": "hablar",
+  "pos": "verb"
+ },
+ {
+  "r": 156,
+  "es": "ellos",
+  "pos": "pron"
+ },
+ {
+  "r": 158,
+  "es": "tal",
+  "pos": "adj"
+ },
+ {
+  "r": 159,
+  "es": "pasar",
+  "pos": "verb"
+ },
+ {
+  "r": 160,
+  "es": "fuera",
+  "pos": "adv"
+ },
+ {
+  "r": 161,
+  "es": "después",
+  "pos": "adv"
+ },
+ {
+  "r": 163,
+  "es": "desde",
+  "pos": "prep"
+ },
+ {
+  "r": 164,
+  "es": "dinero",
+  "pos": "noun-m"
+ },
+ {
+  "r": 165,
+  "es": "mundo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 166,
+  "es": "claro",
+  "pos": "adj"
+ },
+ {
+  "r": 167,
+  "es": "momento",
+  "pos": "noun-m"
+ },
+ {
+  "r": 168,
+  "es": "les",
+  "pos": "pron"
+ },
+ {
+  "r": 170,
+  "es": "estado",
+  "pos": "noun-m"
+ },
+ {
+  "r": 173,
+  "es": "mañana",
+  "pos": "noun-f"
+ },
+ {
+  "r": 175,
+  "es": "madre",
+  "pos": "noun-f"
+ },
+ {
+  "r": 176,
+  "es": "vale",
+  "pos": "intj"
+ },
+ {
+  "r": 177,
+  "es": "lugar",
+  "pos": "noun-m"
+ },
+ {
+  "r": 179,
+  "es": "donde",
+  "pos": "adv"
+ },
+ {
+  "r": 180,
+  "es": "seguro",
+  "pos": "adj"
+ },
+ {
+  "r": 184,
+  "es": "esperar",
+  "pos": "verb"
+ },
+ {
+  "r": 185,
+  "es": "nuevo",
+  "pos": "adj"
+ },
+ {
+  "r": 188,
+  "es": "hijo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 189,
+  "es": "allí",
+  "pos": "adv"
+ },
+ {
+  "r": 190,
+  "es": "menos",
+  "pos": "adv"
+ },
+ {
+  "r": 191,
+  "es": "tipo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 192,
+  "es": "amigo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 193,
+  "es": "grande",
+  "pos": "adj"
+ },
+ {
+  "r": 194,
+  "es": "nuestro",
+  "pos": "adj"
+ },
+ {
+  "r": 195,
+  "es": "mujer",
+  "pos": "noun-f"
+ },
+ {
+  "r": 196,
+  "es": "mamá",
+  "pos": "noun-f"
+ },
+ {
+  "r": 197,
+  "es": "luego",
+  "pos": "adv"
+ },
+ {
+  "r": 198,
+  "es": "papá",
+  "pos": "noun-m"
+ },
+ {
+  "r": 201,
+  "es": "hoy",
+  "pos": "adv"
+ },
+ {
+  "r": 202,
+  "es": "tres",
+  "pos": "num"
+ },
+ {
+  "r": 204,
+  "es": "necesitar",
+  "pos": "verb"
+ },
+ {
+  "r": 206,
+  "es": "oír",
+  "pos": "verb"
+ },
+ {
+  "r": 207,
+  "es": "gustar",
+  "pos": "verb"
+ },
+ {
+  "r": 211,
+  "es": "parte",
+  "pos": "noun-f"
+ },
+ {
+  "r": 215,
+  "es": "conmigo",
+  "pos": "pron"
+ },
+ {
+  "r": 216,
+  "es": "nombre",
+  "pos": "noun-m"
+ },
+ {
+  "r": 217,
+  "es": "mierda",
+  "pos": "noun-f"
+ },
+ {
+  "r": 219,
+  "es": "mal",
+  "pos": "adv"
+ },
+ {
+  "r": 220,
+  "es": "deber",
+  "pos": "verb"
+ },
+ {
+  "r": 221,
+  "es": "realmente",
+  "pos": "adv"
+ },
+ {
+  "r": 223,
+  "es": "aún",
+  "pos": "adv"
+ },
+ {
+  "r": 224,
+  "es": "mío",
+  "pos": "pron"
+ },
+ {
+  "r": 227,
+  "es": "cada",
+  "pos": "adj"
+ },
+ {
+  "r": 229,
+  "es": "importar",
+  "pos": "verb"
+ },
+ {
+  "r": 230,
+  "es": "contigo",
+  "pos": "pron"
+ },
+ {
+  "r": 233,
+  "es": "razón",
+  "pos": "noun-f"
+ },
+ {
+  "r": 234,
+  "es": "alguno",
+  "pos": "adj"
+ },
+ {
+  "r": 235,
+  "es": "tanto",
+  "pos": "adv"
+ },
+ {
+  "r": 239,
+  "es": "serio",
+  "pos": "adj"
+ },
+ {
+  "r": 240,
+  "es": "venir",
+  "pos": "verb"
+ },
+ {
+  "r": 241,
+  "es": "idea",
+  "pos": "noun-f"
+ },
+ {
+  "r": 243,
+  "es": "tarde",
+  "pos": "noun-f"
+ },
+ {
+  "r": 244,
+  "es": "problema",
+  "pos": "noun-m"
+ },
+ {
+  "r": 245,
+  "es": "hora",
+  "pos": "noun-f"
+ },
+ {
+  "r": 246,
+  "es": "cierto",
+  "pos": "adj"
+ },
+ {
+  "r": 248,
+  "es": "quien",
+  "pos": "pron"
+ },
+ {
+  "r": 249,
+  "es": "demasiado",
+  "pos": "adv"
+ },
+ {
+  "r": 250,
+  "es": "amor",
+  "pos": "noun-m"
+ },
+ {
+  "r": 251,
+  "es": "entre",
+  "pos": "prep"
+ },
+ {
+  "r": 253,
+  "es": "pasado",
+  "pos": "noun-m"
+ },
+ {
+  "r": 254,
+  "es": "familia",
+  "pos": "noun-f"
+ },
+ {
+  "r": 256,
+  "es": "policía",
+  "pos": "noun-f"
+ },
+ {
+  "r": 259,
+  "es": "chica",
+  "pos": "noun-f"
+ },
+ {
+  "r": 261,
+  "es": "chico",
+  "pos": "noun-m"
+ },
+ {
+  "r": 262,
+  "es": "cuenta",
+  "pos": "noun-f"
+ },
+ {
+  "r": 264,
+  "es": "todavía",
+  "pos": "adv"
+ },
+ {
+  "r": 265,
+  "es": "salir",
+  "pos": "verb"
+ },
+ {
+  "r": 271,
+  "es": "hermano",
+  "pos": "noun-m"
+ },
+ {
+  "r": 272,
+  "es": "pensar",
+  "pos": "verb"
+ },
+ {
+  "r": 274,
+  "es": "cabeza",
+  "pos": "noun-f"
+ },
+ {
+  "r": 276,
+  "es": "cariño",
+  "pos": "noun-m"
+ },
+ {
+  "r": 282,
+  "es": "cualquiera",
+  "pos": "adj"
+ },
+ {
+  "r": 283,
+  "es": "forma",
+  "pos": "noun-f"
+ },
+ {
+  "r": 284,
+  "es": "mientras",
+  "pos": "conj"
+ },
+ {
+  "r": 285,
+  "es": "lado",
+  "pos": "noun-m"
+ },
+ {
+  "r": 288,
+  "es": "caso",
+  "pos": "noun-m"
+ },
+ {
+  "r": 291,
+  "es": "primero",
+  "pos": "adj"
+ },
+ {
+  "r": 292,
+  "es": "genial",
+  "pos": "adj"
+ },
+ {
+  "r": 294,
+  "es": "supuesto",
+  "pos": "adj"
+ },
+ {
+  "r": 296,
+  "es": "pues",
+  "pos": "conj"
+ },
+ {
+  "r": 297,
+  "es": "adiós",
+  "pos": "intj"
+ },
+ {
+  "r": 299,
+  "es": "persona",
+  "pos": "noun-f"
+ },
+ {
+  "r": 300,
+  "es": "señora",
+  "pos": "noun-f"
+ },
+ {
+  "r": 301,
+  "es": "volver",
+  "pos": "verb"
+ },
+ {
+  "r": 303,
+  "es": "quizá",
+  "pos": "adv"
+ },
+ {
+  "r": 304,
+  "es": "contra",
+  "pos": "prep"
+ },
+ {
+  "r": 305,
+  "es": "camino",
+  "pos": "noun-m"
+ },
+ {
+  "r": 306,
+  "es": "durante",
+  "pos": "prep"
+ },
+ {
+  "r": 308,
+  "es": "manera",
+  "pos": "noun-f"
+ },
+ {
+  "r": 309,
+  "es": "muerto",
+  "pos": "adj"
+ },
+ {
+  "r": 311,
+  "es": "rápido",
+  "pos": "adj"
+ },
+ {
+  "r": 312,
+  "es": "cuál",
+  "pos": "pron"
+ },
+ {
+  "r": 313,
+  "es": "ayuda",
+  "pos": "noun-f"
+ },
+ {
+  "r": 314,
+  "es": "historia",
+  "pos": "noun-f"
+ },
+ {
+  "r": 316,
+  "es": "suponer",
+  "pos": "verb"
+ },
+ {
+  "r": 318,
+  "es": "entender",
+  "pos": "verb"
+ },
+ {
+  "r": 319,
+  "es": "dentro",
+  "pos": "adv"
+ },
+ {
+  "r": 320,
+  "es": "casi",
+  "pos": "adv"
+ },
+ {
+  "r": 321,
+  "es": "puerta",
+  "pos": "noun-f"
+ },
+ {
+  "r": 325,
+  "es": "significar",
+  "pos": "verb"
+ },
+ {
+  "r": 326,
+  "es": "semana",
+  "pos": "noun-f"
+ },
+ {
+  "r": 327,
+  "es": "hacia",
+  "pos": "prep"
+ },
+ {
+  "r": 330,
+  "es": "junto",
+  "pos": "adj"
+ },
+ {
+  "r": 332,
+  "es": "niño",
+  "pos": "noun-m"
+ },
+ {
+  "r": 333,
+  "es": "pronto",
+  "pos": "adv"
+ },
+ {
+  "r": 334,
+  "es": "tío",
+  "pos": "noun-m"
+ },
+ {
+  "r": 335,
+  "es": "suerte",
+  "pos": "noun-f"
+ },
+ {
+  "r": 336,
+  "es": "ciudad",
+  "pos": "noun-f"
+ },
+ {
+  "r": 337,
+  "es": "siquiera",
+  "pos": "adv"
+ },
+ {
+  "r": 338,
+  "es": "feliz",
+  "pos": "adj"
+ },
+ {
+  "r": 340,
+  "es": "hija",
+  "pos": "noun-f"
+ },
+ {
+  "r": 342,
+  "es": "minuto",
+  "pos": "noun-m"
+ },
+ {
+  "r": 343,
+  "es": "cuánto",
+  "pos": "adj"
+ },
+ {
+  "r": 344,
+  "es": "os",
+  "pos": "pron"
+ },
+ {
+  "r": 346,
+  "es": "muerte",
+  "pos": "noun-f"
+ },
+ {
+  "r": 347,
+  "es": "dejar",
+  "pos": "verb"
+ },
+ {
+  "r": 348,
+  "es": "realidad",
+  "pos": "noun-f"
+ },
+ {
+  "r": 352,
+  "es": "dar",
+  "pos": "verb"
+ },
+ {
+  "r": 353,
+  "es": "importante",
+  "pos": "adj"
+ },
+ {
+  "r": 355,
+  "es": "corazón",
+  "pos": "noun-m"
+ },
+ {
+  "r": 356,
+  "es": "miedo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 357,
+  "es": "jefe",
+  "pos": "noun-m"
+ },
+ {
+  "r": 358,
+  "es": "agua",
+  "pos": "noun-f"
+ },
+ {
+  "r": 360,
+  "es": "justo",
+  "pos": "adj"
+ },
+ {
+  "r": 364,
+  "es": "esposa",
+  "pos": "noun-f"
+ },
+ {
+  "r": 365,
+  "es": "mano",
+  "pos": "noun-f"
+ },
+ {
+  "r": 370,
+  "es": "ojo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 371,
+  "es": "adelante",
+  "pos": "adv"
+ },
+ {
+  "r": 372,
+  "es": "encontrar",
+  "pos": "verb"
+ },
+ {
+  "r": 374,
+  "es": "cinco",
+  "pos": "num"
+ },
+ {
+  "r": 376,
+  "es": "ninguno",
+  "pos": "adj"
+ },
+ {
+  "r": 378,
+  "es": "cara",
+  "pos": "noun-f"
+ },
+ {
+  "r": 379,
+  "es": "cuidado",
+  "pos": "noun-m"
+ },
+ {
+  "r": 380,
+  "es": "bajo",
+  "pos": "prep"
+ },
+ {
+  "r": 381,
+  "es": "cerca",
+  "pos": "adv"
+ },
+ {
+  "r": 382,
+  "es": "viejo",
+  "pos": "adj"
+ },
+ {
+  "r": 385,
+  "es": "bastante",
+  "pos": "adv"
+ },
+ {
+  "r": 386,
+  "es": "fin",
+  "pos": "noun-m"
+ },
+ {
+  "r": 387,
+  "es": "tomar",
+  "pos": "verb"
+ },
+ {
+  "r": 388,
+  "es": "único",
+  "pos": "adj"
+ },
+ {
+  "r": 390,
+  "es": "escuchar",
+  "pos": "verb"
+ },
+ {
+  "r": 392,
+  "es": "suficiente",
+  "pos": "adj"
+ },
+ {
+  "r": 393,
+  "es": "punto",
+  "pos": "noun-m"
+ },
+ {
+  "r": 394,
+  "es": "cuándo",
+  "pos": "adv"
+ },
+ {
+  "r": 395,
+  "es": "seguir",
+  "pos": "verb"
+ },
+ {
+  "r": 397,
+  "es": "equipo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 400,
+  "es": "llegar",
+  "pos": "verb"
+ },
+ {
+  "r": 401,
+  "es": "incluso",
+  "pos": "adv"
+ },
+ {
+  "r": 403,
+  "es": "doctor",
+  "pos": "noun-m"
+ },
+ {
+  "r": 404,
+  "es": "difícil",
+  "pos": "adj"
+ },
+ {
+  "r": 405,
+  "es": "aunque",
+  "pos": "conj"
+ },
+ {
+  "r": 408,
+  "es": "coche",
+  "pos": "noun-m"
+ },
+ {
+  "r": 410,
+  "es": "clase",
+  "pos": "noun-f"
+ },
+ {
+  "r": 411,
+  "es": "cuatro",
+  "pos": "num"
+ },
+ {
+  "r": 414,
+  "es": "pequeño",
+  "pos": "adj"
+ },
+ {
+  "r": 415,
+  "es": "llamar",
+  "pos": "verb"
+ },
+ {
+  "r": 418,
+  "es": "allá",
+  "pos": "adv"
+ },
+ {
+  "r": 419,
+  "es": "último",
+  "pos": "adj"
+ },
+ {
+  "r": 420,
+  "es": "arriba",
+  "pos": "adv"
+ },
+ {
+  "r": 421,
+  "es": "tierra",
+  "pos": "noun-f"
+ },
+ {
+  "r": 422,
+  "es": "guerra",
+  "pos": "noun-f"
+ },
+ {
+  "r": 425,
+  "es": "igual",
+  "pos": "adj"
+ },
+ {
+  "r": 426,
+  "es": "loco",
+  "pos": "adj"
+ },
+ {
+  "r": 427,
+  "es": "sangre",
+  "pos": "noun-f"
+ },
+ {
+  "r": 429,
+  "es": "vuelta",
+  "pos": "noun-f"
+ },
+ {
+  "r": 431,
+  "es": "trabajar",
+  "pos": "verb"
+ },
+ {
+  "r": 433,
+  "es": "juego",
+  "pos": "noun-m"
+ },
+ {
+  "r": 435,
+  "es": "cuerpo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 436,
+  "es": "e",
+  "pos": "conj"
+ },
+ {
+  "r": 438,
+  "es": "entrar",
+  "pos": "verb"
+ },
+ {
+  "r": 442,
+  "es": "oportunidad",
+  "pos": "noun-f"
+ },
+ {
+  "r": 443,
+  "es": "teléfono",
+  "pos": "noun-m"
+ },
+ {
+  "r": 445,
+  "es": "final",
+  "pos": "noun-m"
+ },
+ {
+  "r": 446,
+  "es": "listo",
+  "pos": "adj"
+ },
+ {
+  "r": 447,
+  "es": "fiesta",
+  "pos": "noun-f"
+ },
+ {
+  "r": 452,
+  "es": "auto",
+  "pos": "noun-m"
+ },
+ {
+  "r": 454,
+  "es": "vivir",
+  "pos": "verb"
+ },
+ {
+  "r": 455,
+  "es": "posible",
+  "pos": "adj"
+ },
+ {
+  "r": 457,
+  "es": "hermana",
+  "pos": "noun-f"
+ },
+ {
+  "r": 458,
+  "es": "número",
+  "pos": "noun-m"
+ },
+ {
+  "r": 459,
+  "es": "mes",
+  "pos": "noun-m"
+ },
+ {
+  "r": 460,
+  "es": "exactamente",
+  "pos": "adv"
+ },
+ {
+  "r": 461,
+  "es": "culpa",
+  "pos": "noun-f"
+ },
+ {
+  "r": 462,
+  "es": "abajo",
+  "pos": "adv"
+ },
+ {
+  "r": 463,
+  "es": "escuela",
+  "pos": "noun-f"
+ },
+ {
+  "r": 465,
+  "es": "fuerte",
+  "pos": "adj"
+ },
+ {
+  "r": 469,
+  "es": "ello",
+  "pos": "pron"
+ },
+ {
+  "r": 470,
+  "es": "pregunta",
+  "pos": "noun-f"
+ },
+ {
+  "r": 475,
+  "es": "atrás",
+  "pos": "adv"
+ },
+ {
+  "r": 476,
+  "es": "malo",
+  "pos": "adj"
+ },
+ {
+  "r": 477,
+  "es": "capitán",
+  "pos": "noun-m"
+ },
+ {
+  "r": 479,
+  "es": "bebé",
+  "pos": "noun-m"
+ },
+ {
+  "r": 480,
+  "es": "segundo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 482,
+  "es": "mayor",
+  "pos": "adj"
+ },
+ {
+  "r": 483,
+  "es": "comida",
+  "pos": "noun-f"
+ },
+ {
+  "r": 484,
+  "es": "morir",
+  "pos": "verb"
+ },
+ {
+  "r": 485,
+  "es": "conocer",
+  "pos": "verb"
+ },
+ {
+  "r": 487,
+  "es": "fácil",
+  "pos": "adj"
+ },
+ {
+  "r": 488,
+  "es": "comer",
+  "pos": "verb"
+ },
+ {
+  "r": 489,
+  "es": "vino",
+  "pos": "noun-m"
+ },
+ {
+  "r": 490,
+  "es": "lista",
+  "pos": "noun-f"
+ },
+ {
+  "r": 494,
+  "es": "probablemente",
+  "pos": "adv"
+ },
+ {
+  "r": 496,
+  "es": "habitación",
+  "pos": "noun-f"
+ },
+ {
+  "r": 501,
+  "es": "tratar",
+  "pos": "verb"
+ },
+ {
+  "r": 502,
+  "es": "buscar",
+  "pos": "verb"
+ },
+ {
+  "r": 504,
+  "es": "tampoco",
+  "pos": "adv"
+ },
+ {
+  "r": 505,
+  "es": "amar",
+  "pos": "verb"
+ },
+ {
+  "r": 506,
+  "es": "joven",
+  "pos": "adj"
+ },
+ {
+  "r": 509,
+  "es": "par",
+  "pos": "noun-m"
+ },
+ {
+  "r": 514,
+  "es": "simplemente",
+  "pos": "adv"
+ },
+ {
+  "r": 516,
+  "es": "medio",
+  "pos": "adj"
+ },
+ {
+  "r": 517,
+  "es": "puta",
+  "pos": "noun-f"
+ },
+ {
+  "r": 519,
+  "es": "sentido",
+  "pos": "noun-m"
+ },
+ {
+  "r": 523,
+  "es": "lejos",
+  "pos": "adv"
+ },
+ {
+  "r": 524,
+  "es": "arma",
+  "pos": "noun-f"
+ },
+ {
+  "r": 525,
+  "es": "alto",
+  "pos": "adj"
+ },
+ {
+  "r": 527,
+  "es": "dólar",
+  "pos": "noun-m"
+ },
+ {
+  "r": 528,
+  "es": "seis",
+  "pos": "num"
+ },
+ {
+  "r": 530,
+  "es": "seguridad",
+  "pos": "noun-f"
+ },
+ {
+  "r": 531,
+  "es": "maldito",
+  "pos": "adj"
+ },
+ {
+  "r": 533,
+  "es": "preocupar",
+  "pos": "verb"
+ },
+ {
+  "r": 534,
+  "es": "palabra",
+  "pos": "noun-f"
+ },
+ {
+  "r": 536,
+  "es": "quedar",
+  "pos": "verb"
+ },
+ {
+  "r": 537,
+  "es": "oficina",
+  "pos": "noun-f"
+ },
+ {
+  "r": 538,
+  "es": "matar",
+  "pos": "verb"
+ },
+ {
+  "r": 540,
+  "es": "cama",
+  "pos": "noun-f"
+ },
+ {
+  "r": 541,
+  "es": "además",
+  "pos": "adv"
+ },
+ {
+  "r": 543,
+  "es": "oído",
+  "pos": "noun-m"
+ },
+ {
+  "r": 547,
+  "es": "recuerdo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 549,
+  "es": "acerca",
+  "pos": "prep"
+ },
+ {
+  "r": 551,
+  "es": "luz",
+  "pos": "noun-f"
+ },
+ {
+  "r": 552,
+  "es": "correcto",
+  "pos": "adj"
+ },
+ {
+  "r": 554,
+  "es": "demonio",
+  "pos": "noun-m"
+ },
+ {
+  "r": 557,
+  "es": "dormir",
+  "pos": "verb"
+ },
+ {
+  "r": 558,
+  "es": "sitio",
+  "pos": "noun-m"
+ },
+ {
+  "r": 559,
+  "es": "ayudar",
+  "pos": "verb"
+ },
+ {
+  "r": 560,
+  "es": "conseguir",
+  "pos": "verb"
+ },
+ {
+  "r": 562,
+  "es": "marido",
+  "pos": "noun-m"
+ },
+ {
+  "r": 563,
+  "es": "paz",
+  "pos": "noun-f"
+ },
+ {
+  "r": 564,
+  "es": "idiota",
+  "pos": "noun-m"
+ },
+ {
+  "r": 565,
+  "es": "plan",
+  "pos": "noun-m"
+ },
+ {
+  "r": 567,
+  "es": "cuanto",
+  "pos": "adv"
+ },
+ {
+  "r": 568,
+  "es": "peor",
+  "pos": "adj"
+ },
+ {
+  "r": 570,
+  "es": "pueblo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 571,
+  "es": "vivo",
+  "pos": "adj"
+ },
+ {
+  "r": 574,
+  "es": "bastar",
+  "pos": "verb"
+ },
+ {
+  "r": 575,
+  "es": "paso",
+  "pos": "noun-m"
+ },
+ {
+  "r": 577,
+  "es": "música",
+  "pos": "noun-f"
+ },
+ {
+  "r": 580,
+  "es": "anoche",
+  "pos": "adv"
+ },
+ {
+  "r": 583,
+  "es": "país",
+  "pos": "noun-m"
+ },
+ {
+  "r": 585,
+  "es": "rey",
+  "pos": "noun-m"
+ },
+ {
+  "r": 586,
+  "es": "perdón",
+  "pos": "noun-m"
+ },
+ {
+  "r": 588,
+  "es": "falta",
+  "pos": "noun-f"
+ },
+ {
+  "r": 590,
+  "es": "diablo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 591,
+  "es": "perder",
+  "pos": "verb"
+ },
+ {
+  "r": 592,
+  "es": "niña",
+  "pos": "noun-f"
+ },
+ {
+  "r": 593,
+  "es": "señorita",
+  "pos": "noun-f"
+ },
+ {
+  "r": 594,
+  "es": "diez",
+  "pos": "num"
+ },
+ {
+  "r": 595,
+  "es": "llevar",
+  "pos": "verb"
+ },
+ {
+  "r": 596,
+  "es": "hospital",
+  "pos": "noun-m"
+ },
+ {
+  "r": 603,
+  "es": "fuego",
+  "pos": "noun-m"
+ },
+ {
+  "r": 606,
+  "es": "poner",
+  "pos": "verb"
+ },
+ {
+  "r": 607,
+  "es": "calle",
+  "pos": "noun-f"
+ },
+ {
+  "r": 608,
+  "es": "acabar",
+  "pos": "verb"
+ },
+ {
+  "r": 609,
+  "es": "prueba",
+  "pos": "noun-f"
+ },
+ {
+  "r": 610,
+  "es": "increíble",
+  "pos": "adj"
+ },
+ {
+  "r": 611,
+  "es": "real",
+  "pos": "adj"
+ },
+ {
+  "r": 612,
+  "es": "libro",
+  "pos": "noun-m"
+ },
+ {
+  "r": 613,
+  "es": "orden",
+  "pos": "noun-f"
+ },
+ {
+  "r": 615,
+  "es": "especial",
+  "pos": "adj"
+ },
+ {
+  "r": 617,
+  "es": "café",
+  "pos": "noun-m"
+ },
+ {
+  "r": 618,
+  "es": "duro",
+  "pos": "adj"
+ },
+ {
+  "r": 619,
+  "es": "empezar",
+  "pos": "verb"
+ },
+ {
+  "r": 620,
+  "es": "afuera",
+  "pos": "adv"
+ },
+ {
+  "r": 622,
+  "es": "perro",
+  "pos": "noun-m"
+ },
+ {
+  "r": 623,
+  "es": "cielo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 625,
+  "es": "puesto",
+  "pos": "noun-m"
+ },
+ {
+  "r": 626,
+  "es": "viaje",
+  "pos": "noun-m"
+ },
+ {
+  "r": 627,
+  "es": "detrás",
+  "pos": "adv"
+ },
+ {
+  "r": 628,
+  "es": "cuarto",
+  "pos": "noun-m"
+ },
+ {
+  "r": 629,
+  "es": "querido",
+  "pos": "adj"
+ },
+ {
+  "r": 634,
+  "es": "libre",
+  "pos": "adj"
+ },
+ {
+  "r": 636,
+  "es": "cual",
+  "pos": "pron"
+ },
+ {
+  "r": 638,
+  "es": "sonar",
+  "pos": "verb"
+ },
+ {
+  "r": 639,
+  "es": "jugar",
+  "pos": "verb"
+ },
+ {
+  "r": 640,
+  "es": "cambio",
+  "pos": "noun-m"
+ },
+ {
+  "r": 641,
+  "es": "película",
+  "pos": "noun-f"
+ },
+ {
+  "r": 642,
+  "es": "millón",
+  "pos": "noun-m"
+ },
+ {
+  "r": 644,
+  "es": "llamada",
+  "pos": "noun-f"
+ },
+ {
+  "r": 645,
+  "es": "resto",
+  "pos": "noun-m"
+ },
+ {
+  "r": 647,
+  "es": "extraño",
+  "pos": "adj"
+ },
+ {
+  "r": 649,
+  "es": "presidente",
+  "pos": "noun-m"
+ },
+ {
+  "r": 652,
+  "es": "ropa",
+  "pos": "noun-f"
+ },
+ {
+  "r": 655,
+  "es": "agente",
+  "pos": "noun-m"
+ },
+ {
+  "r": 657,
+  "es": "información",
+  "pos": "noun-f"
+ },
+ {
+  "r": 658,
+  "es": "raro",
+  "pos": "adj"
+ },
+ {
+  "r": 664,
+  "es": "general",
+  "pos": "adj"
+ },
+ {
+  "r": 665,
+  "es": "trato",
+  "pos": "noun-m"
+ },
+ {
+  "r": 666,
+  "es": "usar",
+  "pos": "verb"
+ },
+ {
+  "r": 667,
+  "es": "perfecto",
+  "pos": "adj"
+ },
+ {
+  "r": 668,
+  "es": "derecho",
+  "pos": "noun-m"
+ },
+ {
+  "r": 669,
+  "es": "modo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 670,
+  "es": "ayer",
+  "pos": "adv"
+ },
+ {
+  "r": 672,
+  "es": "demás",
+  "pos": "adj"
+ },
+ {
+  "r": 675,
+  "es": "noticia",
+  "pos": "noun-f"
+ },
+ {
+  "r": 676,
+  "es": "asesino",
+  "pos": "noun-m"
+ },
+ {
+  "r": 678,
+  "es": "control",
+  "pos": "noun-m"
+ },
+ {
+  "r": 679,
+  "es": "odio",
+  "pos": "noun-m"
+ },
+ {
+  "r": 680,
+  "es": "frente",
+  "pos": "noun-m"
+ },
+ {
+  "r": 681,
+  "es": "sexo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 684,
+  "es": "divertido",
+  "pos": "adj"
+ },
+ {
+  "r": 686,
+  "es": "recordar",
+  "pos": "verb"
+ },
+ {
+  "r": 687,
+  "es": "amiga",
+  "pos": "noun-f"
+ },
+ {
+  "r": 688,
+  "es": "grupo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 689,
+  "es": "asunto",
+  "pos": "noun-m"
+ },
+ {
+  "r": 691,
+  "es": "mensaje",
+  "pos": "noun-m"
+ },
+ {
+  "r": 692,
+  "es": "encima",
+  "pos": "adv"
+ },
+ {
+  "r": 693,
+  "es": "atención",
+  "pos": "noun-f"
+ },
+ {
+  "r": 694,
+  "es": "diferente",
+  "pos": "adj"
+ },
+ {
+  "r": 696,
+  "es": "callar",
+  "pos": "verb"
+ },
+ {
+  "r": 697,
+  "es": "daño",
+  "pos": "noun-m"
+ },
+ {
+  "r": 698,
+  "es": "suceder",
+  "pos": "verb"
+ },
+ {
+  "r": 699,
+  "es": "cambiar",
+  "pos": "verb"
+ },
+ {
+  "r": 700,
+  "es": "siguiente",
+  "pos": "adj"
+ },
+ {
+  "r": 701,
+  "es": "sino",
+  "pos": "conj"
+ },
+ {
+  "r": 704,
+  "es": "médico",
+  "pos": "noun-m"
+ },
+ {
+  "r": 705,
+  "es": "boca",
+  "pos": "noun-f"
+ },
+ {
+  "r": 707,
+  "es": "error",
+  "pos": "noun-m"
+ },
+ {
+  "r": 708,
+  "es": "jamás",
+  "pos": "adv"
+ },
+ {
+  "r": 709,
+  "es": "largo",
+  "pos": "adj"
+ },
+ {
+  "r": 710,
+  "es": "pena",
+  "pos": "noun-f"
+ },
+ {
+  "r": 711,
+  "es": "voz",
+  "pos": "noun-f"
+ },
+ {
+  "r": 712,
+  "es": "futuro",
+  "pos": "noun-m"
+ },
+ {
+  "r": 714,
+  "es": "secreto",
+  "pos": "noun-m"
+ },
+ {
+  "r": 715,
+  "es": "baño",
+  "pos": "noun-m"
+ },
+ {
+  "r": 716,
+  "es": "mil",
+  "pos": "num"
+ },
+ {
+  "r": 720,
+  "es": "novia",
+  "pos": "noun-f"
+ },
+ {
+  "r": 721,
+  "es": "propio",
+  "pos": "adj"
+ },
+ {
+  "r": 722,
+  "es": "sueño",
+  "pos": "noun-m"
+ },
+ {
+  "r": 724,
+  "es": "fuerza",
+  "pos": "noun-f"
+ },
+ {
+  "r": 728,
+  "es": "ambos",
+  "pos": "adj"
+ },
+ {
+  "r": 733,
+  "es": "dolor",
+  "pos": "noun-m"
+ },
+ {
+  "r": 735,
+  "es": "encantar",
+  "pos": "verb"
+ },
+ {
+  "r": 736,
+  "es": "edad",
+  "pos": "noun-f"
+ },
+ {
+  "r": 738,
+  "es": "pie",
+  "pos": "noun-m"
+ },
+ {
+  "r": 739,
+  "es": "negro",
+  "pos": "adj"
+ },
+ {
+  "r": 740,
+  "es": "ganar",
+  "pos": "verb"
+ },
+ {
+  "r": 742,
+  "es": "aire",
+  "pos": "noun-m"
+ },
+ {
+  "r": 743,
+  "es": "lamentar",
+  "pos": "verb"
+ },
+ {
+  "r": 745,
+  "es": "asesinato",
+  "pos": "noun-m"
+ },
+ {
+  "r": 747,
+  "es": "adónde",
+  "pos": "adv"
+ },
+ {
+  "r": 749,
+  "es": "disculpar",
+  "pos": "verb"
+ },
+ {
+  "r": 751,
+  "es": "cita",
+  "pos": "noun-f"
+ },
+ {
+  "r": 754,
+  "es": "sistema",
+  "pos": "noun-m"
+ },
+ {
+  "r": 755,
+  "es": "gusto",
+  "pos": "noun-m"
+ },
+ {
+  "r": 756,
+  "es": "pobre",
+  "pos": "adj"
+ },
+ {
+  "r": 757,
+  "es": "negocio",
+  "pos": "noun-m"
+ },
+ {
+  "r": 758,
+  "es": "mente",
+  "pos": "noun-f"
+ },
+ {
+  "r": 759,
+  "es": "tuyo",
+  "pos": "pron"
+ },
+ {
+  "r": 760,
+  "es": "campo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 762,
+  "es": "situación",
+  "pos": "noun-f"
+ },
+ {
+  "r": 763,
+  "es": "tras",
+  "pos": "prep"
+ },
+ {
+  "r": 764,
+  "es": "hotel",
+  "pos": "noun-m"
+ },
+ {
+  "r": 765,
+  "es": "vosotros",
+  "pos": "pron"
+ },
+ {
+  "r": 766,
+  "es": "funcionar",
+  "pos": "verb"
+ },
+ {
+  "r": 767,
+  "es": "foto",
+  "pos": "noun-f"
+ },
+ {
+  "r": 768,
+  "es": "abogado",
+  "pos": "noun-m"
+ },
+ {
+  "r": 771,
+  "es": "alrededor",
+  "pos": "adv"
+ },
+ {
+  "r": 772,
+  "es": "próximo",
+  "pos": "adj"
+ },
+ {
+  "r": 773,
+  "es": "terminar",
+  "pos": "verb"
+ },
+ {
+  "r": 775,
+  "es": "pagar",
+  "pos": "verb"
+ },
+ {
+  "r": 778,
+  "es": "personal",
+  "pos": "adj"
+ },
+ {
+  "r": 780,
+  "es": "ocurrir",
+  "pos": "verb"
+ },
+ {
+  "r": 783,
+  "es": "mitad",
+  "pos": "noun-f"
+ },
+ {
+  "r": 785,
+  "es": "pelo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 788,
+  "es": "oficial",
+  "pos": "noun-m"
+ },
+ {
+  "r": 790,
+  "es": "compañía",
+  "pos": "noun-f"
+ },
+ {
+  "r": 791,
+  "es": "relación",
+  "pos": "noun-f"
+ },
+ {
+  "r": 794,
+  "es": "montón",
+  "pos": "noun-m"
+ },
+ {
+  "r": 797,
+  "es": "cena",
+  "pos": "noun-f"
+ },
+ {
+  "r": 799,
+  "es": "través",
+  "pos": "prep"
+ },
+ {
+  "r": 800,
+  "es": "accidente",
+  "pos": "noun-m"
+ },
+ {
+  "r": 803,
+  "es": "caja",
+  "pos": "noun-f"
+ },
+ {
+  "r": 804,
+  "es": "tranquilo",
+  "pos": "adj"
+ },
+ {
+  "r": 805,
+  "es": "bonito",
+  "pos": "adj"
+ },
+ {
+  "r": 810,
+  "es": "vista",
+  "pos": "noun-f"
+ },
+ {
+  "r": 811,
+  "es": "estúpido",
+  "pos": "adj"
+ },
+ {
+  "r": 812,
+  "es": "línea",
+  "pos": "noun-f"
+ },
+ {
+  "r": 813,
+  "es": "caballero",
+  "pos": "noun-m"
+ },
+ {
+  "r": 817,
+  "es": "tienda",
+  "pos": "noun-f"
+ },
+ {
+  "r": 818,
+  "es": "comprar",
+  "pos": "verb"
+ },
+ {
+  "r": 820,
+  "es": "centro",
+  "pos": "noun-m"
+ },
+ {
+  "r": 821,
+  "es": "salvo",
+  "pos": "prep"
+ },
+ {
+  "r": 824,
+  "es": "sol",
+  "pos": "noun-m"
+ },
+ {
+  "r": 825,
+  "es": "tonto",
+  "pos": "adj"
+ },
+ {
+  "r": 826,
+  "es": "hambre",
+  "pos": "noun-f"
+ },
+ {
+  "r": 828,
+  "es": "mesa",
+  "pos": "noun-f"
+ },
+ {
+  "r": 829,
+  "es": "respuesta",
+  "pos": "noun-f"
+ },
+ {
+  "r": 830,
+  "es": "completamente",
+  "pos": "adv"
+ },
+ {
+  "r": 832,
+  "es": "carta",
+  "pos": "noun-f"
+ },
+ {
+  "r": 833,
+  "es": "totalmente",
+  "pos": "adv"
+ },
+ {
+  "r": 834,
+  "es": "imposible",
+  "pos": "adj"
+ },
+ {
+  "r": 836,
+  "es": "novio",
+  "pos": "noun-m"
+ },
+ {
+  "r": 837,
+  "es": "normal",
+  "pos": "adj"
+ },
+ {
+  "r": 842,
+  "es": "traje",
+  "pos": "noun-m"
+ },
+ {
+  "r": 843,
+  "es": "dirección",
+  "pos": "noun-f"
+ },
+ {
+  "r": 844,
+  "es": "siete",
+  "pos": "num"
+ },
+ {
+  "r": 846,
+  "es": "placer",
+  "pos": "noun-m"
+ },
+ {
+  "r": 849,
+  "es": "barco",
+  "pos": "noun-m"
+ },
+ {
+  "r": 850,
+  "es": "blanco",
+  "pos": "adj"
+ },
+ {
+  "r": 852,
+  "es": "profesor",
+  "pos": "noun-m"
+ },
+ {
+  "r": 853,
+  "es": "servicio",
+  "pos": "noun-m"
+ },
+ {
+  "r": 854,
+  "es": "muchacho",
+  "pos": "noun-m"
+ },
+ {
+  "r": 855,
+  "es": "reunión",
+  "pos": "noun-f"
+ },
+ {
+  "r": 857,
+  "es": "ley",
+  "pos": "noun-f"
+ },
+ {
+  "r": 861,
+  "es": "programa",
+  "pos": "noun-m"
+ },
+ {
+  "r": 862,
+  "es": "carrera",
+  "pos": "noun-f"
+ },
+ {
+  "r": 863,
+  "es": "cumpleaños",
+  "pos": "noun-m"
+ },
+ {
+  "r": 865,
+  "es": "culo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 866,
+  "es": "canción",
+  "pos": "noun-f"
+ },
+ {
+  "r": 867,
+  "es": "hermoso",
+  "pos": "adj"
+ },
+ {
+  "r": 868,
+  "es": "universidad",
+  "pos": "noun-f"
+ },
+ {
+  "r": 869,
+  "es": "boda",
+  "pos": "noun-f"
+ },
+ {
+  "r": 875,
+  "es": "sala",
+  "pos": "noun-f"
+ },
+ {
+  "r": 877,
+  "es": "decisión",
+  "pos": "noun-f"
+ },
+ {
+  "r": 879,
+  "es": "don",
+  "pos": "noun-m"
+ },
+ {
+  "r": 880,
+  "es": "necesario",
+  "pos": "adj"
+ },
+ {
+  "r": 883,
+  "es": "prisa",
+  "pos": "noun-f"
+ },
+ {
+  "r": 884,
+  "es": "carajo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 885,
+  "es": "embargo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 886,
+  "es": "interesante",
+  "pos": "adj"
+ },
+ {
+  "r": 889,
+  "es": "abuela",
+  "pos": "noun-f"
+ },
+ {
+  "r": 891,
+  "es": "detective",
+  "pos": "noun-m"
+ },
+ {
+  "r": 892,
+  "es": "horrible",
+  "pos": "adj"
+ },
+ {
+  "r": 893,
+  "es": "suelo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 895,
+  "es": "cárcel",
+  "pos": "noun-f"
+ },
+ {
+  "r": 896,
+  "es": "acá",
+  "pos": "adv"
+ },
+ {
+  "r": 899,
+  "es": "sentar",
+  "pos": "verb"
+ },
+ {
+  "r": 901,
+  "es": "intentar",
+  "pos": "verb"
+ },
+ {
+  "r": 903,
+  "es": "maldición",
+  "pos": "noun-f"
+ },
+ {
+  "r": 904,
+  "es": "silencio",
+  "pos": "noun-m"
+ },
+ {
+  "r": 906,
+  "es": "capaz",
+  "pos": "adj"
+ },
+ {
+  "r": 908,
+  "es": "club",
+  "pos": "noun-m"
+ },
+ {
+  "r": 910,
+  "es": "temer",
+  "pos": "verb"
+ },
+ {
+  "r": 911,
+  "es": "broma",
+  "pos": "noun-f"
+ },
+ {
+  "r": 912,
+  "es": "gobierno",
+  "pos": "noun-m"
+ },
+ {
+  "r": 913,
+  "es": "prometer",
+  "pos": "verb"
+ },
+ {
+  "r": 914,
+  "es": "cámara",
+  "pos": "noun-f"
+ },
+ {
+  "r": 916,
+  "es": "terrible",
+  "pos": "adj"
+ },
+ {
+  "r": 918,
+  "es": "regalo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 919,
+  "es": "amable",
+  "pos": "adj"
+ },
+ {
+  "r": 920,
+  "es": "dulce",
+  "pos": "adj"
+ },
+ {
+  "r": 923,
+  "es": "ataque",
+  "pos": "noun-m"
+ },
+ {
+  "r": 925,
+  "es": "navidad",
+  "pos": "noun-f"
+ },
+ {
+  "r": 928,
+  "es": "ocho",
+  "pos": "num"
+ },
+ {
+  "r": 929,
+  "es": "avión",
+  "pos": "noun-m"
+ },
+ {
+  "r": 930,
+  "es": "investigación",
+  "pos": "noun-f"
+ },
+ {
+  "r": 932,
+  "es": "jurar",
+  "pos": "verb"
+ },
+ {
+  "r": 933,
+  "es": "mantener",
+  "pos": "verb"
+ },
+ {
+  "r": 934,
+  "es": "ejército",
+  "pos": "noun-m"
+ },
+ {
+  "r": 935,
+  "es": "papel",
+  "pos": "noun-m"
+ },
+ {
+  "r": 938,
+  "es": "gracioso",
+  "pos": "adj"
+ },
+ {
+  "r": 940,
+  "es": "principio",
+  "pos": "noun-m"
+ },
+ {
+  "r": 941,
+  "es": "delante",
+  "pos": "adv"
+ },
+ {
+  "r": 942,
+  "es": "teniente",
+  "pos": "noun-m"
+ },
+ {
+  "r": 943,
+  "es": "deseo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 945,
+  "es": "nave",
+  "pos": "noun-f"
+ },
+ {
+  "r": 947,
+  "es": "basura",
+  "pos": "noun-f"
+ },
+ {
+  "r": 949,
+  "es": "contacto",
+  "pos": "noun-m"
+ },
+ {
+  "r": 950,
+  "es": "esposo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 951,
+  "es": "tren",
+  "pos": "noun-m"
+ },
+ {
+  "r": 954,
+  "es": "verdadero",
+  "pos": "adj"
+ },
+ {
+  "r": 956,
+  "es": "alma",
+  "pos": "noun-f"
+ },
+ {
+  "r": 960,
+  "es": "andar",
+  "pos": "verb"
+ },
+ {
+  "r": 962,
+  "es": "matrimonio",
+  "pos": "noun-m"
+ },
+ {
+  "r": 964,
+  "es": "locura",
+  "pos": "noun-f"
+ },
+ {
+  "r": 965,
+  "es": "oro",
+  "pos": "noun-m"
+ },
+ {
+  "r": 966,
+  "es": "permiso",
+  "pos": "noun-m"
+ },
+ {
+  "r": 967,
+  "es": "director",
+  "pos": "noun-m"
+ },
+ {
+  "r": 968,
+  "es": "peligro",
+  "pos": "noun-m"
+ },
+ {
+  "r": 969,
+  "es": "libertad",
+  "pos": "noun-f"
+ },
+ {
+  "r": 970,
+  "es": "alegrar",
+  "pos": "verb"
+ },
+ {
+  "r": 971,
+  "es": "bajar",
+  "pos": "verb"
+ },
+ {
+  "r": 973,
+  "es": "derecha",
+  "pos": "noun-f"
+ },
+ {
+  "r": 977,
+  "es": "maravilloso",
+  "pos": "adj"
+ },
+ {
+  "r": 978,
+  "es": "espacio",
+  "pos": "noun-m"
+ },
+ {
+  "r": 979,
+  "es": "rato",
+  "pos": "noun-m"
+ },
+ {
+  "r": 980,
+  "es": "abuelo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 983,
+  "es": "salud",
+  "pos": "noun-f"
+ },
+ {
+  "r": 984,
+  "es": "sorpresa",
+  "pos": "noun-f"
+ },
+ {
+  "r": 987,
+  "es": "triste",
+  "pos": "adj"
+ },
+ {
+  "r": 990,
+  "es": "maestro",
+  "pos": "noun-m"
+ },
+ {
+  "r": 991,
+  "es": "según",
+  "pos": "prep"
+ },
+ {
+  "r": 992,
+  "es": "infierno",
+  "pos": "noun-m"
+ },
+ {
+  "r": 995,
+  "es": "tía",
+  "pos": "noun-f"
+ },
+ {
+  "r": 996,
+  "es": "crimen",
+  "pos": "noun-m"
+ },
+ {
+  "r": 998,
+  "es": "consejo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 999,
+  "es": "ante",
+  "pos": "prep"
+ },
+ {
+  "r": 1000,
+  "es": "iglesia",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1001,
+  "es": "intento",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1002,
+  "es": "mayoría",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1006,
+  "es": "escena",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1007,
+  "es": "piso",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1008,
+  "es": "señal",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1009,
+  "es": "honor",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1011,
+  "es": "abrir",
+  "pos": "verb"
+ },
+ {
+  "r": 1012,
+  "es": "cerebro",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1016,
+  "es": "preguntar",
+  "pos": "verb"
+ },
+ {
+  "r": 1017,
+  "es": "cocina",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1018,
+  "es": "vestido",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1019,
+  "es": "inteligente",
+  "pos": "adj"
+ },
+ {
+  "r": 1021,
+  "es": "caballo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1024,
+  "es": "bar",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1025,
+  "es": "corte",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1027,
+  "es": "adentro",
+  "pos": "adv"
+ },
+ {
+  "r": 1028,
+  "es": "droga",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1029,
+  "es": "enseguida",
+  "pos": "adv"
+ },
+ {
+  "r": 1031,
+  "es": "agradable",
+  "pos": "adj"
+ },
+ {
+  "r": 1032,
+  "es": "carne",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1034,
+  "es": "departamento",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1035,
+  "es": "lindo",
+  "pos": "adj"
+ },
+ {
+  "r": 1036,
+  "es": "mar",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1037,
+  "es": "duda",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1038,
+  "es": "edificio",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1040,
+  "es": "cargo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1041,
+  "es": "víctima",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1042,
+  "es": "luna",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1043,
+  "es": "energía",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1044,
+  "es": "frío",
+  "pos": "adj"
+ },
+ {
+  "r": 1046,
+  "es": "baile",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1048,
+  "es": "misión",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1051,
+  "es": "izquierda",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1053,
+  "es": "beber",
+  "pos": "verb"
+ },
+ {
+  "r": 1055,
+  "es": "finalmente",
+  "pos": "adv"
+ },
+ {
+  "r": 1056,
+  "es": "simple",
+  "pos": "adj"
+ },
+ {
+  "r": 1062,
+  "es": "regresar",
+  "pos": "verb"
+ },
+ {
+  "r": 1066,
+  "es": "sacar",
+  "pos": "verb"
+ },
+ {
+  "r": 1068,
+  "es": "traer",
+  "pos": "verb"
+ },
+ {
+  "r": 1070,
+  "es": "opinión",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1073,
+  "es": "apenas",
+  "pos": "adv"
+ },
+ {
+  "r": 1075,
+  "es": "cerveza",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1084,
+  "es": "reina",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1085,
+  "es": "temprano",
+  "pos": "adv"
+ },
+ {
+  "r": 1086,
+  "es": "tema",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1087,
+  "es": "prisión",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1090,
+  "es": "público",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1093,
+  "es": "salvar",
+  "pos": "verb"
+ },
+ {
+  "r": 1094,
+  "es": "partido",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1096,
+  "es": "joder",
+  "pos": "verb"
+ },
+ {
+  "r": 1097,
+  "es": "causa",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1098,
+  "es": "caliente",
+  "pos": "adj"
+ },
+ {
+  "r": 1099,
+  "es": "sargento",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1100,
+  "es": "cenar",
+  "pos": "verb"
+ },
+ {
+  "r": 1101,
+  "es": "compañero",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1103,
+  "es": "banco",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1104,
+  "es": "existir",
+  "pos": "verb"
+ },
+ {
+  "r": 1106,
+  "es": "zona",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1107,
+  "es": "destino",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1108,
+  "es": "base",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1109,
+  "es": "soler",
+  "pos": "verb"
+ },
+ {
+  "r": 1110,
+  "es": "cliente",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1112,
+  "es": "perra",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1114,
+  "es": "encuentro",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1116,
+  "es": "pelea",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1118,
+  "es": "norte",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1120,
+  "es": "coronel",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1121,
+  "es": "apostar",
+  "pos": "verb"
+ },
+ {
+  "r": 1122,
+  "es": "peligroso",
+  "pos": "adj"
+ },
+ {
+  "r": 1127,
+  "es": "té",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1128,
+  "es": "excepto",
+  "pos": "prep"
+ },
+ {
+  "r": 1129,
+  "es": "juicio",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1131,
+  "es": "llave",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1132,
+  "es": "equivocado",
+  "pos": "adj"
+ },
+ {
+  "r": 1133,
+  "es": "posición",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1134,
+  "es": "trasero",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1136,
+  "es": "espalda",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1137,
+  "es": "excelente",
+  "pos": "adj"
+ },
+ {
+  "r": 1138,
+  "es": "éxito",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1140,
+  "es": "ventana",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1142,
+  "es": "especie",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1144,
+  "es": "diferencia",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1146,
+  "es": "pedir",
+  "pos": "verb"
+ },
+ {
+  "r": 1149,
+  "es": "ejemplo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1151,
+  "es": "radio",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1152,
+  "es": "leer",
+  "pos": "verb"
+ },
+ {
+  "r": 1153,
+  "es": "calma",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1154,
+  "es": "hogar",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1156,
+  "es": "fondo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1157,
+  "es": "humano",
+  "pos": "adj"
+ },
+ {
+  "r": 1164,
+  "es": "planeta",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1166,
+  "es": "respecto",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1167,
+  "es": "regreso",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1168,
+  "es": "debido",
+  "pos": "adj"
+ },
+ {
+  "r": 1172,
+  "es": "parar",
+  "pos": "verb"
+ },
+ {
+  "r": 1173,
+  "es": "lleno",
+  "pos": "adj"
+ },
+ {
+  "r": 1175,
+  "es": "respeto",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1176,
+  "es": "debajo",
+  "pos": "adv"
+ },
+ {
+  "r": 1178,
+  "es": "escribir",
+  "pos": "verb"
+ },
+ {
+  "r": 1179,
+  "es": "estación",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1182,
+  "es": "pista",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1183,
+  "es": "estrella",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1184,
+  "es": "enfermo",
+  "pos": "adj"
+ },
+ {
+  "r": 1185,
+  "es": "doler",
+  "pos": "verb"
+ },
+ {
+  "r": 1191,
+  "es": "ocupado",
+  "pos": "adj"
+ },
+ {
+  "r": 1193,
+  "es": "correr",
+  "pos": "verb"
+ },
+ {
+  "r": 1196,
+  "es": "nivel",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1198,
+  "es": "experiencia",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1200,
+  "es": "salida",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1202,
+  "es": "confiar",
+  "pos": "verb"
+ },
+ {
+  "r": 1206,
+  "es": "zapato",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1207,
+  "es": "color",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1208,
+  "es": "vistazo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1209,
+  "es": "nena",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1212,
+  "es": "juez",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1214,
+  "es": "paciente",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1216,
+  "es": "bolsa",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1217,
+  "es": "arte",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1222,
+  "es": "bailar",
+  "pos": "verb"
+ },
+ {
+  "r": 1227,
+  "es": "sur",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1228,
+  "es": "banda",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1229,
+  "es": "aprender",
+  "pos": "verb"
+ },
+ {
+  "r": 1230,
+  "es": "precio",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1231,
+  "es": "completo",
+  "pos": "adj"
+ },
+ {
+  "r": 1232,
+  "es": "santo",
+  "pos": "adj"
+ },
+ {
+  "r": 1233,
+  "es": "culpable",
+  "pos": "adj"
+ },
+ {
+  "r": 1234,
+  "es": "ganas",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1244,
+  "es": "azul",
+  "pos": "adj"
+ },
+ {
+  "r": 1248,
+  "es": "comandante",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1249,
+  "es": "acción",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1250,
+  "es": "regla",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1251,
+  "es": "obra",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1252,
+  "es": "esperanza",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1253,
+  "es": "cuestión",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1254,
+  "es": "molestar",
+  "pos": "verb"
+ },
+ {
+  "r": 1257,
+  "es": "informe",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1259,
+  "es": "río",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1260,
+  "es": "bienvenido",
+  "pos": "adj"
+ },
+ {
+  "r": 1262,
+  "es": "tocar",
+  "pos": "verb"
+ },
+ {
+  "r": 1264,
+  "es": "contar",
+  "pos": "verb"
+ },
+ {
+  "r": 1266,
+  "es": "interior",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1267,
+  "es": "apartamento",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1273,
+  "es": "principal",
+  "pos": "adj"
+ },
+ {
+  "r": 1280,
+  "es": "ojalá",
+  "pos": "adv"
+ },
+ {
+  "r": 1281,
+  "es": "perdonar",
+  "pos": "verb"
+ },
+ {
+  "r": 1283,
+  "es": "golpe",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1287,
+  "es": "estilo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1288,
+  "es": "nueve",
+  "pos": "num"
+ },
+ {
+  "r": 1289,
+  "es": "definitivamente",
+  "pos": "adv"
+ },
+ {
+  "r": 1292,
+  "es": "bomba",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1293,
+  "es": "guardia",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1294,
+  "es": "pistola",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1295,
+  "es": "probar",
+  "pos": "verb"
+ },
+ {
+  "r": 1296,
+  "es": "majestad",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1298,
+  "es": "marcha",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1300,
+  "es": "común",
+  "pos": "adj"
+ },
+ {
+  "r": 1301,
+  "es": "aquel",
+  "pos": "pron"
+ },
+ {
+  "r": 1303,
+  "es": "vuelo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1304,
+  "es": "nota",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1308,
+  "es": "valor",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1309,
+  "es": "suyo",
+  "pos": "pron"
+ },
+ {
+  "r": 1310,
+  "es": "objetivo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1311,
+  "es": "repente",
+  "pos": "adv"
+ },
+ {
+  "r": 1313,
+  "es": "rojo",
+  "pos": "adj"
+ },
+ {
+  "r": 1314,
+  "es": "bromear",
+  "pos": "verb"
+ },
+ {
+  "r": 1316,
+  "es": "entrada",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1317,
+  "es": "doble",
+  "pos": "adj"
+ },
+ {
+  "r": 1319,
+  "es": "evitar",
+  "pos": "verb"
+ },
+ {
+  "r": 1320,
+  "es": "máquina",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1321,
+  "es": "cuello",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1326,
+  "es": "animal",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1328,
+  "es": "acaso",
+  "pos": "adv"
+ },
+ {
+  "r": 1330,
+  "es": "pareja",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1331,
+  "es": "verano",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1335,
+  "es": "mentira",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1336,
+  "es": "tarjeta",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1343,
+  "es": "preparado",
+  "pos": "adj"
+ },
+ {
+  "r": 1349,
+  "es": "flor",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1351,
+  "es": "vos",
+  "pos": "pron"
+ },
+ {
+  "r": 1352,
+  "es": "opción",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1353,
+  "es": "isla",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1354,
+  "es": "cerrar",
+  "pos": "verb"
+ },
+ {
+  "r": 1355,
+  "es": "piel",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1356,
+  "es": "enemigo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1358,
+  "es": "exacto",
+  "pos": "adj"
+ },
+ {
+  "r": 1359,
+  "es": "imbécil",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1364,
+  "es": "justicia",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1366,
+  "es": "obviamente",
+  "pos": "adv"
+ },
+ {
+  "r": 1367,
+  "es": "despertar",
+  "pos": "verb"
+ },
+ {
+  "r": 1369,
+  "es": "calor",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1371,
+  "es": "referir",
+  "pos": "verb"
+ },
+ {
+  "r": 1373,
+  "es": "batalla",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1377,
+  "es": "fantástico",
+  "pos": "adj"
+ },
+ {
+  "r": 1378,
+  "es": "brazo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1379,
+  "es": "absolutamente",
+  "pos": "adv"
+ },
+ {
+  "r": 1384,
+  "es": "escapar",
+  "pos": "verb"
+ },
+ {
+  "r": 1385,
+  "es": "bosque",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1386,
+  "es": "gay",
+  "pos": "adj"
+ },
+ {
+  "r": 1389,
+  "es": "pierna",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1390,
+  "es": "visita",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1394,
+  "es": "movimiento",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1396,
+  "es": "rico",
+  "pos": "adj"
+ },
+ {
+  "r": 1397,
+  "es": "inocente",
+  "pos": "adj"
+ },
+ {
+  "r": 1398,
+  "es": "pesar",
+  "pos": "verb"
+ },
+ {
+  "r": 1399,
+  "es": "absoluto",
+  "pos": "adj"
+ },
+ {
+  "r": 1400,
+  "es": "vacaciones",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1406,
+  "es": "cine",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1408,
+  "es": "brillante",
+  "pos": "adj"
+ },
+ {
+  "r": 1409,
+  "es": "confianza",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1410,
+  "es": "vuestro",
+  "pos": "adj"
+ },
+ {
+  "r": 1412,
+  "es": "especialmente",
+  "pos": "adv"
+ },
+ {
+  "r": 1414,
+  "es": "embarazada",
+  "pos": "adj"
+ },
+ {
+  "r": 1416,
+  "es": "pantalón",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1417,
+  "es": "defensa",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1420,
+  "es": "estupendo",
+  "pos": "adj"
+ },
+ {
+  "r": 1422,
+  "es": "presión",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1423,
+  "es": "inmediatamente",
+  "pos": "adv"
+ },
+ {
+  "r": 1424,
+  "es": "testigo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1426,
+  "es": "olvidar",
+  "pos": "verb"
+ },
+ {
+  "r": 1427,
+  "es": "soldado",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1428,
+  "es": "resultar",
+  "pos": "verb"
+ },
+ {
+  "r": 1430,
+  "es": "depender",
+  "pos": "verb"
+ },
+ {
+  "r": 1431,
+  "es": "motivo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1432,
+  "es": "inglés",
+  "pos": "adj"
+ },
+ {
+  "r": 1434,
+  "es": "estudio",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1436,
+  "es": "sentimiento",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1442,
+  "es": "propósito",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1444,
+  "es": "partir",
+  "pos": "verb"
+ },
+ {
+  "r": 1446,
+  "es": "metro",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1452,
+  "es": "ridículo",
+  "pos": "adj"
+ },
+ {
+  "r": 1453,
+  "es": "dama",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1456,
+  "es": "operación",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1458,
+  "es": "empresa",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1460,
+  "es": "laboratorio",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1461,
+  "es": "elección",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1462,
+  "es": "menudo",
+  "pos": "adv"
+ },
+ {
+  "r": 1463,
+  "es": "beso",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1464,
+  "es": "copa",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1465,
+  "es": "conversación",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1467,
+  "es": "espíritu",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1469,
+  "es": "cansado",
+  "pos": "adj"
+ },
+ {
+  "r": 1470,
+  "es": "interesar",
+  "pos": "verb"
+ },
+ {
+  "r": 1472,
+  "es": "casado",
+  "pos": "adj"
+ },
+ {
+  "r": 1473,
+  "es": "enorme",
+  "pos": "adj"
+ },
+ {
+  "r": 1475,
+  "es": "fe",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1476,
+  "es": "mostrar",
+  "pos": "verb"
+ },
+ {
+  "r": 1477,
+  "es": "trampa",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1480,
+  "es": "memoria",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1482,
+  "es": "contrario",
+  "pos": "adj"
+ },
+ {
+  "r": 1484,
+  "es": "subir",
+  "pos": "verb"
+ },
+ {
+  "r": 1485,
+  "es": "turno",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1487,
+  "es": "preocupado",
+  "pos": "adj"
+ },
+ {
+  "r": 1488,
+  "es": "restaurante",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1491,
+  "es": "calmar",
+  "pos": "verb"
+ },
+ {
+  "r": 1493,
+  "es": "caer",
+  "pos": "verb"
+ },
+ {
+  "r": 1495,
+  "es": "leche",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1497,
+  "es": "preferir",
+  "pos": "verb"
+ },
+ {
+  "r": 1498,
+  "es": "red",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1500,
+  "es": "solamente",
+  "pos": "adv"
+ },
+ {
+  "r": 1504,
+  "es": "taxi",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1505,
+  "es": "anillo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1508,
+  "es": "victoria",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1510,
+  "es": "héroe",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1512,
+  "es": "decidir",
+  "pos": "verb"
+ },
+ {
+  "r": 1514,
+  "es": "responsable",
+  "pos": "adj"
+ },
+ {
+  "r": 1515,
+  "es": "trago",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1517,
+  "es": "árbol",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1519,
+  "es": "diente",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1520,
+  "es": "encantado",
+  "pos": "adj"
+ },
+ {
+  "r": 1521,
+  "es": "camión",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1522,
+  "es": "vender",
+  "pos": "verb"
+ },
+ {
+  "r": 1524,
+  "es": "detener",
+  "pos": "verb"
+ },
+ {
+  "r": 1525,
+  "es": "luchar",
+  "pos": "verb"
+ },
+ {
+  "r": 1526,
+  "es": "cabo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1527,
+  "es": "ruido",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1528,
+  "es": "lucha",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1530,
+  "es": "reloj",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1531,
+  "es": "gato",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1532,
+  "es": "averiguar",
+  "pos": "verb"
+ },
+ {
+  "r": 1533,
+  "es": "volar",
+  "pos": "verb"
+ },
+ {
+  "r": 1539,
+  "es": "colegio",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1540,
+  "es": "sonido",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1543,
+  "es": "código",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1545,
+  "es": "imagen",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1546,
+  "es": "riesgo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1549,
+  "es": "pan",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1553,
+  "es": "hielo",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1554,
+  "es": "coño",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1556,
+  "es": "prensa",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1560,
+  "es": "caminar",
+  "pos": "verb"
+ },
+ {
+  "r": 1561,
+  "es": "televisión",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1564,
+  "es": "coger",
+  "pos": "verb"
+ },
+ {
+  "r": 1565,
+  "es": "posibilidad",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1568,
+  "es": "asiento",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1570,
+  "es": "herido",
+  "pos": "adj"
+ },
+ {
+  "r": 1572,
+  "es": "seguramente",
+  "pos": "adv"
+ },
+ {
+  "r": 1573,
+  "es": "proyecto",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1574,
+  "es": "pared",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1576,
+  "es": "sospechoso",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1577,
+  "es": "naturaleza",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1579,
+  "es": "silla",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1583,
+  "es": "arreglar",
+  "pos": "verb"
+ },
+ {
+  "r": 1585,
+  "es": "papi",
+  "pos": "noun-m"
+ },
+ {
+  "r": 1587,
+  "es": "obtener",
+  "pos": "verb"
+ },
+ {
+  "r": 1589,
+  "es": "señoría",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1590,
+  "es": "cantidad",
+  "pos": "noun-f"
+ },
+ {
+  "r": 1595,
+  "es": "llorar",
+  "pos": "verb"
+ },
+ {
+  "r": 1597,
+  "es": "familiar",
+  "pos": "adj"
+ },
+ {
+  "r": 1598,
+  "es": "desastre",
+  "pos": "noun-m"
+ }
+]

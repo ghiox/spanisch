@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Spanisch lernen</title>
+<!-- PWA: "Zum Home-Bildschirm" auf iOS/Android, offline via sw.js (nur ueber http(s)) -->
+<meta name="theme-color" content="#b4460f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Spanisch">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<style>
+  :root{
+    --bg:#fbfaf8; --fg:#1c1a17; --muted:#6b6660; --card:#ffffff; --line:#e3ded7;
+    --accent:#b4460f; --accent-fg:#fff; --ok:#1f7a45; --bad:#b21f2d; --soft:#f1ede7;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#17161a; --fg:#eceae6; --muted:#a19b93; --card:#201f24; --line:#34323a;
+      --accent:#e2762f; --accent-fg:#1a1207; --ok:#5fcf90; --bad:#ff8a8a; --soft:#2a2830;
+    }
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--fg);
+    font:17px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust:100%;
+  }
+  #app{max-width:860px;margin:0 auto;padding:calc(20px + env(safe-area-inset-top)) 16px calc(64px + env(safe-area-inset-bottom))}
+  button,input,textarea{-webkit-tap-highlight-color:transparent}
+  h1{font-size:24px;margin:0 0 4px}
+  h2{font-size:19px;margin:24px 0 8px}
+  p{margin:8px 0}
+  .muted{color:var(--muted)}
+  .small{font-size:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin:14px 0}
+  button{
+    font:inherit;font-weight:600;color:var(--fg);background:var(--card);
+    border:1px solid var(--line);border-radius:12px;padding:14px 16px;
+    min-height:52px;cursor:pointer;width:100%;text-align:left;
+  }
+  button:hover{border-color:var(--accent)}
+  button:active{transform:translateY(1px)}
+  .primary{background:var(--accent);color:var(--accent-fg);border-color:var(--accent);text-align:center}
+  .row{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+  .row button{flex:1 1 0;min-width:70px;text-align:center;padding:14px 6px}
+  .stack button{margin-bottom:10px}
+  input,textarea{
+    font:inherit;color:var(--fg);background:var(--card);width:100%;max-width:560px;
+    border:1px solid var(--line);border-radius:12px;padding:14px;min-height:52px;
+  }
+  input:focus,textarea:focus{outline:2px solid var(--accent);outline-offset:1px}
+  .acc{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 4px}
+  .acc button{flex:0 0 auto;width:46px;min-height:46px;padding:0;text-align:center;font-size:18px}
+  .big{font-size:32px;font-weight:700;line-height:1.25;margin:6px 0}
+  .es{font-size:22px;line-height:1.35}
+  .gap{display:inline-block;min-width:80px;border-bottom:2px solid var(--accent);text-align:center}
+  .tag{display:inline-block;background:var(--soft);border-radius:8px;padding:3px 8px;font-size:13px;margin-top:6px}
+  .ok{color:var(--ok);font-weight:700}
+  .bad{color:var(--bad);font-weight:700}
+  .sel{outline:2px solid var(--accent)}
+  .spk{width:auto;min-height:44px;padding:8px 14px;display:inline-block;text-align:center}
+  .bar-row{display:flex;justify-content:space-between;align-items:center;gap:10px}
+  .chart{display:flex;align-items:flex-end;gap:2px;height:90px;margin:10px 0 4px}
+  .chart .bar{flex:1;height:100%;display:flex;align-items:flex-end;background:var(--soft);border-radius:2px}
+  .chart .bar i{display:block;width:100%;background:var(--accent);border-radius:2px;min-height:1px}
+  .hdr{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:8px}
+  .hdr button{width:auto;min-height:40px;padding:8px 12px;font-size:14px}
+  /* Serie: 16 Wochen, Spalte = Woche, Zeile = Mo..So */
+  .heat{display:grid;grid-auto-flow:column;grid-template-rows:repeat(7,11px);grid-auto-columns:11px;gap:3px;margin:10px 0 4px}
+  .heat i,.hk{display:inline-block;width:11px;height:11px;border-radius:2px;background:var(--soft);vertical-align:-1px}
+  .heat i.part,.hk.part{background:var(--accent);opacity:.35}
+  .heat i.on,.hk.on{background:var(--accent)}
+  .heat i.now{outline:2px solid var(--fg);outline-offset:-2px}
+  .heat i.fut{visibility:hidden}
+  /* La casa */
+  .scene{position:relative;margin:14px 0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#d8cfc2}
+  .scene svg{display:block;width:100%;height:auto}
+  .scene [data-item],.scene [data-room]{cursor:pointer}
+  .scene [data-item]:hover{filter:brightness(1.12) drop-shadow(0 0 4px rgba(0,0,0,.5))}
+  .scene [data-room]:hover .rm{fill:#ffe680}
+  #pins{position:absolute;left:0;top:0;right:0;bottom:0;pointer-events:none}
+  .postit{
+    position:absolute;transform:translate(-50%,-100%) rotate(-2.5deg);
+    background:#ffe680;color:#2a2410;padding:7px 10px;border-radius:2px;
+    box-shadow:2px 3px 8px rgba(0,0,0,.4);pointer-events:auto;white-space:nowrap;z-index:5;
+    font-family:'Bradley Hand','Segoe Script','Comic Sans MS',cursive;
+  }
+  .postit.below{transform:translate(-50%,0) rotate(-2.5deg)}
+  .postit b{display:block;font-size:21px;line-height:1.2}
+  .postit i{display:block;font-style:normal;font-size:13px;color:#6b5c1e}
+  .postit .spk{min-height:0;padding:3px 9px;margin-top:5px;font-size:13px;background:#fff3b0;border-color:#d8c060;color:#2a2410}
+  .postit.mini{transform:translate(-50%,-50%) rotate(-3deg);padding:3px 8px;z-index:2;box-shadow:1px 2px 5px rgba(0,0,0,.35)}
+  .postit.mini:nth-child(even){transform:translate(-50%,-50%) rotate(3deg);background:#ffeea0}
+  .postit.mini b{font-size:16px;line-height:1.25}
+  .gimg{max-width:360px;margin:0 auto 10px}
+  .gimg svg{display:block;width:100%;height:auto}
+  footer{margin-top:32px;font-size:13px;color:var(--muted);line-height:1.5}
+  ul{padding-left:20px} li{margin:4px 0}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script src="data/words.js"></script>
+<script src="data/grammar.js"></script>
+<script src="data/verbs.js"></script>
+<script src="data/house.js"></script>
+<script src="data/texts.js"></script>
+<script src="fsrs.js"></script>
+<script src="listen.js"></script>
+<script src="read.js"></script>
+<script src="app.js"></script>
+<script>if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register('sw.js');</script>
+</body>
+</html>

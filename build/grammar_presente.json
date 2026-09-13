@@ -1,0 +1,329 @@
+{
+  "id": "presente",
+  "title": "Präsens",
+  "rule": {
+    "lines": [
+      "Die Endung sagt, wer handelt — das Pronomen kann weg: -o (yo), -as/-es (tú), -a/-e (él), -amos/-emos/-imos (nosotros), -áis/-éis/-ís (vosotros), -an/-en (ellos).",
+      "-ar: hablo, hablas, habla, hablamos, habláis, hablan.",
+      "-er/-ir fast gleich, nur wir/ihr unterscheiden sich: comemos/coméis, vivimos/vivís.",
+      "Stammwechsel e->ie (querer -> quiero) und o->ue (poder -> puedo) — aber nie bei nosotros/vosotros: queremos, podemos.",
+      "Unregelmäßige yo-Formen einfach lernen: tengo, hago, salgo, digo, estoy, soy, voy."
+    ],
+    "examples": [
+      { "es": "Hablo español y trabajo en Madrid.", "de": "Ich spreche Spanisch und arbeite in Madrid." },
+      { "es": "¿Vosotros coméis en casa?", "de": "Esst ihr zu Hause?" },
+      { "es": "No puedo venir, no tengo tiempo.", "de": "Ich kann nicht kommen, ich habe keine Zeit." },
+      { "es": "Ellos quieren un café.", "de": "Sie wollen einen Kaffee." }
+    ]
+  },
+  "items": [
+    {
+      "id": "presente-1",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Trabajo en un banco.",
+      "q": "Wer arbeitet hier?",
+      "options": ["ich", "du", "er/sie"],
+      "answer": 0,
+      "ruleTag": "-o = yo (ich)",
+      "expl": "Im Präsens gehört die Endung -o immer zu yo, also arbeite ich hier."
+    },
+    {
+      "id": "presente-2",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Hablas muy rápido.",
+      "q": "Wer spricht hier?",
+      "options": ["ich", "du", "wir"],
+      "answer": 1,
+      "ruleTag": "-as = tú (du)",
+      "expl": "Die Endung -as bei -ar-Verben zeigt tú, also bist du gemeint."
+    },
+    {
+      "id": "presente-3",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Come mucha fruta.",
+      "q": "Wer isst hier?",
+      "options": ["wir", "du", "er/sie"],
+      "answer": 2,
+      "ruleTag": "-e = él/ella",
+      "expl": "Bei -er-Verben zeigt die Endung -e ohne -s die 3. Person Singular an, also isst er oder sie."
+    },
+    {
+      "id": "presente-4",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Vivimos en Madrid.",
+      "q": "Wer wohnt in Madrid?",
+      "options": ["wir", "ihr", "sie (Plural)"],
+      "answer": 0,
+      "ruleTag": "-mos = nosotros (wir)",
+      "expl": "Die Endung -mos gibt es nur bei nosotros, also wohnen wir dort."
+    },
+    {
+      "id": "presente-5",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Bebéis mucha agua.",
+      "q": "Wer trinkt viel Wasser?",
+      "options": ["ihr", "wir", "sie (Plural)"],
+      "answer": 0,
+      "ruleTag": "-éis = vosotros (ihr)",
+      "expl": "Die Endungen -áis/-éis/-ís gehören zu vosotros, also trinkt ihr viel Wasser."
+    },
+    {
+      "id": "presente-6",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Estudian español en la escuela.",
+      "q": "Wer lernt hier Spanisch?",
+      "options": ["er/sie", "sie (Plural)", "du"],
+      "answer": 1,
+      "ruleTag": "-an = ellos (sie, Plural)",
+      "expl": "Die Endung -an steht für ellos/ellas, also lernen mehrere Leute Spanisch."
+    },
+    {
+      "id": "presente-7",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Tengo dos hermanos.",
+      "q": "Wer hat zwei Geschwister?",
+      "options": ["ich", "du", "er/sie"],
+      "answer": 0,
+      "ruleTag": "tengo = yo (unregelmäßig)",
+      "expl": "tener hat die unregelmäßige yo-Form tengo, das -o verrät dir trotzdem sofort ich."
+    },
+    {
+      "id": "presente-8",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "¿Puedes venir mañana?",
+      "q": "Wer kann morgen kommen?",
+      "options": ["du", "ihr", "er/sie"],
+      "answer": 0,
+      "ruleTag": "o->ue + -es = tú",
+      "expl": "Der Stamm wechselt zu pued-, aber die Endung -es zeigt klar tú, also bist du gefragt."
+    },
+    {
+      "id": "presente-9",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Nosotros ___ en un restaurante.",
+      "options": ["comen", "comemos"],
+      "answer": 1,
+      "ruleTag": "nosotros = -amos/-emos/-imos",
+      "expl": "Zu nosotros passt nur die Endung -emos, comen wäre ellos."
+    },
+    {
+      "id": "presente-10",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Yo ___ en una oficina.",
+      "options": ["trabajo", "trabajas"],
+      "answer": 0,
+      "ruleTag": "-o = yo",
+      "expl": "Nach yo brauchst du die Endung -o, trabajas wäre tú."
+    },
+    {
+      "id": "presente-11",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "¿Tú ___ alemán?",
+      "options": ["habláis", "hablas"],
+      "answer": 1,
+      "ruleTag": "tú = -as",
+      "expl": "tú bekommt -as, habláis gehört zu vosotros."
+    },
+    {
+      "id": "presente-12",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Vosotros ___ mucho café.",
+      "options": ["bebéis", "bebemos"],
+      "answer": 0,
+      "ruleTag": "vosotros = -éis",
+      "expl": "vosotros hat bei -er-Verben die Endung -éis, bebemos wäre nosotros."
+    },
+    {
+      "id": "presente-13",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Ella ___ en Barcelona.",
+      "options": ["vives", "vive"],
+      "answer": 1,
+      "ruleTag": "él/ella = -e",
+      "expl": "ella braucht vive ohne -s, vives wäre tú."
+    },
+    {
+      "id": "presente-14",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Ellos ___ la televisión por la noche.",
+      "options": ["ven", "ve"],
+      "answer": 0,
+      "ruleTag": "ellos = -en",
+      "expl": "Bei mehreren Personen brauchst du ven, ve wäre nur él oder ella."
+    },
+    {
+      "id": "presente-15",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Yo ___ ir al cine.",
+      "options": ["quieres", "quiero"],
+      "answer": 1,
+      "ruleTag": "querer -> quiero (e->ie)",
+      "expl": "Der Stamm wechselt zu quier-, und nach yo endet es auf -o."
+    },
+    {
+      "id": "presente-16",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Nosotros no ___ venir hoy.",
+      "options": ["podemos", "puedemos"],
+      "answer": 0,
+      "ruleTag": "o->ue nicht bei nosotros",
+      "expl": "Bei nosotros bleibt der Stamm pod-, der Wechsel zu ue passiert hier nie."
+    },
+    {
+      "id": "presente-17",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Yo siempre ___ la verdad.",
+      "options": ["decimos", "digo"],
+      "answer": 1,
+      "ruleTag": "decir -> digo (yo)",
+      "expl": "decir hat die unregelmäßige yo-Form digo, decimos wäre wir."
+    },
+    {
+      "id": "presente-18",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Yo ___ al trabajo en bicicleta.",
+      "options": ["voy", "vas"],
+      "answer": 0,
+      "ruleTag": "ir: voy, vas, va...",
+      "expl": "ir ist komplett unregelmäßig, yo heißt voy und vas wäre du."
+    },
+    {
+      "id": "presente-19",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Yo no ___ tiempo hoy.",
+      "hint": "(tener, yo)",
+      "answers": ["tengo"],
+      "ruleTag": "tener -> tengo (yo)",
+      "expl": "Die yo-Form von tener ist unregelmäßig: tengo."
+    },
+    {
+      "id": "presente-20",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Nosotros ___ español en clase.",
+      "hint": "(hablar, nosotros)",
+      "answers": ["hablamos"],
+      "ruleTag": "-ar + nosotros = -amos",
+      "expl": "hablar verliert das -ar und bekommt bei nosotros die Endung -amos."
+    },
+    {
+      "id": "presente-21",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "¿Vosotros ___ en Madrid?",
+      "hint": "(vivir, vosotros)",
+      "answers": ["vivís", "vivis"],
+      "ruleTag": "-ir + vosotros = -ís",
+      "expl": "Bei -ir-Verben endet vosotros auf -ís, also vivís mit Akzent."
+    },
+    {
+      "id": "presente-22",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Ella ___ ocho horas cada noche.",
+      "hint": "(dormir, ella)",
+      "answers": ["duerme"],
+      "ruleTag": "dormir -> duerme (o->ue)",
+      "expl": "Der Stamm wechselt von o zu ue, dazu kommt die ella-Endung -e."
+    },
+    {
+      "id": "presente-23",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Yo ___ la comida los domingos.",
+      "hint": "(hacer, yo)",
+      "answers": ["hago"],
+      "ruleTag": "hacer -> hago (yo)",
+      "expl": "hacer hat die unregelmäßige yo-Form hago, alle anderen Formen sind normal."
+    },
+    {
+      "id": "presente-24",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Ellos ___ mucho los fines de semana.",
+      "hint": "(trabajar, ellos)",
+      "answers": ["trabajan"],
+      "ruleTag": "-ar + ellos = -an",
+      "expl": "Für ellos hängst du bei -ar-Verben die Endung -an an den Stamm."
+    },
+    {
+      "id": "presente-25",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Yo ___ de casa muy temprano.",
+      "hint": "(salir, yo)",
+      "answers": ["salgo"],
+      "ruleTag": "salir -> salgo (yo)",
+      "expl": "Wie bei tengo schiebt sich hier ein g ein: salgo."
+    },
+    {
+      "id": "presente-26",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "¿Tú ___ un café con leche?",
+      "hint": "(querer, tú)",
+      "answers": ["quieres"],
+      "ruleTag": "querer -> quieres (e->ie)",
+      "expl": "Der Stamm wird quier-, und tú bekommt die Endung -es."
+    },
+    {
+      "id": "presente-27",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Nosotros no ___ ir al cine hoy.",
+      "hint": "(poder, nosotros)",
+      "answers": ["podemos"],
+      "ruleTag": "poder: nosotros ohne ue",
+      "expl": "Bei nosotros bleibt der Stamm pod-, deshalb heißt es podemos und nicht puedemos."
+    },
+    {
+      "id": "presente-28",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Yo ___ en casa ahora.",
+      "hint": "(estar, yo)",
+      "answers": ["estoy"],
+      "ruleTag": "estar -> estoy (yo)",
+      "expl": "Die yo-Form von estar ist estoy — ohne Akzent, anders als estás, está, estáis, están."
+    },
+    {
+      "id": "presente-29",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Yo ___ profesor de música.",
+      "hint": "(ser, yo)",
+      "answers": ["soy"],
+      "ruleTag": "ser -> soy (yo)",
+      "expl": "ser ist völlig unregelmäßig, die yo-Form lautet soy."
+    },
+    {
+      "id": "presente-30",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Ellos ___ al parque los domingos.",
+      "hint": "(ir, ellos)",
+      "answers": ["van"],
+      "ruleTag": "ir -> van (ellos)",
+      "expl": "ir heißt voy, vas, va, vamos, vais, van — für ellos also van."
+    }
+  ]
+}

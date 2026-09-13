@@ -1,0 +1,329 @@
+{
+  "id": "pasado",
+  "title": "Pretérito vs. Imperfecto",
+  "rule": {
+    "lines": [
+      "Pretérito = abgeschlossen, einmalig, Handlungskette: hablé, comí, viví.",
+      "Imperfecto = Hintergrund, Gewohnheit, andauernd: hablaba, comía, vivía.",
+      "Signalwörter: ayer, el lunes, el año pasado → Pretérito; antes, siempre, todos los días → Imperfecto.",
+      "Unregelmäßig im Pretérito: fui/fue (ser + ir), tuve, hice, dijo.",
+      "Im Imperfecto nur drei unregelmäßig: era, iba, veía."
+    ],
+    "examples": [
+      { "es": "Ayer fui al cine.", "de": "Gestern ging ich ins Kino." },
+      { "es": "De niño iba al cine cada domingo.", "de": "Als Kind ging ich jeden Sonntag ins Kino." },
+      { "es": "Hacía frío y no había gente en la calle.", "de": "Es war kalt und es waren keine Leute auf der Straße." },
+      { "es": "Ana tuvo un accidente el lunes.", "de": "Ana hatte am Montag einen Unfall." }
+    ]
+  },
+  "items": [
+    {
+      "id": "pasado-1",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Trabajaba en Madrid.",
+      "q": "Wie ist die Handlung gemeint?",
+      "options": ["gewohnheitsmäßig / andauernd", "einmalig und abgeschlossen"],
+      "answer": 0,
+      "ruleTag": "Imperfecto = Hintergrund/Gewohnheit",
+      "expl": "Die Endung -aba zeigt Imperfecto: er oder sie arbeitete damals eine Zeit lang dort, ohne klares Ende."
+    },
+    {
+      "id": "pasado-2",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Trabajé en Madrid.",
+      "q": "Wie ist die Handlung gemeint?",
+      "options": ["gewohnheitsmäßig / andauernd", "einmalig und abgeschlossen"],
+      "answer": 1,
+      "ruleTag": "Pretérito = abgeschlossen",
+      "expl": "trabajé ist Pretérito: die Zeit in Madrid wird als abgeschlossener Abschnitt mit Anfang und Ende gesehen."
+    },
+    {
+      "id": "pasado-3",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Comimos en un restaurante.",
+      "q": "Wie ist die Handlung gemeint?",
+      "options": ["ein einmaliges, abgeschlossenes Ereignis", "eine Gewohnheit in der Vergangenheit"],
+      "answer": 0,
+      "ruleTag": "Pretérito = einmalig",
+      "expl": "comimos ist die wir-Form im Pretérito: wir haben dort einmal gegessen, und die Handlung ist beendet."
+    },
+    {
+      "id": "pasado-4",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Comíamos en un restaurante.",
+      "q": "Wie ist die Handlung gemeint?",
+      "options": ["ein einmaliges, abgeschlossenes Ereignis", "eine Gewohnheit in der Vergangenheit"],
+      "answer": 1,
+      "ruleTag": "Imperfecto = Gewohnheit",
+      "expl": "comíamos ist die wir-Form im Imperfecto: wir haben damals regelmäßig dort gegessen."
+    },
+    {
+      "id": "pasado-5",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Vivía cerca del mar.",
+      "q": "Was drückt der Satz aus?",
+      "options": ["einen andauernden Zustand früher", "einen einmaligen Moment", "eine Handlungskette"],
+      "answer": 0,
+      "ruleTag": "Imperfecto = Zustand/andauernd",
+      "expl": "vivía ist Imperfecto: das Wohnen am Meer war ein Zustand, der eine Weile gedauert hat."
+    },
+    {
+      "id": "pasado-6",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Escribió una carta y salió de casa.",
+      "q": "Was drückt der Satz aus?",
+      "options": ["eine Beschreibung im Hintergrund", "zwei abgeschlossene Handlungen nacheinander"],
+      "answer": 1,
+      "ruleTag": "Pretérito = Handlungskette",
+      "expl": "escribió und salió sind Pretérito: erst passiert das eine, dann das andere – eine Handlungskette."
+    },
+    {
+      "id": "pasado-7",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Hacía frío y no había gente.",
+      "q": "Welche Rolle hat der Satz in einer Geschichte?",
+      "options": ["er beschreibt den Hintergrund", "er erzählt das Hauptereignis"],
+      "answer": 0,
+      "ruleTag": "Imperfecto = Kulisse",
+      "expl": "hacía und había sind Imperfecto: sie malen die Kulisse, in der die Geschichte passiert."
+    },
+    {
+      "id": "pasado-8",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Mi hermano fue a la playa.",
+      "q": "Wie ist die Handlung gemeint?",
+      "options": ["er ging früher immer dorthin", "er ging einmal dorthin, abgeschlossen"],
+      "answer": 1,
+      "ruleTag": "fue = Pretérito von ir",
+      "expl": "fue ist Pretérito von ir: ein einzelner, abgeschlossener Ausflug, keine Gewohnheit."
+    },
+    {
+      "id": "pasado-9",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Ayer ___ al cine con mi hermano.",
+      "options": ["fui", "iba"],
+      "answer": 0,
+      "ruleTag": "ayer = Pretérito",
+      "expl": "ayer grenzt die Handlung auf einen vergangenen Tag ein: ein einmaliger, beendeter Kinobesuch, deshalb fui."
+    },
+    {
+      "id": "pasado-10",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "De niño ___ al parque todos los días.",
+      "options": ["fui", "iba"],
+      "answer": 1,
+      "ruleTag": "todos los días = Imperfecto",
+      "expl": "todos los días macht daraus eine Gewohnheit in der Kindheit, deshalb iba."
+    },
+    {
+      "id": "pasado-11",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Ayer Pedro ___ un accidente con el coche.",
+      "options": ["tuvo", "tenía"],
+      "answer": 0,
+      "ruleTag": "tuvo = bekam (einmalig)",
+      "expl": "Ein Unfall passiert in einem Moment: tuvo heißt hier bekam und nicht besaß über längere Zeit."
+    },
+    {
+      "id": "pasado-12",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Antes mi familia ___ una casa en el campo.",
+      "options": ["tuvo", "tenía"],
+      "answer": 1,
+      "ruleTag": "antes = Imperfecto",
+      "expl": "antes zeigt einen Zustand über längere Zeit: die Familie besaß damals ein Haus, also tenía."
+    },
+    {
+      "id": "pasado-13",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Ayer Marta ___ a mi hermano en la fiesta.",
+      "options": ["conoció", "conocía"],
+      "answer": 0,
+      "ruleTag": "conoció = lernte kennen",
+      "expl": "conocer im Pretérito heißt kennenlernen: Marta hat meinen Bruder gestern zum ersten Mal getroffen. conocía würde bedeuten, dass sie ihn schon vorher kannte."
+    },
+    {
+      "id": "pasado-14",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "De pequeña siempre ___ ser médica.",
+      "options": ["quiso", "quería"],
+      "answer": 1,
+      "ruleTag": "siempre = Imperfecto",
+      "expl": "siempre zeigt einen Wunsch, der über Jahre andauerte, deshalb quería; quiso würde einen einzelnen Moment meinen."
+    },
+    {
+      "id": "pasado-15",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "La semana pasada ___ mi cumpleaños.",
+      "options": ["fue", "era"],
+      "answer": 0,
+      "ruleTag": "Termin/Ereignis = fue",
+      "expl": "Ein Geburtstag ist ein Ereignis an einem festen Tag, deshalb fue."
+    },
+    {
+      "id": "pasado-16",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Mi abuela ___ muy alegre y cantaba mucho.",
+      "options": ["fue", "era"],
+      "answer": 1,
+      "ruleTag": "Beschreibung = era",
+      "expl": "Der Satz beschreibt, wie die Oma war: eine Eigenschaft über lange Zeit, also era."
+    },
+    {
+      "id": "pasado-17",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Cuando era joven, mi padre ___ mucha fruta.",
+      "options": ["comió", "comía"],
+      "answer": 1,
+      "ruleTag": "Gewohnheit = Imperfecto",
+      "expl": "Cuando era joven zeigt eine lange Phase mit einer Gewohnheit, deshalb comía."
+    },
+    {
+      "id": "pasado-18",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Anoche Luis ___ un correo a su jefe.",
+      "options": ["escribió", "escribía"],
+      "answer": 0,
+      "ruleTag": "anoche = Pretérito",
+      "expl": "anoche zeigt eine einzelne, fertige Handlung gestern Abend, deshalb escribió."
+    },
+    {
+      "id": "pasado-19",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Ayer ___ al cine.",
+      "hint": "(ir, yo)",
+      "answers": ["fui"],
+      "ruleTag": "ayer = Pretérito",
+      "expl": "ir ist im Pretérito unregelmäßig: yo fui, wie bei ser."
+    },
+    {
+      "id": "pasado-20",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Antes ___ en Sevilla.",
+      "hint": "(vivir, nosotros)",
+      "answers": ["vivíamos", "viviamos"],
+      "ruleTag": "antes = Imperfecto",
+      "expl": "antes zeigt einen früheren Dauerzustand: -ir-Verben bekommen im Imperfecto -íamos."
+    },
+    {
+      "id": "pasado-21",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "El año pasado ___ a México.",
+      "hint": "(viajar, ellos)",
+      "answers": ["viajaron"],
+      "ruleTag": "el año pasado = Pretérito",
+      "expl": "Die Reise ist abgeschlossen: -ar-Verben enden in der 3. Person Plural auf -aron."
+    },
+    {
+      "id": "pasado-22",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Cuando era niña, ___ mucho chocolate.",
+      "hint": "(comer, yo)",
+      "answers": ["comía", "comia"],
+      "ruleTag": "Kindheit = Imperfecto",
+      "expl": "Das war eine Gewohnheit in der Kindheit: -er-Verben enden im Imperfecto auf -ía."
+    },
+    {
+      "id": "pasado-23",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Anoche ___ la cena para todos.",
+      "hint": "(hacer, yo)",
+      "answers": ["hice"],
+      "ruleTag": "hacer → hice",
+      "expl": "hacer ist im Pretérito unregelmäßig und ohne Akzent: yo hice."
+    },
+    {
+      "id": "pasado-24",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Ayer Ana ___ la verdad.",
+      "hint": "(decir, ella)",
+      "answers": ["dijo"],
+      "ruleTag": "decir → dijo",
+      "expl": "decir hat im Pretérito den Stamm dij-: él/ella dijo."
+    },
+    {
+      "id": "pasado-25",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "De niño ___ la tele cada tarde.",
+      "hint": "(ver, yo)",
+      "answers": ["veía", "veia"],
+      "ruleTag": "ver → veía",
+      "expl": "cada tarde zeigt eine Gewohnheit, und ver ist eines der drei unregelmäßigen Imperfecto-Verben: veía."
+    },
+    {
+      "id": "pasado-26",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Anoche ___ un sueño muy raro.",
+      "hint": "(tener, yo)",
+      "answers": ["tuve"],
+      "ruleTag": "tener → tuve",
+      "expl": "Ein Traum ist ein einmaliges Ereignis in der Nacht, also Pretérito: tener wird unregelmäßig zu yo tuve."
+    },
+    {
+      "id": "pasado-27",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Cuando ___ joven, tocaba la guitarra.",
+      "hint": "(ser, yo)",
+      "answers": ["era"],
+      "ruleTag": "ser → era",
+      "expl": "Das ist eine Beschreibung im Hintergrund: ser im Imperfecto ist yo era."
+    },
+    {
+      "id": "pasado-28",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Ayer los niños ___ con el profesor.",
+      "hint": "(hablar, ellos)",
+      "answers": ["hablaron"],
+      "ruleTag": "ayer = Pretérito",
+      "expl": "Ein einmaliges Gespräch gestern: -ar-Verben enden hier auf -aron."
+    },
+    {
+      "id": "pasado-29",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Ayer ___ una carta a mi madre.",
+      "hint": "(escribir, yo)",
+      "answers": ["escribí", "escribi"],
+      "ruleTag": "-ir im Pretérito = -í",
+      "expl": "Die Handlung ist fertig: -ir-Verben enden in der ich-Form auf -í."
+    },
+    {
+      "id": "pasado-30",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Aquel día ___ mucho frío y llovía.",
+      "hint": "(hacer, unpersönlich)",
+      "answers": ["hacía", "hacia"],
+      "ruleTag": "Wetter als Kulisse = Imperfecto",
+      "expl": "Das Wetter ist hier Hintergrund neben llovía, deshalb hacía statt hizo."
+    }
+  ]
+}

@@ -1,0 +1,1002 @@
+[
+  {
+    "r": 1359,
+    "es": "imbécil",
+    "pos": "noun-m",
+    "de": "Idiot; Dummkopf",
+    "ej": {
+      "es": "No seas imbécil, por favor.",
+      "de": "Sei kein Idiot, bitte."
+    }
+  },
+  {
+    "r": 1364,
+    "es": "justicia",
+    "pos": "noun-f",
+    "de": "Gerechtigkeit; Justiz",
+    "ej": {
+      "es": "Queremos justicia para todos.",
+      "de": "Wir wollen Gerechtigkeit für alle."
+    }
+  },
+  {
+    "r": 1366,
+    "es": "obviamente",
+    "pos": "adv",
+    "de": "offensichtlich; natürlich",
+    "ej": {
+      "es": "Obviamente, tienes razón.",
+      "de": "Offensichtlich hast du recht."
+    }
+  },
+  {
+    "r": 1367,
+    "es": "despertar",
+    "pos": "verb",
+    "de": "wecken; aufwachen (despertarse)",
+    "ej": {
+      "es": "Me despierto a las siete.",
+      "de": "Ich wache um sieben Uhr auf."
+    }
+  },
+  {
+    "r": 1369,
+    "es": "calor",
+    "pos": "noun-m",
+    "de": "Wärme; Hitze",
+    "ej": {
+      "es": "Hoy hace mucho calor.",
+      "de": "Heute ist es sehr heiß."
+    }
+  },
+  {
+    "r": 1371,
+    "es": "referir",
+    "pos": "verb",
+    "de": "verweisen; sich beziehen (referirse a)",
+    "ej": {
+      "es": "¿A qué te refieres?",
+      "de": "Worauf beziehst du dich?"
+    }
+  },
+  {
+    "r": 1373,
+    "es": "batalla",
+    "pos": "noun-f",
+    "de": "Schlacht",
+    "ej": {
+      "es": "La batalla duró tres días.",
+      "de": "Die Schlacht dauerte drei Tage."
+    }
+  },
+  {
+    "r": 1377,
+    "es": "fantástico",
+    "pos": "adj",
+    "de": "fantastisch; großartig",
+    "ej": {
+      "es": "¡Qué idea tan fantástica!",
+      "de": "Was für eine fantastische Idee!"
+    }
+  },
+  {
+    "r": 1378,
+    "es": "brazo",
+    "pos": "noun-m",
+    "de": "Arm",
+    "ej": {
+      "es": "Me duele el brazo derecho.",
+      "de": "Mein rechter Arm tut weh."
+    }
+  },
+  {
+    "r": 1379,
+    "es": "absolutamente",
+    "pos": "adv",
+    "de": "absolut; völlig",
+    "ej": {
+      "es": "Estoy absolutamente seguro.",
+      "de": "Ich bin absolut sicher."
+    }
+  },
+  {
+    "r": 1384,
+    "es": "escapar",
+    "pos": "verb",
+    "de": "entkommen; flüchten",
+    "ej": {
+      "es": "El perro escapó del jardín.",
+      "de": "Der Hund entkam aus dem Garten."
+    }
+  },
+  {
+    "r": 1385,
+    "es": "bosque",
+    "pos": "noun-m",
+    "de": "Wald",
+    "ej": {
+      "es": "Caminamos por el bosque.",
+      "de": "Wir gingen durch den Wald."
+    }
+  },
+  {
+    "r": 1386,
+    "es": "gay",
+    "pos": "adj",
+    "de": "schwul",
+    "ej": {
+      "es": "Mi vecino es gay.",
+      "de": "Mein Nachbar ist schwul."
+    }
+  },
+  {
+    "r": 1389,
+    "es": "pierna",
+    "pos": "noun-f",
+    "de": "Bein",
+    "ej": {
+      "es": "Se rompió la pierna.",
+      "de": "Er hat sich das Bein gebrochen."
+    }
+  },
+  {
+    "r": 1390,
+    "es": "visita",
+    "pos": "noun-f",
+    "de": "Besuch",
+    "ej": {
+      "es": "Mañana tenemos visita en casa.",
+      "de": "Morgen haben wir Besuch zu Hause."
+    }
+  },
+  {
+    "r": 1394,
+    "es": "movimiento",
+    "pos": "noun-m",
+    "de": "Bewegung",
+    "ej": {
+      "es": "No hagas ningún movimiento.",
+      "de": "Mach keine Bewegung."
+    }
+  },
+  {
+    "r": 1396,
+    "es": "rico",
+    "pos": "adj",
+    "de": "reich; lecker",
+    "ej": {
+      "es": "Este pastel está muy rico.",
+      "de": "Dieser Kuchen ist sehr lecker."
+    }
+  },
+  {
+    "r": 1397,
+    "es": "inocente",
+    "pos": "adj",
+    "de": "unschuldig",
+    "ej": {
+      "es": "Yo soy inocente, señor.",
+      "de": "Ich bin unschuldig, mein Herr."
+    }
+  },
+  {
+    "r": 1398,
+    "es": "pesar",
+    "pos": "verb",
+    "de": "wiegen",
+    "ej": {
+      "es": "La maleta pesa mucho.",
+      "de": "Der Koffer wiegt viel."
+    }
+  },
+  {
+    "r": 1399,
+    "es": "absoluto",
+    "pos": "adj",
+    "de": "absolut; vollkommen",
+    "ej": {
+      "es": "Necesito silencio absoluto.",
+      "de": "Ich brauche absolute Stille."
+    }
+  },
+  {
+    "r": 1400,
+    "es": "vacaciones",
+    "pos": "noun-f",
+    "de": "Ferien; Urlaub",
+    "ej": {
+      "es": "Estamos de vacaciones en España.",
+      "de": "Wir sind im Urlaub in Spanien."
+    }
+  },
+  {
+    "r": 1406,
+    "es": "cine",
+    "pos": "noun-m",
+    "de": "Kino",
+    "ej": {
+      "es": "Vamos al cine esta noche.",
+      "de": "Wir gehen heute Abend ins Kino."
+    }
+  },
+  {
+    "r": 1408,
+    "es": "brillante",
+    "pos": "adj",
+    "de": "glänzend; brillant",
+    "ej": {
+      "es": "Tuviste una idea brillante.",
+      "de": "Du hattest eine brillante Idee."
+    }
+  },
+  {
+    "r": 1409,
+    "es": "confianza",
+    "pos": "noun-f",
+    "de": "Vertrauen",
+    "ej": {
+      "es": "Tengo confianza en ti.",
+      "de": "Ich habe Vertrauen zu dir."
+    }
+  },
+  {
+    "r": 1410,
+    "es": "vuestro",
+    "pos": "adj",
+    "de": "euer",
+    "ej": {
+      "es": "¿Dónde está vuestro coche?",
+      "de": "Wo ist euer Auto?"
+    }
+  },
+  {
+    "r": 1412,
+    "es": "especialmente",
+    "pos": "adv",
+    "de": "besonders",
+    "ej": {
+      "es": "Me gusta especialmente el verano.",
+      "de": "Mir gefällt besonders der Sommer."
+    }
+  },
+  {
+    "r": 1414,
+    "es": "embarazada",
+    "pos": "adj",
+    "de": "schwanger",
+    "ej": {
+      "es": "Mi hermana está embarazada.",
+      "de": "Meine Schwester ist schwanger."
+    }
+  },
+  {
+    "r": 1416,
+    "es": "pantalón",
+    "pos": "noun-m",
+    "de": "Hose",
+    "ej": {
+      "es": "Este pantalón es muy grande.",
+      "de": "Diese Hose ist sehr groß."
+    }
+  },
+  {
+    "r": 1417,
+    "es": "defensa",
+    "pos": "noun-f",
+    "de": "Verteidigung",
+    "ej": {
+      "es": "Hablé en mi defensa.",
+      "de": "Ich sprach zu meiner Verteidigung."
+    }
+  },
+  {
+    "r": 1420,
+    "es": "estupendo",
+    "pos": "adj",
+    "de": "großartig; toll",
+    "ej": {
+      "es": "¡Qué día tan estupendo!",
+      "de": "Was für ein großartiger Tag!"
+    }
+  },
+  {
+    "r": 1422,
+    "es": "presión",
+    "pos": "noun-f",
+    "de": "Druck",
+    "ej": {
+      "es": "Trabajo bajo mucha presión.",
+      "de": "Ich arbeite unter großem Druck."
+    }
+  },
+  {
+    "r": 1423,
+    "es": "inmediatamente",
+    "pos": "adv",
+    "de": "sofort",
+    "ej": {
+      "es": "Ven aquí inmediatamente.",
+      "de": "Komm sofort her."
+    }
+  },
+  {
+    "r": 1424,
+    "es": "testigo",
+    "pos": "noun-m",
+    "de": "Zeuge",
+    "ej": {
+      "es": "El testigo dijo la verdad.",
+      "de": "Der Zeuge sagte die Wahrheit."
+    }
+  },
+  {
+    "r": 1426,
+    "es": "olvidar",
+    "pos": "verb",
+    "de": "vergessen",
+    "ej": {
+      "es": "Olvidé las llaves en casa.",
+      "de": "Ich habe die Schlüssel zu Hause vergessen."
+    }
+  },
+  {
+    "r": 1427,
+    "es": "soldado",
+    "pos": "noun-m",
+    "de": "Soldat",
+    "ej": {
+      "es": "Mi tío fue soldado.",
+      "de": "Mein Onkel war Soldat."
+    }
+  },
+  {
+    "r": 1428,
+    "es": "resultar",
+    "pos": "verb",
+    "de": "sich erweisen; sich ergeben",
+    "ej": {
+      "es": "El examen resultó fácil.",
+      "de": "Die Prüfung erwies sich als leicht."
+    }
+  },
+  {
+    "r": 1430,
+    "es": "depender",
+    "pos": "verb",
+    "de": "abhängen",
+    "ej": {
+      "es": "Todo depende del tiempo.",
+      "de": "Alles hängt vom Wetter ab."
+    }
+  },
+  {
+    "r": 1431,
+    "es": "motivo",
+    "pos": "noun-m",
+    "de": "Grund; Motiv",
+    "ej": {
+      "es": "No hay motivo para llorar.",
+      "de": "Es gibt keinen Grund zu weinen."
+    }
+  },
+  {
+    "r": 1432,
+    "es": "inglés",
+    "pos": "adj",
+    "de": "englisch",
+    "ej": {
+      "es": "Tengo un amigo inglés.",
+      "de": "Ich habe einen englischen Freund."
+    }
+  },
+  {
+    "r": 1434,
+    "es": "estudio",
+    "pos": "noun-m",
+    "de": "Studie; Studio",
+    "ej": {
+      "es": "Este estudio es muy interesante.",
+      "de": "Diese Studie ist sehr interessant."
+    }
+  },
+  {
+    "r": 1436,
+    "es": "sentimiento",
+    "pos": "noun-m",
+    "de": "Gefühl",
+    "ej": {
+      "es": "Es un sentimiento muy bonito.",
+      "de": "Es ist ein sehr schönes Gefühl."
+    }
+  },
+  {
+    "r": 1442,
+    "es": "propósito",
+    "pos": "noun-m",
+    "de": "Absicht; Zweck",
+    "ej": {
+      "es": "¿Cuál es el propósito?",
+      "de": "Was ist der Zweck?"
+    }
+  },
+  {
+    "r": 1444,
+    "es": "partir",
+    "pos": "verb",
+    "de": "abfahren; teilen",
+    "ej": {
+      "es": "El tren parte a las ocho.",
+      "de": "Der Zug fährt um acht Uhr ab."
+    }
+  },
+  {
+    "r": 1446,
+    "es": "metro",
+    "pos": "noun-m",
+    "de": "Meter; U-Bahn",
+    "ej": {
+      "es": "Voy al trabajo en metro.",
+      "de": "Ich fahre mit der U-Bahn zur Arbeit."
+    }
+  },
+  {
+    "r": 1452,
+    "es": "ridículo",
+    "pos": "adj",
+    "de": "lächerlich",
+    "ej": {
+      "es": "Ese sombrero es ridículo.",
+      "de": "Dieser Hut ist lächerlich."
+    }
+  },
+  {
+    "r": 1453,
+    "es": "dama",
+    "pos": "noun-f",
+    "de": "Dame",
+    "ej": {
+      "es": "La dama llevaba un vestido rojo.",
+      "de": "Die Dame trug ein rotes Kleid."
+    }
+  },
+  {
+    "r": 1456,
+    "es": "operación",
+    "pos": "noun-f",
+    "de": "Operation",
+    "ej": {
+      "es": "La operación fue un éxito.",
+      "de": "Die Operation war ein Erfolg."
+    }
+  },
+  {
+    "r": 1458,
+    "es": "empresa",
+    "pos": "noun-f",
+    "de": "Firma; Unternehmen",
+    "ej": {
+      "es": "Trabajo en una empresa grande.",
+      "de": "Ich arbeite in einer großen Firma."
+    }
+  },
+  {
+    "r": 1460,
+    "es": "laboratorio",
+    "pos": "noun-m",
+    "de": "Labor",
+    "ej": {
+      "es": "Mi hermano trabaja en un laboratorio.",
+      "de": "Mein Bruder arbeitet in einem Labor."
+    }
+  },
+  {
+    "r": 1461,
+    "es": "elección",
+    "pos": "noun-f",
+    "de": "Wahl",
+    "ej": {
+      "es": "Fue una buena elección.",
+      "de": "Es war eine gute Wahl."
+    }
+  },
+  {
+    "r": 1462,
+    "es": "menudo",
+    "pos": "adv",
+    "de": "oft (a menudo)",
+    "ej": {
+      "es": "A menudo voy al cine.",
+      "de": "Ich gehe oft ins Kino."
+    }
+  },
+  {
+    "r": 1463,
+    "es": "beso",
+    "pos": "noun-m",
+    "de": "Kuss",
+    "ej": {
+      "es": "Le dio un beso a su madre.",
+      "de": "Sie gab ihrer Mutter einen Kuss."
+    }
+  },
+  {
+    "r": 1464,
+    "es": "copa",
+    "pos": "noun-f",
+    "de": "Glas; Pokal",
+    "ej": {
+      "es": "¿Quieres una copa de vino?",
+      "de": "Möchtest du ein Glas Wein?"
+    }
+  },
+  {
+    "r": 1465,
+    "es": "conversación",
+    "pos": "noun-f",
+    "de": "Gespräch; Unterhaltung",
+    "ej": {
+      "es": "Tuvimos una conversación larga.",
+      "de": "Wir hatten ein langes Gespräch."
+    }
+  },
+  {
+    "r": 1467,
+    "es": "espíritu",
+    "pos": "noun-m",
+    "de": "Geist",
+    "ej": {
+      "es": "Tiene un espíritu joven.",
+      "de": "Er hat einen jungen Geist."
+    }
+  },
+  {
+    "r": 1469,
+    "es": "cansado",
+    "pos": "adj",
+    "de": "müde",
+    "ej": {
+      "es": "Estoy muy cansado hoy.",
+      "de": "Ich bin heute sehr müde."
+    }
+  },
+  {
+    "r": 1470,
+    "es": "interesar",
+    "pos": "verb",
+    "de": "interessieren",
+    "ej": {
+      "es": "Me interesa mucho la música.",
+      "de": "Musik interessiert mich sehr."
+    }
+  },
+  {
+    "r": 1472,
+    "es": "casado",
+    "pos": "adj",
+    "de": "verheiratet",
+    "ej": {
+      "es": "Está casado con una española.",
+      "de": "Er ist mit einer Spanierin verheiratet."
+    }
+  },
+  {
+    "r": 1473,
+    "es": "enorme",
+    "pos": "adj",
+    "de": "riesig; enorm",
+    "ej": {
+      "es": "La casa es enorme.",
+      "de": "Das Haus ist riesig."
+    }
+  },
+  {
+    "r": 1475,
+    "es": "fe",
+    "pos": "noun-f",
+    "de": "Glaube",
+    "ej": {
+      "es": "Tiene mucha fe en Dios.",
+      "de": "Er hat großen Glauben an Gott."
+    }
+  },
+  {
+    "r": 1476,
+    "es": "mostrar",
+    "pos": "verb",
+    "de": "zeigen",
+    "ej": {
+      "es": "Te muestro mi casa nueva.",
+      "de": "Ich zeige dir mein neues Haus."
+    }
+  },
+  {
+    "r": 1477,
+    "es": "trampa",
+    "pos": "noun-f",
+    "de": "Falle",
+    "ej": {
+      "es": "¡Cuidado, es una trampa!",
+      "de": "Vorsicht, das ist eine Falle!"
+    }
+  },
+  {
+    "r": 1480,
+    "es": "memoria",
+    "pos": "noun-f",
+    "de": "Gedächtnis; Erinnerung",
+    "ej": {
+      "es": "Tengo muy buena memoria.",
+      "de": "Ich habe ein sehr gutes Gedächtnis."
+    }
+  },
+  {
+    "r": 1482,
+    "es": "contrario",
+    "pos": "adj",
+    "de": "entgegengesetzt; gegenteilig",
+    "ej": {
+      "es": "Vamos en dirección contraria.",
+      "de": "Wir fahren in die entgegengesetzte Richtung."
+    }
+  },
+  {
+    "r": 1484,
+    "es": "subir",
+    "pos": "verb",
+    "de": "hinaufgehen; steigen",
+    "ej": {
+      "es": "Subimos las escaleras rápido.",
+      "de": "Wir gehen schnell die Treppe hinauf."
+    }
+  },
+  {
+    "r": 1485,
+    "es": "turno",
+    "pos": "noun-m",
+    "de": "Reihe; Schicht",
+    "ej": {
+      "es": "Es mi turno ahora.",
+      "de": "Jetzt bin ich an der Reihe."
+    }
+  },
+  {
+    "r": 1487,
+    "es": "preocupado",
+    "pos": "adj",
+    "de": "besorgt",
+    "ej": {
+      "es": "Estoy preocupado por ti.",
+      "de": "Ich bin besorgt um dich."
+    }
+  },
+  {
+    "r": 1488,
+    "es": "restaurante",
+    "pos": "noun-m",
+    "de": "Restaurant",
+    "ej": {
+      "es": "Cenamos en un restaurante italiano.",
+      "de": "Wir aßen in einem italienischen Restaurant."
+    }
+  },
+  {
+    "r": 1491,
+    "es": "calmar",
+    "pos": "verb",
+    "de": "beruhigen",
+    "ej": {
+      "es": "Cálmate, todo está bien.",
+      "de": "Beruhige dich, alles ist gut."
+    }
+  },
+  {
+    "r": 1493,
+    "es": "caer",
+    "pos": "verb",
+    "de": "fallen",
+    "ej": {
+      "es": "El vaso cayó al suelo.",
+      "de": "Das Glas fiel auf den Boden."
+    }
+  },
+  {
+    "r": 1495,
+    "es": "leche",
+    "pos": "noun-f",
+    "de": "Milch",
+    "ej": {
+      "es": "Quiero café con leche.",
+      "de": "Ich möchte Kaffee mit Milch."
+    }
+  },
+  {
+    "r": 1497,
+    "es": "preferir",
+    "pos": "verb",
+    "de": "vorziehen; lieber mögen",
+    "ej": {
+      "es": "Prefiero el té al café.",
+      "de": "Ich mag Tee lieber als Kaffee."
+    }
+  },
+  {
+    "r": 1498,
+    "es": "red",
+    "pos": "noun-f",
+    "de": "Netz; Netzwerk",
+    "ej": {
+      "es": "No hay red en el móvil.",
+      "de": "Es gibt kein Netz auf dem Handy."
+    }
+  },
+  {
+    "r": 1500,
+    "es": "solamente",
+    "pos": "adv",
+    "de": "nur",
+    "ej": {
+      "es": "Solamente quiero hablar contigo.",
+      "de": "Ich will nur mit dir sprechen."
+    }
+  },
+  {
+    "r": 1504,
+    "es": "taxi",
+    "pos": "noun-m",
+    "de": "Taxi",
+    "ej": {
+      "es": "Vamos a llamar un taxi.",
+      "de": "Wir rufen ein Taxi."
+    }
+  },
+  {
+    "r": 1505,
+    "es": "anillo",
+    "pos": "noun-m",
+    "de": "Ring",
+    "ej": {
+      "es": "Perdí mi anillo de boda.",
+      "de": "Ich habe meinen Ehering verloren."
+    }
+  },
+  {
+    "r": 1508,
+    "es": "victoria",
+    "pos": "noun-f",
+    "de": "Sieg",
+    "ej": {
+      "es": "Celebramos la victoria del equipo.",
+      "de": "Wir feierten den Sieg der Mannschaft."
+    }
+  },
+  {
+    "r": 1510,
+    "es": "héroe",
+    "pos": "noun-m",
+    "de": "Held",
+    "ej": {
+      "es": "Mi padre es mi héroe.",
+      "de": "Mein Vater ist mein Held."
+    }
+  },
+  {
+    "r": 1512,
+    "es": "decidir",
+    "pos": "verb",
+    "de": "entscheiden",
+    "ej": {
+      "es": "Tienes que decidir ahora.",
+      "de": "Du musst jetzt entscheiden."
+    }
+  },
+  {
+    "r": 1514,
+    "es": "responsable",
+    "pos": "adj",
+    "de": "verantwortlich",
+    "ej": {
+      "es": "Soy responsable de mis hijos.",
+      "de": "Ich bin für meine Kinder verantwortlich."
+    }
+  },
+  {
+    "r": 1515,
+    "es": "trago",
+    "pos": "noun-m",
+    "de": "Schluck; Drink",
+    "ej": {
+      "es": "¿Tomamos un trago juntos?",
+      "de": "Trinken wir einen Drink zusammen?"
+    }
+  },
+  {
+    "r": 1517,
+    "es": "árbol",
+    "pos": "noun-m",
+    "de": "Baum",
+    "ej": {
+      "es": "Hay un árbol en el jardín.",
+      "de": "Im Garten steht ein Baum."
+    }
+  },
+  {
+    "r": 1519,
+    "es": "diente",
+    "pos": "noun-m",
+    "de": "Zahn",
+    "ej": {
+      "es": "Me duele un diente.",
+      "de": "Mir tut ein Zahn weh."
+    }
+  },
+  {
+    "r": 1520,
+    "es": "encantado",
+    "pos": "adj",
+    "de": "erfreut; entzückt",
+    "ej": {
+      "es": "Encantado de conocerte.",
+      "de": "Freut mich, dich kennenzulernen."
+    }
+  },
+  {
+    "r": 1521,
+    "es": "camión",
+    "pos": "noun-m",
+    "de": "Lastwagen; LKW",
+    "ej": {
+      "es": "El camión es muy grande.",
+      "de": "Der Lastwagen ist sehr groß."
+    }
+  },
+  {
+    "r": 1522,
+    "es": "vender",
+    "pos": "verb",
+    "de": "verkaufen",
+    "ej": {
+      "es": "Quiero vender mi coche viejo.",
+      "de": "Ich will mein altes Auto verkaufen."
+    }
+  },
+  {
+    "r": 1524,
+    "es": "detener",
+    "pos": "verb",
+    "de": "anhalten; verhaften",
+    "ej": {
+      "es": "La policía detuvo al ladrón.",
+      "de": "Die Polizei verhaftete den Dieb."
+    }
+  },
+  {
+    "r": 1525,
+    "es": "luchar",
+    "pos": "verb",
+    "de": "kämpfen",
+    "ej": {
+      "es": "Luchamos por nuestros derechos.",
+      "de": "Wir kämpfen für unsere Rechte."
+    }
+  },
+  {
+    "r": 1526,
+    "es": "cabo",
+    "pos": "noun-m",
+    "de": "Ende; Kap",
+    "ej": {
+      "es": "Al cabo de un año volvió.",
+      "de": "Nach einem Jahr kam er zurück."
+    }
+  },
+  {
+    "r": 1527,
+    "es": "ruido",
+    "pos": "noun-m",
+    "de": "Geräusch; Lärm",
+    "ej": {
+      "es": "Los niños hacen mucho ruido.",
+      "de": "Die Kinder machen viel Lärm."
+    }
+  },
+  {
+    "r": 1528,
+    "es": "lucha",
+    "pos": "noun-f",
+    "de": "Kampf",
+    "ej": {
+      "es": "La lucha fue muy dura.",
+      "de": "Der Kampf war sehr hart."
+    }
+  },
+  {
+    "r": 1530,
+    "es": "reloj",
+    "pos": "noun-m",
+    "de": "Uhr",
+    "ej": {
+      "es": "Mi reloj no funciona.",
+      "de": "Meine Uhr funktioniert nicht."
+    }
+  },
+  {
+    "r": 1531,
+    "es": "gato",
+    "pos": "noun-m",
+    "de": "Katze",
+    "ej": {
+      "es": "Mi gato duerme todo el día.",
+      "de": "Meine Katze schläft den ganzen Tag."
+    }
+  },
+  {
+    "r": 1532,
+    "es": "averiguar",
+    "pos": "verb",
+    "de": "herausfinden",
+    "ej": {
+      "es": "Voy a averiguar la verdad.",
+      "de": "Ich werde die Wahrheit herausfinden."
+    }
+  },
+  {
+    "r": 1533,
+    "es": "volar",
+    "pos": "verb",
+    "de": "fliegen",
+    "ej": {
+      "es": "Los pájaros vuelan muy alto.",
+      "de": "Die Vögel fliegen sehr hoch."
+    }
+  },
+  {
+    "r": 1539,
+    "es": "colegio",
+    "pos": "noun-m",
+    "de": "Schule",
+    "ej": {
+      "es": "Mis hijos van al colegio.",
+      "de": "Meine Kinder gehen zur Schule."
+    }
+  },
+  {
+    "r": 1540,
+    "es": "sonido",
+    "pos": "noun-m",
+    "de": "Klang; Geräusch",
+    "ej": {
+      "es": "Me gusta el sonido del mar.",
+      "de": "Ich mag den Klang des Meeres."
+    }
+  },
+  {
+    "r": 1543,
+    "es": "código",
+    "pos": "noun-m",
+    "de": "Code; Kodex",
+    "ej": {
+      "es": "No recuerdo el código secreto.",
+      "de": "Ich erinnere mich nicht an den Geheimcode."
+    }
+  },
+  {
+    "r": 1545,
+    "es": "imagen",
+    "pos": "noun-f",
+    "de": "Bild",
+    "ej": {
+      "es": "Esta imagen es muy bonita.",
+      "de": "Dieses Bild ist sehr schön."
+    }
+  },
+  {
+    "r": 1546,
+    "es": "riesgo",
+    "pos": "noun-m",
+    "de": "Risiko",
+    "ej": {
+      "es": "No quiero correr ese riesgo.",
+      "de": "Ich will dieses Risiko nicht eingehen."
+    }
+  }
+]

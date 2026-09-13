@@ -1,0 +1,342 @@
+{
+  "id": "hacks",
+  "title": "Wort-Hacks: Endungen",
+  "rule": {
+    "lines": [
+      "-tion wird -ción: die Nation → la nación, die Information → la información.",
+      "-tät wird -dad: die Universität → la universidad, die Realität → la realidad.",
+      "GOLD: Alle Wörter auf -ción und -dad sind IMMER feminin, also immer la!",
+      "-ie wird -ía oder -ia: die Biologie → la biología, die Familie → la familia.",
+      "-isch/-ic wird -ico: typisch → típico, fantastisch → fantástico.",
+      "-ös/-ous wird -oso: nervös → nervioso, religiös → religioso.",
+      "-ist wird -ista, Form für Mann und Frau gleich: el turista, la dentista.",
+      "-lich/-ly bei Adverbien wird -mente: normalerweise → normalmente, natürlich → naturalmente.",
+      "-är/-ary wird -ario: primär → primario, sekundär → secundario.",
+      "-ur wird -ura: die Kultur → la cultura, die Temperatur → la temperatura.",
+      "-anz/-enz wird -ancia/-encia: la importancia, la diferencia.",
+      "Verben auf -ieren werden oft -ar: organisieren → organizar, studieren → estudiar.",
+      "Falsche Freunde: el gimnasio = Fitnessstudio, embarazada = schwanger, sensible = empfindlich, la carta = Brief/Speisekarte."
+    ],
+    "examples": [
+      { "es": "La preparación de la fiesta es difícil.", "de": "Die Vorbereitung des Festes ist schwierig." },
+      { "es": "Estudio en la universidad de Madrid.", "de": "Ich studiere an der Universität von Madrid." },
+      { "es": "La cultura española me interesa mucho.", "de": "Die spanische Kultur interessiert mich sehr." },
+      { "es": "Quiero organizar un viaje a México.", "de": "Ich möchte eine Reise nach Mexiko organisieren." },
+      { "es": "Este tema tiene mucha importancia.", "de": "Dieses Thema hat große Bedeutung." }
+    ]
+  },
+  "items": [
+    {
+      "id": "hacks-1",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Universität → ?",
+      "q": "Wie heißt das spanische Wort?",
+      "options": ["la universitad", "la universidad", "la universidat"],
+      "answer": 1,
+      "ruleTag": "-tät wird -dad",
+      "expl": "-tät wird -dad, immer feminin: la universidad."
+    },
+    {
+      "id": "hacks-2",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Information → ?",
+      "q": "Wie heißt das spanische Wort?",
+      "options": ["la información", "la informatión", "la informazión"],
+      "answer": 0,
+      "ruleTag": "-tion wird -ción",
+      "expl": "-tion wird -ción mit Akzent, immer feminin: la información."
+    },
+    {
+      "id": "hacks-3",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Biologie → ?",
+      "q": "Wie heißt das spanische Wort?",
+      "options": ["la biologie", "la biologidad", "la biología"],
+      "answer": 2,
+      "ruleTag": "-ie wird -ía",
+      "expl": "-ie wird -ía mit Akzent auf dem i: la biología."
+    },
+    {
+      "id": "hacks-4",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "typisch → ?",
+      "q": "Wie heißt das spanische Wort?",
+      "options": ["típisco", "tipiquo", "típico"],
+      "answer": 2,
+      "ruleTag": "-isch wird -ico",
+      "expl": "-isch/-ic wird -ico: típico, fantástico, romántico."
+    },
+    {
+      "id": "hacks-5",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "nervös → ?",
+      "q": "Wie heißt das spanische Wort?",
+      "options": ["nervioso", "nervoso", "nerviosidad"],
+      "answer": 0,
+      "ruleTag": "-ös wird -oso",
+      "expl": "-ös/-ous wird -oso: nervioso, religioso, famoso."
+    },
+    {
+      "id": "hacks-6",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Tourist → ?",
+      "q": "Wie heißt das spanische Wort?",
+      "options": ["el turisto", "el turista", "el turistante"],
+      "answer": 1,
+      "ruleTag": "-ist wird -ista",
+      "expl": "-ist wird -ista, und die Form bleibt gleich: el turista, la turista."
+    },
+    {
+      "id": "hacks-7",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Kultur → ?",
+      "q": "Wie heißt das spanische Wort?",
+      "options": ["la culturidad", "la cultur", "la cultura"],
+      "answer": 2,
+      "ruleTag": "-ur wird -ura",
+      "expl": "-ur wird -ura: la cultura, la temperatura, la aventura."
+    },
+    {
+      "id": "hacks-8",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "organisieren → ?",
+      "q": "Wie heißt das spanische Wort?",
+      "options": ["organisar", "organizir", "organizar"],
+      "answer": 2,
+      "ruleTag": "-ieren wird -ar",
+      "expl": "Verben auf -ieren werden oft -ar, mit z statt s: organizar."
+    },
+    {
+      "id": "hacks-9",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "el gimnasio",
+      "q": "Was bedeutet el gimnasio?",
+      "options": ["Gymnasium, weiterführende Schule", "Fitnessstudio, Sporthalle"],
+      "answer": 1,
+      "ruleTag": "falscher Freund",
+      "expl": "Falscher Freund: el gimnasio ist das Fitnessstudio, das Gymnasium heißt el instituto."
+    },
+    {
+      "id": "hacks-10",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Está embarazada.",
+      "q": "Was bedeutet embarazada?",
+      "options": ["schwanger", "peinlich berührt"],
+      "answer": 0,
+      "ruleTag": "falscher Freund",
+      "expl": "Falscher Freund: embarazada heißt schwanger, peinlich berührt ist avergonzada."
+    },
+    {
+      "id": "hacks-11",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Es muy sensible.",
+      "q": "Was bedeutet sensible?",
+      "options": ["vernünftig", "empfindlich, sensibel"],
+      "answer": 1,
+      "ruleTag": "falscher Freund",
+      "expl": "Falscher Freund: sensible heißt empfindlich, vernünftig ist sensato."
+    },
+    {
+      "id": "hacks-12",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "la carta",
+      "q": "Was bedeutet la carta?",
+      "options": ["Brief oder Speisekarte", "Landkarte"],
+      "answer": 0,
+      "ruleTag": "falscher Freund",
+      "expl": "Falscher Freund: la carta ist der Brief oder die Speisekarte, die Landkarte ist el mapa."
+    },
+    {
+      "id": "hacks-13",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Necesito más ___ sobre el curso.",
+      "options": ["información", "informazión"],
+      "answer": 0,
+      "ruleTag": "-tion wird -ción",
+      "expl": "-tion wird -ción, nie mit z: la información, immer feminin."
+    },
+    {
+      "id": "hacks-14",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Mi hermana estudia en la ___ de Sevilla.",
+      "options": ["universitad", "universidad"],
+      "answer": 1,
+      "ruleTag": "-tät wird -dad",
+      "expl": "-tät wird -dad, immer feminin: la universidad, la ciudad, la realidad."
+    },
+    {
+      "id": "hacks-15",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "La ___ del país crece cada año.",
+      "options": ["economía", "economia"],
+      "answer": 0,
+      "ruleTag": "-ie wird -ía",
+      "expl": "-ie wird -ía, und das i trägt immer den Akzent: la economía."
+    },
+    {
+      "id": "hacks-16",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "La paella es un plato ___ de Valencia.",
+      "options": ["típisco", "típico"],
+      "answer": 1,
+      "ruleTag": "-isch wird -ico",
+      "expl": "-isch/-ic wird -ico, ohne sc: típico."
+    },
+    {
+      "id": "hacks-17",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Antes del examen estoy muy ___.",
+      "options": ["nervoso", "nervioso"],
+      "answer": 1,
+      "ruleTag": "-ös wird -oso",
+      "expl": "-ös/-ous wird -oso, hier mit ie im Stamm: nervioso."
+    },
+    {
+      "id": "hacks-18",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Mañana tengo cita con la ___.",
+      "options": ["dentista", "dentisto"],
+      "answer": 0,
+      "ruleTag": "-ist wird -ista",
+      "expl": "-ist wird -ista und bleibt auch bei Frauen -ista: la dentista."
+    },
+    {
+      "id": "hacks-19",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "___ desayuno a las ocho.",
+      "options": ["Normalemente", "Normalmente"],
+      "answer": 1,
+      "ruleTag": "-lich/-ly wird -mente",
+      "expl": "Adverbien auf -lich/-ly werden -mente, direkt an die weibliche Form: normalmente."
+    },
+    {
+      "id": "hacks-20",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Hay una gran ___ entre los dos precios.",
+      "options": ["diferenzia", "diferencia"],
+      "answer": 1,
+      "ruleTag": "-enz wird -encia",
+      "expl": "-anz/-enz wird -ancia/-encia mit c: la diferencia, la importancia."
+    },
+    {
+      "id": "hacks-21",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Situation → ___",
+      "hint": "die Situation, situation",
+      "answers": ["situación"],
+      "ruleTag": "-tion wird -ción",
+      "expl": "-tion wird -ción mit Akzent, immer feminin: la situación."
+    },
+    {
+      "id": "hacks-22",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Temperatur → ___",
+      "hint": "die Temperatur, temperature",
+      "answers": ["temperatura"],
+      "ruleTag": "-ur wird -ura",
+      "expl": "-ur wird -ura: la temperatura, la cultura."
+    },
+    {
+      "id": "hacks-23",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Aktivität → ___",
+      "hint": "die Aktivität, activity",
+      "answers": ["actividad"],
+      "ruleTag": "-tät wird -dad",
+      "expl": "-tät wird -dad, immer feminin: la actividad."
+    },
+    {
+      "id": "hacks-24",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "La ___ de la fiesta es mucho trabajo.",
+      "hint": "die Organisation",
+      "answers": ["organización"],
+      "ruleTag": "-tion wird -ción",
+      "expl": "-tion wird -ción, hier mit z im Stamm: la organización."
+    },
+    {
+      "id": "hacks-25",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Este tema tiene mucha ___ para mí.",
+      "hint": "die Bedeutung, importance",
+      "answers": ["importancia"],
+      "ruleTag": "-anz wird -ancia",
+      "expl": "-anz/-enz wird -ancia/-encia: la importancia, la diferencia."
+    },
+    {
+      "id": "hacks-26",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "fantastisch → ___",
+      "hint": "fantastisch, fantastic",
+      "answers": ["fantástico"],
+      "ruleTag": "-isch wird -ico",
+      "expl": "-isch/-ic wird -ico, Akzent auf der drittletzten Silbe: fantástico."
+    },
+    {
+      "id": "hacks-27",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "religiös → ___",
+      "hint": "religiös, religious",
+      "answers": ["religioso"],
+      "ruleTag": "-ös wird -oso",
+      "expl": "-ös/-ous wird -oso: religioso, famoso, delicioso."
+    },
+    {
+      "id": "hacks-28",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Mi hermano es muy ___ y siempre sonríe.",
+      "hint": "Optimist, optimistisch",
+      "answers": ["optimista"],
+      "ruleTag": "-ist wird -ista",
+      "expl": "-ist wird -ista, gleich für Mann und Frau: es optimista."
+    },
+    {
+      "id": "hacks-29",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Hablas español ___ bien.",
+      "hint": "perfekt, perfectly",
+      "answers": ["perfectamente"],
+      "ruleTag": "-lich/-ly wird -mente",
+      "expl": "-lich/-ly wird -mente an der weiblichen Form: perfecta plus mente."
+    },
+    {
+      "id": "hacks-30",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Es ___ practicar cada día.",
+      "hint": "notwendig, necessary",
+      "answers": ["necesario"],
+      "ruleTag": "-är/-ary wird -ario",
+      "expl": "-är/-ary wird -ario, im Spanischen mit einem s: necesario."
+    }
+  ]
+}

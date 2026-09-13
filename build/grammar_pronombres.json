@@ -1,0 +1,329 @@
+{
+  "id": "pronombres",
+  "title": "Objektpronomen",
+  "rule": {
+    "lines": [
+      "Direktes Objekt (Wen? Was?): lo, la, los, las – Lo veo.",
+      "Indirektes Objekt (Wem?): le, les – Le escribo.",
+      "1. und 2. Person: direktes und indirektes Objekt sind gleich – me, te, nos, os.",
+      "Stellung: vor dem konjugierten Verb (Te llamo) oder an den Infinitiv angehängt (Quiero llamarte).",
+      "le/les + lo/la/los/las wird zu se: Se lo doy a Juan."
+    ],
+    "examples": [
+      { "es": "Lo llama Ana.", "de": "Ana ruft ihn an." },
+      { "es": "Le escribo un correo.", "de": "Ich schreibe ihm eine E-Mail." },
+      { "es": "Quiero verte mañana.", "de": "Ich will dich morgen sehen." },
+      { "es": "Se lo doy a Juan.", "de": "Ich gebe es Juan." }
+    ]
+  },
+  "items": [
+    {
+      "id": "pronombres-1",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Lo llama Ana.",
+      "q": "Wer ruft wen an?",
+      "options": ["Ana ruft ihn an.", "Er ruft Ana an."],
+      "answer": 0,
+      "ruleTag": "lo = ihn (Objekt)",
+      "expl": "lo ist das Objekt, also der Angerufene – Ana steht hinten, ist aber das Subjekt."
+    },
+    {
+      "id": "pronombres-2",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "La busca Juan.",
+      "q": "Wer sucht wen?",
+      "options": ["Sie sucht Juan.", "Juan sucht sie."],
+      "answer": 1,
+      "ruleTag": "la = sie (Objekt)",
+      "expl": "Lass dich nicht vom ersten Wort täuschen: la ist das Objekt, Juan das Subjekt."
+    },
+    {
+      "id": "pronombres-3",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Los ve María.",
+      "q": "Wer sieht wen?",
+      "options": ["María sieht sie.", "Sie sehen María."],
+      "answer": 0,
+      "ruleTag": "los = sie (Plural, Objekt)",
+      "expl": "los ist Objekt, María ist Subjekt – im Spanischen darf das Subjekt hinten stehen."
+    },
+    {
+      "id": "pronombres-4",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Le escribe Pedro.",
+      "q": "Wer schreibt wem?",
+      "options": ["Sie schreibt Pedro.", "Pedro schreibt ihm/ihr."],
+      "answer": 1,
+      "ruleTag": "le = ihm/ihr (wem?)",
+      "expl": "le bezeichnet den Empfänger (Wem?), Pedro ist der Schreibende – le kann ihm oder ihr heißen."
+    },
+    {
+      "id": "pronombres-5",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Nos invita Carmen.",
+      "q": "Wer lädt wen ein?",
+      "options": ["Carmen lädt uns ein.", "Wir laden Carmen ein."],
+      "answer": 0,
+      "ruleTag": "nos = uns (Objekt)",
+      "expl": "nos ist das Objekt; wären wir das Subjekt, hieße es Invitamos a Carmen."
+    },
+    {
+      "id": "pronombres-6",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Te espera Luis.",
+      "q": "Wer wartet auf wen?",
+      "options": ["Du wartest auf Luis.", "Luis wartet auf dich."],
+      "answer": 1,
+      "ruleTag": "te = dich (Objekt)",
+      "expl": "te kann nie Subjekt sein; espera steht in der 3. Person und passt zu Luis."
+    },
+    {
+      "id": "pronombres-7",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Me ayuda mi hermano.",
+      "q": "Wer hilft wem?",
+      "options": ["Mein Bruder hilft mir.", "Ich helfe meinem Bruder."],
+      "answer": 0,
+      "ruleTag": "me = mir (Objekt)",
+      "expl": "ayuda ist 3. Person Singular, passt also zu mi hermano – me ist der Empfänger der Hilfe."
+    },
+    {
+      "id": "pronombres-8",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Las conoce Marta.",
+      "q": "Wer kennt wen?",
+      "options": ["Sie kennen Marta.", "Marta kennt sie."],
+      "answer": 1,
+      "ruleTag": "las = sie (feminin Plural, Objekt)",
+      "expl": "las steht vorne, ist aber das Objekt – Marta ist die Person, die kennt."
+    },
+    {
+      "id": "pronombres-9",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "¿El libro? ___ leo mañana.",
+      "options": ["lo", "le"],
+      "answer": 0,
+      "ruleTag": "leer algo = direktes Objekt",
+      "expl": "Du liest das Buch (Wen/Was?), also direktes Objekt maskulin: lo."
+    },
+    {
+      "id": "pronombres-10",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "¿La carta? ___ escribo esta tarde.",
+      "options": ["le", "la"],
+      "answer": 1,
+      "ruleTag": "carta (Brief) = feminin, direkt",
+      "expl": "la carta (der Brief) ist das direkte Objekt und feminin, deshalb la und nicht le."
+    },
+    {
+      "id": "pronombres-11",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "___ doy el libro a Marta.",
+      "options": ["Le", "La"],
+      "answer": 0,
+      "ruleTag": "a alguien = le",
+      "expl": "el libro ist schon das direkte Objekt, Marta ist die Empfängerin: le."
+    },
+    {
+      "id": "pronombres-12",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "¿Los zapatos? No ___ compro.",
+      "options": ["les", "los"],
+      "answer": 1,
+      "ruleTag": "comprar algo = lo/los",
+      "expl": "Die Schuhe sind das direkte Objekt im Plural maskulin: los."
+    },
+    {
+      "id": "pronombres-13",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "¿A tus padres? ___ escribo cada semana.",
+      "options": ["Les", "Los"],
+      "answer": 0,
+      "ruleTag": "escribir a alguien = le/les",
+      "expl": "Du schreibst ihnen (Wem?), also indirektes Objekt Plural: les."
+    },
+    {
+      "id": "pronombres-14",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "¿La película? Quiero ___ esta noche.",
+      "options": ["la ver", "verla"],
+      "answer": 1,
+      "ruleTag": "Infinitiv + Pronomen angehängt",
+      "expl": "Am Infinitiv wird das Pronomen angehängt: verla – oder vor dem konjugierten Verb: La quiero ver. la ver gibt es nicht."
+    },
+    {
+      "id": "pronombres-15",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "¿El coche? No puedo ___ hoy.",
+      "options": ["lavarlo", "lo lavar"],
+      "answer": 0,
+      "ruleTag": "poder + Infinitiv + Pronomen",
+      "expl": "Das Pronomen wird an den Infinitiv angehängt: lavarlo – oder vor puedo: No lo puedo lavar. lo lavar gibt es nicht."
+    },
+    {
+      "id": "pronombres-16",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "¿El regalo? Ana ___ da a Juan.",
+      "options": ["le lo", "se lo"],
+      "answer": 1,
+      "ruleTag": "le + lo = se lo",
+      "expl": "le und lo stehen nie nebeneinander – aus le lo wird se lo."
+    },
+    {
+      "id": "pronombres-17",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "¿A María? ___ veo todos los días.",
+      "options": ["Le", "La"],
+      "answer": 1,
+      "ruleTag": "ver a alguien = direktes Objekt",
+      "expl": "ver hat ein direktes Objekt, María ist feminin: la veo."
+    },
+    {
+      "id": "pronombres-18",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "¿A Pedro? ___ doy mi número.",
+      "options": ["Le", "Lo"],
+      "answer": 0,
+      "ruleTag": "dar a alguien = le",
+      "expl": "mi número ist das direkte Objekt, Pedro bekommt es: le doy."
+    },
+    {
+      "id": "pronombres-19",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "___ veo mañana.",
+      "hint": "(dich)",
+      "answers": ["Te", "te"],
+      "ruleTag": "dich = te",
+      "expl": "te steht vor dem konjugierten Verb: Te veo mañana."
+    },
+    {
+      "id": "pronombres-20",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Mi madre ___ llama cada día.",
+      "hint": "(mich)",
+      "answers": ["me"],
+      "ruleTag": "mich = me",
+      "expl": "me steht direkt vor dem Verb: Mi madre me llama."
+    },
+    {
+      "id": "pronombres-21",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "María ___ ayuda mucho.",
+      "hint": "(uns)",
+      "answers": ["nos"],
+      "ruleTag": "uns = nos",
+      "expl": "nos gilt für direktes und indirektes Objekt gleichermaßen."
+    },
+    {
+      "id": "pronombres-22",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "___ llamo esta noche, chicos.",
+      "hint": "(euch, Spanien)",
+      "answers": ["Os", "os"],
+      "ruleTag": "euch = os (Spanien)",
+      "expl": "In Spanien ist os die Form für vosotros: Os llamo esta noche."
+    },
+    {
+      "id": "pronombres-23",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "¿El pan? ___ compro yo.",
+      "hint": "(ihn = el pan)",
+      "answers": ["Lo", "lo"],
+      "ruleTag": "maskulin Singular = lo",
+      "expl": "el pan ist maskulin Singular und direktes Objekt: lo compro."
+    },
+    {
+      "id": "pronombres-24",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "¿La casa? Ana ___ vende.",
+      "hint": "(sie = la casa)",
+      "answers": ["la"],
+      "ruleTag": "feminin Singular = la",
+      "expl": "Das Pronomen richtet sich nach la casa: Ana la vende."
+    },
+    {
+      "id": "pronombres-25",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "¿Los libros? Ya ___ tengo.",
+      "hint": "(sie = los libros)",
+      "answers": ["los"],
+      "ruleTag": "maskulin Plural = los",
+      "expl": "los libros wird zu los und steht vor dem Verb: Ya los tengo."
+    },
+    {
+      "id": "pronombres-26",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "¿Las llaves? Ana ___ tiene.",
+      "hint": "(sie = las llaves)",
+      "answers": ["las"],
+      "ruleTag": "feminin Plural = las",
+      "expl": "las llaves ist feminin Plural, also las tiene."
+    },
+    {
+      "id": "pronombres-27",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "___ escribo un correo a mi jefe.",
+      "hint": "(ihm = a mi jefe)",
+      "answers": ["Le", "le"],
+      "ruleTag": "Wem? = le",
+      "expl": "un correo ist das direkte Objekt, dein Chef bekommt es: le escribo."
+    },
+    {
+      "id": "pronombres-28",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "¿A tus amigos? ___ doy las gracias.",
+      "hint": "(ihnen)",
+      "answers": ["Les", "les"],
+      "ruleTag": "Wem? Plural = les",
+      "expl": "Mehrere Empfänger, also die Pluralform les."
+    },
+    {
+      "id": "pronombres-29",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "¿El regalo? Yo ___ lo doy a Juan.",
+      "hint": "(le + lo wird zu ...)",
+      "answers": ["se"],
+      "ruleTag": "le + lo = se lo",
+      "expl": "Vor lo/la/los/las wird aus le immer se: se lo doy."
+    },
+    {
+      "id": "pronombres-30",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Quiero ver___ mañana.",
+      "hint": "(dich)",
+      "answers": ["te"],
+      "ruleTag": "Infinitiv + te",
+      "expl": "Am Infinitiv wird das Pronomen angehängt: Quiero verte mañana."
+    }
+  ]
+}

@@ -1,0 +1,1002 @@
+[
+  {
+    "r": 136,
+    "es": "noche",
+    "pos": "noun-f",
+    "de": "Nacht",
+    "ej": {
+      "es": "Buenas noches, hasta mañana.",
+      "de": "Gute Nacht, bis morgen."
+    }
+  },
+  {
+    "r": 137,
+    "es": "hecho",
+    "pos": "noun-m",
+    "de": "Tatsache; Tat",
+    "ej": {
+      "es": "Es un hecho muy importante.",
+      "de": "Das ist eine sehr wichtige Tatsache."
+    }
+  },
+  {
+    "r": 140,
+    "es": "otro",
+    "pos": "adj",
+    "de": "anderer; noch ein",
+    "ej": {
+      "es": "Quiero otro café, por favor.",
+      "de": "Ich möchte noch einen Kaffee, bitte."
+    }
+  },
+  {
+    "r": 141,
+    "es": "acuerdo",
+    "pos": "noun-m",
+    "de": "Einverständnis; Abkommen",
+    "ej": {
+      "es": "Estoy de acuerdo contigo.",
+      "de": "Ich bin mit dir einverstanden."
+    }
+  },
+  {
+    "r": 142,
+    "es": "trabajo",
+    "pos": "noun-m",
+    "de": "Arbeit",
+    "ej": {
+      "es": "Mi trabajo empieza a las ocho.",
+      "de": "Meine Arbeit beginnt um acht."
+    }
+  },
+  {
+    "r": 143,
+    "es": "nosotros",
+    "pos": "pron",
+    "de": "wir",
+    "ej": {
+      "es": "Nosotros vivimos en Madrid.",
+      "de": "Wir wohnen in Madrid."
+    }
+  },
+  {
+    "r": 144,
+    "es": "parecer",
+    "pos": "verb",
+    "de": "scheinen; aussehen",
+    "ej": {
+      "es": "Parece muy fácil.",
+      "de": "Es scheint sehr einfach."
+    }
+  },
+  {
+    "r": 145,
+    "es": "gente",
+    "pos": "noun-f",
+    "de": "Leute",
+    "ej": {
+      "es": "Hay mucha gente en la calle.",
+      "de": "Auf der Straße sind viele Leute."
+    }
+  },
+  {
+    "r": 147,
+    "es": "padre",
+    "pos": "noun-m",
+    "de": "Vater",
+    "ej": {
+      "es": "Mi padre trabaja en un banco.",
+      "de": "Mein Vater arbeitet in einer Bank."
+    }
+  },
+  {
+    "r": 148,
+    "es": "mirar",
+    "pos": "verb",
+    "de": "ansehen; schauen",
+    "ej": {
+      "es": "Mira esta foto, por favor.",
+      "de": "Schau dir dieses Foto an, bitte."
+    }
+  },
+  {
+    "r": 149,
+    "es": "mismo",
+    "pos": "adj",
+    "de": "selbe; selbst",
+    "ej": {
+      "es": "Vivimos en la misma casa.",
+      "de": "Wir wohnen im selben Haus."
+    }
+  },
+  {
+    "r": 151,
+    "es": "nadie",
+    "pos": "pron",
+    "de": "niemand",
+    "ej": {
+      "es": "No hay nadie en casa.",
+      "de": "Es ist niemand zu Hause."
+    }
+  },
+  {
+    "r": 154,
+    "es": "hablar",
+    "pos": "verb",
+    "de": "sprechen",
+    "ej": {
+      "es": "Hablo un poco de español.",
+      "de": "Ich spreche ein wenig Spanisch."
+    }
+  },
+  {
+    "r": 156,
+    "es": "ellos",
+    "pos": "pron",
+    "de": "sie",
+    "ej": {
+      "es": "Ellos son mis amigos.",
+      "de": "Sie sind meine Freunde."
+    }
+  },
+  {
+    "r": 158,
+    "es": "tal",
+    "pos": "adj",
+    "de": "solch",
+    "ej": {
+      "es": "No digas tal cosa, por favor.",
+      "de": "Sag so etwas nicht, bitte."
+    }
+  },
+  {
+    "r": 159,
+    "es": "pasar",
+    "pos": "verb",
+    "de": "passieren; vorbeigehen",
+    "ej": {
+      "es": "¿Qué pasa aquí?",
+      "de": "Was passiert hier?"
+    }
+  },
+  {
+    "r": 160,
+    "es": "fuera",
+    "pos": "adv",
+    "de": "draußen",
+    "ej": {
+      "es": "Los niños juegan fuera.",
+      "de": "Die Kinder spielen draußen."
+    }
+  },
+  {
+    "r": 161,
+    "es": "después",
+    "pos": "adv",
+    "de": "danach; später",
+    "ej": {
+      "es": "Después comemos en casa.",
+      "de": "Danach essen wir zu Hause."
+    }
+  },
+  {
+    "r": 163,
+    "es": "desde",
+    "pos": "prep",
+    "de": "seit; von",
+    "ej": {
+      "es": "Vivo aquí desde enero.",
+      "de": "Ich wohne seit Januar hier."
+    }
+  },
+  {
+    "r": 164,
+    "es": "dinero",
+    "pos": "noun-m",
+    "de": "Geld",
+    "ej": {
+      "es": "No tengo dinero hoy.",
+      "de": "Ich habe heute kein Geld."
+    }
+  },
+  {
+    "r": 165,
+    "es": "mundo",
+    "pos": "noun-m",
+    "de": "Welt",
+    "ej": {
+      "es": "Quiero ver el mundo.",
+      "de": "Ich will die Welt sehen."
+    }
+  },
+  {
+    "r": 166,
+    "es": "claro",
+    "pos": "adj",
+    "de": "klar; hell",
+    "ej": {
+      "es": "El agua está muy clara.",
+      "de": "Das Wasser ist sehr klar."
+    }
+  },
+  {
+    "r": 167,
+    "es": "momento",
+    "pos": "noun-m",
+    "de": "Moment",
+    "ej": {
+      "es": "Un momento, por favor.",
+      "de": "Einen Moment, bitte."
+    }
+  },
+  {
+    "r": 168,
+    "es": "les",
+    "pos": "pron",
+    "de": "ihnen",
+    "ej": {
+      "es": "Les doy el libro.",
+      "de": "Ich gebe ihnen das Buch."
+    }
+  },
+  {
+    "r": 170,
+    "es": "estado",
+    "pos": "noun-m",
+    "de": "Zustand; Staat",
+    "ej": {
+      "es": "El coche está en buen estado.",
+      "de": "Das Auto ist in gutem Zustand."
+    }
+  },
+  {
+    "r": 173,
+    "es": "mañana",
+    "pos": "noun-f",
+    "de": "Morgen; Vormittag; (adv.) morgen",
+    "ej": {
+      "es": "Trabajo por la mañana.",
+      "de": "Ich arbeite am Morgen."
+    }
+  },
+  {
+    "r": 175,
+    "es": "madre",
+    "pos": "noun-f",
+    "de": "Mutter",
+    "ej": {
+      "es": "Mi madre cocina muy bien.",
+      "de": "Meine Mutter kocht sehr gut."
+    }
+  },
+  {
+    "r": 176,
+    "es": "vale",
+    "pos": "intj",
+    "de": "okay; einverstanden",
+    "ej": {
+      "es": "Vale, nos vemos mañana.",
+      "de": "Okay, wir sehen uns morgen."
+    }
+  },
+  {
+    "r": 177,
+    "es": "lugar",
+    "pos": "noun-m",
+    "de": "Ort; Platz",
+    "ej": {
+      "es": "Es un lugar muy bonito.",
+      "de": "Es ist ein sehr schöner Ort."
+    }
+  },
+  {
+    "r": 179,
+    "es": "donde",
+    "pos": "adv",
+    "de": "wo",
+    "ej": {
+      "es": "La casa donde vivo es pequeña.",
+      "de": "Das Haus, wo ich wohne, ist klein."
+    }
+  },
+  {
+    "r": 180,
+    "es": "seguro",
+    "pos": "adj",
+    "de": "sicher",
+    "ej": {
+      "es": "Estoy seguro de que viene.",
+      "de": "Ich bin sicher, dass er kommt."
+    }
+  },
+  {
+    "r": 184,
+    "es": "esperar",
+    "pos": "verb",
+    "de": "warten; hoffen",
+    "ej": {
+      "es": "Espero el autobús aquí.",
+      "de": "Ich warte hier auf den Bus."
+    }
+  },
+  {
+    "r": 185,
+    "es": "nuevo",
+    "pos": "adj",
+    "de": "neu",
+    "ej": {
+      "es": "Tengo un coche nuevo.",
+      "de": "Ich habe ein neues Auto."
+    }
+  },
+  {
+    "r": 188,
+    "es": "hijo",
+    "pos": "noun-m",
+    "de": "Sohn; Kind",
+    "ej": {
+      "es": "Mi hijo tiene cinco años.",
+      "de": "Mein Sohn ist fünf Jahre alt."
+    }
+  },
+  {
+    "r": 189,
+    "es": "allí",
+    "pos": "adv",
+    "de": "dort",
+    "ej": {
+      "es": "Tu libro está allí.",
+      "de": "Dein Buch ist dort."
+    }
+  },
+  {
+    "r": 190,
+    "es": "menos",
+    "pos": "adv",
+    "de": "weniger",
+    "ej": {
+      "es": "Hoy trabajo menos que ayer.",
+      "de": "Heute arbeite ich weniger als gestern."
+    }
+  },
+  {
+    "r": 191,
+    "es": "tipo",
+    "pos": "noun-m",
+    "de": "Typ; Art",
+    "ej": {
+      "es": "¿Qué tipo de música te gusta?",
+      "de": "Welche Art von Musik magst du?"
+    }
+  },
+  {
+    "r": 192,
+    "es": "amigo",
+    "pos": "noun-m",
+    "de": "Freund",
+    "ej": {
+      "es": "Mi amigo vive en Madrid.",
+      "de": "Mein Freund wohnt in Madrid."
+    }
+  },
+  {
+    "r": 193,
+    "es": "grande",
+    "pos": "adj",
+    "de": "groß",
+    "ej": {
+      "es": "Su casa es muy grande.",
+      "de": "Sein Haus ist sehr groß."
+    }
+  },
+  {
+    "r": 194,
+    "es": "nuestro",
+    "pos": "adj",
+    "de": "unser",
+    "ej": {
+      "es": "Nuestro perro es muy pequeño.",
+      "de": "Unser Hund ist sehr klein."
+    }
+  },
+  {
+    "r": 195,
+    "es": "mujer",
+    "pos": "noun-f",
+    "de": "Frau",
+    "ej": {
+      "es": "Esa mujer es mi profesora.",
+      "de": "Diese Frau ist meine Lehrerin."
+    }
+  },
+  {
+    "r": 196,
+    "es": "mamá",
+    "pos": "noun-f",
+    "de": "Mama",
+    "ej": {
+      "es": "Mamá, ¿dónde está mi mochila?",
+      "de": "Mama, wo ist mein Rucksack?"
+    }
+  },
+  {
+    "r": 197,
+    "es": "luego",
+    "pos": "adv",
+    "de": "dann; später",
+    "ej": {
+      "es": "Primero como y luego trabajo.",
+      "de": "Zuerst esse ich und dann arbeite ich."
+    }
+  },
+  {
+    "r": 198,
+    "es": "papá",
+    "pos": "noun-m",
+    "de": "Papa",
+    "ej": {
+      "es": "Papá llega a casa tarde.",
+      "de": "Papa kommt spät nach Hause."
+    }
+  },
+  {
+    "r": 201,
+    "es": "hoy",
+    "pos": "adv",
+    "de": "heute",
+    "ej": {
+      "es": "Hoy hace mucho calor.",
+      "de": "Heute ist es sehr heiß."
+    }
+  },
+  {
+    "r": 202,
+    "es": "tres",
+    "pos": "num",
+    "de": "drei",
+    "ej": {
+      "es": "Tengo tres hermanos pequeños.",
+      "de": "Ich habe drei kleine Brüder."
+    }
+  },
+  {
+    "r": 204,
+    "es": "necesitar",
+    "pos": "verb",
+    "de": "brauchen",
+    "ej": {
+      "es": "Necesito ayuda, por favor.",
+      "de": "Ich brauche Hilfe, bitte."
+    }
+  },
+  {
+    "r": 206,
+    "es": "oír",
+    "pos": "verb",
+    "de": "hören",
+    "ej": {
+      "es": "No oigo nada, habla más alto.",
+      "de": "Ich höre nichts, sprich lauter."
+    }
+  },
+  {
+    "r": 207,
+    "es": "gustar",
+    "pos": "verb",
+    "de": "gefallen; mögen",
+    "ej": {
+      "es": "Me gusta mucho el café.",
+      "de": "Ich mag Kaffee sehr."
+    }
+  },
+  {
+    "r": 211,
+    "es": "parte",
+    "pos": "noun-f",
+    "de": "Teil",
+    "ej": {
+      "es": "Esta parte es muy difícil.",
+      "de": "Dieser Teil ist sehr schwierig."
+    }
+  },
+  {
+    "r": 215,
+    "es": "conmigo",
+    "pos": "pron",
+    "de": "mit mir",
+    "ej": {
+      "es": "¿Vienes conmigo al cine?",
+      "de": "Kommst du mit mir ins Kino?"
+    }
+  },
+  {
+    "r": 216,
+    "es": "nombre",
+    "pos": "noun-m",
+    "de": "Name",
+    "ej": {
+      "es": "Mi nombre es Ana.",
+      "de": "Mein Name ist Ana."
+    }
+  },
+  {
+    "r": 217,
+    "es": "mierda",
+    "pos": "noun-f",
+    "de": "Scheiße",
+    "ej": {
+      "es": "¡Mierda, he perdido las llaves!",
+      "de": "Scheiße, ich habe die Schlüssel verloren!"
+    }
+  },
+  {
+    "r": 219,
+    "es": "mal",
+    "pos": "adv",
+    "de": "schlecht",
+    "ej": {
+      "es": "Hoy me siento mal.",
+      "de": "Heute fühle ich mich schlecht."
+    }
+  },
+  {
+    "r": 220,
+    "es": "deber",
+    "pos": "verb",
+    "de": "müssen; schulden",
+    "ej": {
+      "es": "Debes estudiar más.",
+      "de": "Du musst mehr lernen."
+    }
+  },
+  {
+    "r": 221,
+    "es": "realmente",
+    "pos": "adv",
+    "de": "wirklich",
+    "ej": {
+      "es": "Realmente no lo sé.",
+      "de": "Ich weiß es wirklich nicht."
+    }
+  },
+  {
+    "r": 223,
+    "es": "aún",
+    "pos": "adv",
+    "de": "noch",
+    "ej": {
+      "es": "Aún no ha llegado.",
+      "de": "Er ist noch nicht angekommen."
+    }
+  },
+  {
+    "r": 224,
+    "es": "mío",
+    "pos": "pron",
+    "de": "meiner",
+    "ej": {
+      "es": "Este libro es mío.",
+      "de": "Dieses Buch ist meines."
+    }
+  },
+  {
+    "r": 227,
+    "es": "cada",
+    "pos": "adj",
+    "de": "jeder",
+    "ej": {
+      "es": "Cada día bebo café.",
+      "de": "Jeden Tag trinke ich Kaffee."
+    }
+  },
+  {
+    "r": 229,
+    "es": "importar",
+    "pos": "verb",
+    "de": "wichtig sein; ausmachen",
+    "ej": {
+      "es": "No me importa el precio.",
+      "de": "Der Preis ist mir nicht wichtig."
+    }
+  },
+  {
+    "r": 230,
+    "es": "contigo",
+    "pos": "pron",
+    "de": "mit dir",
+    "ej": {
+      "es": "Quiero hablar contigo ahora.",
+      "de": "Ich will jetzt mit dir sprechen."
+    }
+  },
+  {
+    "r": 233,
+    "es": "razón",
+    "pos": "noun-f",
+    "de": "Grund; Recht",
+    "ej": {
+      "es": "Tienes razón, es muy tarde.",
+      "de": "Du hast recht, es ist sehr spät."
+    }
+  },
+  {
+    "r": 234,
+    "es": "alguno",
+    "pos": "adj",
+    "de": "irgendein; einige",
+    "ej": {
+      "es": "¿Tienes algún problema?",
+      "de": "Hast du irgendein Problem?"
+    }
+  },
+  {
+    "r": 235,
+    "es": "tanto",
+    "pos": "adv",
+    "de": "so viel; so sehr",
+    "ej": {
+      "es": "No comas tanto, por favor.",
+      "de": "Iss nicht so viel, bitte."
+    }
+  },
+  {
+    "r": 239,
+    "es": "serio",
+    "pos": "adj",
+    "de": "ernst",
+    "ej": {
+      "es": "Es un problema muy serio.",
+      "de": "Es ist ein sehr ernstes Problem."
+    }
+  },
+  {
+    "r": 240,
+    "es": "venir",
+    "pos": "verb",
+    "de": "kommen",
+    "ej": {
+      "es": "¿Vienes a la fiesta?",
+      "de": "Kommst du zur Party?"
+    }
+  },
+  {
+    "r": 241,
+    "es": "idea",
+    "pos": "noun-f",
+    "de": "Idee",
+    "ej": {
+      "es": "Tengo una buena idea.",
+      "de": "Ich habe eine gute Idee."
+    }
+  },
+  {
+    "r": 243,
+    "es": "tarde",
+    "pos": "noun-f",
+    "de": "Nachmittag; (adv.) spät",
+    "ej": {
+      "es": "Por la tarde voy al parque.",
+      "de": "Am Nachmittag gehe ich in den Park."
+    }
+  },
+  {
+    "r": 244,
+    "es": "problema",
+    "pos": "noun-m",
+    "de": "Problem",
+    "ej": {
+      "es": "No hay ningún problema.",
+      "de": "Es gibt kein Problem."
+    }
+  },
+  {
+    "r": 245,
+    "es": "hora",
+    "pos": "noun-f",
+    "de": "Stunde; Uhrzeit",
+    "ej": {
+      "es": "¿Qué hora es ahora?",
+      "de": "Wie viel Uhr ist es jetzt?"
+    }
+  },
+  {
+    "r": 246,
+    "es": "cierto",
+    "pos": "adj",
+    "de": "wahr; sicher",
+    "ej": {
+      "es": "Eso no es cierto.",
+      "de": "Das ist nicht wahr."
+    }
+  },
+  {
+    "r": 248,
+    "es": "quien",
+    "pos": "pron",
+    "de": "wer",
+    "ej": {
+      "es": "¿Quién es esa chica?",
+      "de": "Wer ist dieses Mädchen?"
+    }
+  },
+  {
+    "r": 249,
+    "es": "demasiado",
+    "pos": "adv",
+    "de": "zu; zu viel",
+    "ej": {
+      "es": "Este café está demasiado caliente.",
+      "de": "Dieser Kaffee ist zu heiß."
+    }
+  },
+  {
+    "r": 250,
+    "es": "amor",
+    "pos": "noun-m",
+    "de": "Liebe",
+    "ej": {
+      "es": "El amor es muy importante.",
+      "de": "Die Liebe ist sehr wichtig."
+    }
+  },
+  {
+    "r": 251,
+    "es": "entre",
+    "pos": "prep",
+    "de": "zwischen",
+    "ej": {
+      "es": "La tienda está entre dos casas.",
+      "de": "Der Laden ist zwischen zwei Häusern."
+    }
+  },
+  {
+    "r": 253,
+    "es": "pasado",
+    "pos": "noun-m",
+    "de": "Vergangenheit",
+    "ej": {
+      "es": "No quiero hablar del pasado.",
+      "de": "Ich will nicht über die Vergangenheit sprechen."
+    }
+  },
+  {
+    "r": 254,
+    "es": "familia",
+    "pos": "noun-f",
+    "de": "Familie",
+    "ej": {
+      "es": "Mi familia es muy grande.",
+      "de": "Meine Familie ist sehr groß."
+    }
+  },
+  {
+    "r": 256,
+    "es": "policía",
+    "pos": "noun-f",
+    "de": "Polizei",
+    "ej": {
+      "es": "La policía llegó muy rápido.",
+      "de": "Die Polizei kam sehr schnell."
+    }
+  },
+  {
+    "r": 259,
+    "es": "chica",
+    "pos": "noun-f",
+    "de": "Mädchen",
+    "ej": {
+      "es": "Esa chica es mi hermana.",
+      "de": "Dieses Mädchen ist meine Schwester."
+    }
+  },
+  {
+    "r": 261,
+    "es": "chico",
+    "pos": "noun-m",
+    "de": "Junge",
+    "ej": {
+      "es": "El chico juega en el jardín.",
+      "de": "Der Junge spielt im Garten."
+    }
+  },
+  {
+    "r": 262,
+    "es": "cuenta",
+    "pos": "noun-f",
+    "de": "Rechnung; Konto",
+    "ej": {
+      "es": "La cuenta, por favor.",
+      "de": "Die Rechnung, bitte."
+    }
+  },
+  {
+    "r": 264,
+    "es": "todavía",
+    "pos": "adv",
+    "de": "noch",
+    "ej": {
+      "es": "Todavía estoy en el trabajo.",
+      "de": "Ich bin noch bei der Arbeit."
+    }
+  },
+  {
+    "r": 265,
+    "es": "salir",
+    "pos": "verb",
+    "de": "hinausgehen; ausgehen",
+    "ej": {
+      "es": "Salgo de casa a las ocho.",
+      "de": "Ich gehe um acht aus dem Haus."
+    }
+  },
+  {
+    "r": 271,
+    "es": "hermano",
+    "pos": "noun-m",
+    "de": "Bruder",
+    "ej": {
+      "es": "Mi hermano estudia en Madrid.",
+      "de": "Mein Bruder studiert in Madrid."
+    }
+  },
+  {
+    "r": 272,
+    "es": "pensar",
+    "pos": "verb",
+    "de": "denken",
+    "ej": {
+      "es": "Pienso mucho en ti.",
+      "de": "Ich denke viel an dich."
+    }
+  },
+  {
+    "r": 274,
+    "es": "cabeza",
+    "pos": "noun-f",
+    "de": "Kopf",
+    "ej": {
+      "es": "Me duele la cabeza.",
+      "de": "Mir tut der Kopf weh."
+    }
+  },
+  {
+    "r": 276,
+    "es": "cariño",
+    "pos": "noun-m",
+    "de": "Schatz; Zuneigung",
+    "ej": {
+      "es": "Buenas noches, cariño.",
+      "de": "Gute Nacht, Schatz."
+    }
+  },
+  {
+    "r": 282,
+    "es": "cualquiera",
+    "pos": "adj",
+    "de": "irgendein; jeder",
+    "ej": {
+      "es": "Cualquier día es bueno.",
+      "de": "Jeder beliebige Tag ist gut."
+    }
+  },
+  {
+    "r": 283,
+    "es": "forma",
+    "pos": "noun-f",
+    "de": "Form; Art",
+    "ej": {
+      "es": "No me gusta esa forma de hablar.",
+      "de": "Diese Art zu sprechen gefällt mir nicht."
+    }
+  },
+  {
+    "r": 284,
+    "es": "mientras",
+    "pos": "conj",
+    "de": "während",
+    "ej": {
+      "es": "Escucho música mientras trabajo.",
+      "de": "Ich höre Musik, während ich arbeite."
+    }
+  },
+  {
+    "r": 285,
+    "es": "lado",
+    "pos": "noun-m",
+    "de": "Seite",
+    "ej": {
+      "es": "La tienda está al lado.",
+      "de": "Der Laden ist nebenan."
+    }
+  },
+  {
+    "r": 288,
+    "es": "caso",
+    "pos": "noun-m",
+    "de": "Fall",
+    "ej": {
+      "es": "En ese caso, no voy.",
+      "de": "In dem Fall gehe ich nicht."
+    }
+  },
+  {
+    "r": 291,
+    "es": "primero",
+    "pos": "adj",
+    "de": "erster",
+    "ej": {
+      "es": "Es mi primer día aquí.",
+      "de": "Es ist mein erster Tag hier."
+    }
+  },
+  {
+    "r": 292,
+    "es": "genial",
+    "pos": "adj",
+    "de": "toll; genial",
+    "ej": {
+      "es": "¡Qué idea tan genial!",
+      "de": "Was für eine tolle Idee!"
+    }
+  },
+  {
+    "r": 294,
+    "es": "supuesto",
+    "pos": "adj",
+    "de": "vermeintlich; (por supuesto) natürlich",
+    "ej": {
+      "es": "Por supuesto que te ayudo.",
+      "de": "Natürlich helfe ich dir."
+    }
+  },
+  {
+    "r": 296,
+    "es": "pues",
+    "pos": "conj",
+    "de": "also; denn",
+    "ej": {
+      "es": "Pues no lo sé.",
+      "de": "Also, ich weiß es nicht."
+    }
+  },
+  {
+    "r": 297,
+    "es": "adiós",
+    "pos": "intj",
+    "de": "auf Wiedersehen",
+    "ej": {
+      "es": "Adiós, hasta mañana.",
+      "de": "Auf Wiedersehen, bis morgen."
+    }
+  },
+  {
+    "r": 299,
+    "es": "persona",
+    "pos": "noun-f",
+    "de": "Person",
+    "ej": {
+      "es": "Es una persona muy amable.",
+      "de": "Sie ist eine sehr freundliche Person."
+    }
+  },
+  {
+    "r": 300,
+    "es": "señora",
+    "pos": "noun-f",
+    "de": "Frau; Dame",
+    "ej": {
+      "es": "Buenos días, señora García.",
+      "de": "Guten Tag, Frau García."
+    }
+  },
+  {
+    "r": 301,
+    "es": "volver",
+    "pos": "verb",
+    "de": "zurückkommen",
+    "ej": {
+      "es": "Vuelvo a casa mañana.",
+      "de": "Ich komme morgen nach Hause zurück."
+    }
+  }
+]

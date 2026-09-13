@@ -1,0 +1,462 @@
+{
+  "id": "preposiciones",
+  "title": "Präpositionen im Bild",
+  "rule": {
+    "lines": [
+      "Ort sagst du mit estar: La pelota está en la caja.",
+      "Ohne de: en (in, auf, an), sobre (auf), entre (zwischen).",
+      "Immer mit de: encima de (auf), debajo de (unter), delante de (vor), detrás de (hinter).",
+      "Auch mit de: dentro de (in), fuera de (außerhalb), al lado de (neben), cerca de (nahe), lejos de (weit von).",
+      "Seiten: a la derecha de (rechts von), a la izquierda de (links von)."
+    ],
+    "examples": [
+      {
+        "es": "El gato está debajo de la mesa.",
+        "de": "Die Katze ist unter dem Tisch."
+      },
+      {
+        "es": "La pelota está encima de la caja.",
+        "de": "Der Ball ist auf der Kiste."
+      },
+      {
+        "es": "La pelota está entre las dos cajas.",
+        "de": "Der Ball ist zwischen den zwei Kisten."
+      },
+      {
+        "es": "El gato está a la derecha de la mesa.",
+        "de": "Die Katze ist rechts vom Tisch."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "preposiciones-1",
+      "stage": 1,
+      "type": "mc",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"73\" y=\"62\" width=\"54\" height=\"38\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><circle cx=\"100\" cy=\"48\" r=\"14\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "¿Dónde está la pelota?",
+      "q": "Welcher Satz beschreibt das Bild?",
+      "options": [
+        "La pelota está encima de la caja.",
+        "La pelota está debajo de la caja.",
+        "La pelota está detrás de la caja."
+      ],
+      "answer": 0,
+      "ruleTag": "encima de = auf",
+      "expl": "Der Ball liegt oben auf der Kiste: encima de la caja, immer mit de."
+    },
+    {
+      "id": "preposiciones-2",
+      "stage": 1,
+      "type": "mc",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"52\" width=\"112\" height=\"8\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><rect x=\"52\" y=\"60\" width=\"8\" height=\"40\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><rect x=\"140\" y=\"60\" width=\"8\" height=\"40\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><circle cx=\"100\" cy=\"82\" r=\"14\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "¿Dónde está la pelota?",
+      "q": "Welcher Satz beschreibt das Bild?",
+      "options": [
+        "La pelota está debajo de la mesa.",
+        "La pelota está encima de la mesa.",
+        "La pelota está al lado de la mesa."
+      ],
+      "answer": 0,
+      "ruleTag": "debajo de = unter",
+      "expl": "Der Ball liegt unter der Tischplatte, also debajo de la mesa."
+    },
+    {
+      "id": "preposiciones-3",
+      "stage": 1,
+      "type": "mc",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"95\" cy=\"80\" rx=\"32\" ry=\"5\" fill=\"#8a9099\" opacity=\"0.45\"/><rect x=\"66\" y=\"34\" width=\"58\" height=\"44\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><ellipse cx=\"94\" cy=\"101\" rx=\"21\" ry=\"4.5\" fill=\"#8a9099\" opacity=\"0.45\"/><circle cx=\"94\" cy=\"80\" r=\"18\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "¿Dónde está la pelota?",
+      "q": "Welcher Satz beschreibt das Bild?",
+      "options": [
+        "La pelota está delante de la caja.",
+        "La pelota está detrás de la caja.",
+        "La pelota está dentro de la caja."
+      ],
+      "answer": 0,
+      "ruleTag": "delante de = vor",
+      "expl": "Der Ball steht vorne und verdeckt die Kiste: delante de la caja."
+    },
+    {
+      "id": "preposiciones-4",
+      "stage": 1,
+      "type": "mc",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><circle cx=\"114\" cy=\"78\" r=\"15\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/><rect x=\"52\" y=\"52\" width=\"64\" height=\"48\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "¿Dónde está la pelota?",
+      "q": "Welcher Satz beschreibt das Bild?",
+      "options": [
+        "La pelota está detrás de la caja.",
+        "La pelota está delante de la caja.",
+        "La pelota está dentro de la caja."
+      ],
+      "answer": 0,
+      "ruleTag": "detrás de = hinter",
+      "expl": "Die Kiste verdeckt den Ball zur Hälfte, er liegt dahinter: detrás de la caja."
+    },
+    {
+      "id": "preposiciones-5",
+      "stage": 1,
+      "type": "mc",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"66\" y=\"54\" width=\"9\" height=\"46\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><rect x=\"125\" y=\"54\" width=\"9\" height=\"46\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><rect x=\"66\" y=\"91\" width=\"68\" height=\"9\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><circle cx=\"100\" cy=\"76\" r=\"13\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "¿Dónde está la pelota?",
+      "q": "Welcher Satz beschreibt das Bild?",
+      "options": [
+        "La pelota está dentro de la caja.",
+        "La pelota está fuera de la caja.",
+        "La pelota está debajo de la caja."
+      ],
+      "answer": 0,
+      "ruleTag": "dentro de = drinnen in",
+      "expl": "Der Ball liegt im Inneren der Kiste: dentro de la caja."
+    },
+    {
+      "id": "preposiciones-6",
+      "stage": 1,
+      "type": "mc",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"14\" y=\"64\" width=\"44\" height=\"36\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><rect x=\"142\" y=\"64\" width=\"44\" height=\"36\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><circle cx=\"100\" cy=\"86\" r=\"14\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "¿Dónde está la pelota?",
+      "q": "Welcher Satz beschreibt das Bild?",
+      "options": [
+        "La pelota está entre las dos cajas.",
+        "La pelota está detrás de las dos cajas.",
+        "La pelota está encima de las dos cajas."
+      ],
+      "answer": 0,
+      "ruleTag": "entre = zwischen (ohne de)",
+      "expl": "Zwischen zwei Dingen steht entre, und zwar ohne de."
+    },
+    {
+      "id": "preposiciones-7",
+      "stage": 1,
+      "type": "mc",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"112\" y=\"56\" width=\"76\" height=\"8\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><rect x=\"120\" y=\"64\" width=\"8\" height=\"36\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><rect x=\"172\" y=\"64\" width=\"8\" height=\"36\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><g transform=\"translate(30,100) scale(0.9)\" fill=\"#78838f\" stroke=\"#2b323d\" stroke-width=\"2.2\" stroke-linejoin=\"round\"><path d=\"M-19 -14 q-11 -3 -8 -15\" fill=\"none\" stroke-width=\"3.5\" stroke-linecap=\"round\"/><ellipse cx=\"0\" cy=\"-10\" rx=\"20\" ry=\"10\"/><path d=\"M10 -30 L11 -39 L17 -31 Z\"/><path d=\"M19 -31 L25 -38 L26 -29 Z\"/><circle cx=\"16\" cy=\"-24\" r=\"8\"/></g></svg>",
+      "sentence": "¿Dónde está el gato?",
+      "q": "Welcher Satz beschreibt das Bild?",
+      "options": [
+        "El gato está lejos de la mesa.",
+        "El gato está cerca de la mesa.",
+        "El gato está debajo de la mesa."
+      ],
+      "answer": 0,
+      "ruleTag": "lejos de = weit weg von",
+      "expl": "Katze und Tisch sind weit auseinander: lejos de la mesa."
+    },
+    {
+      "id": "preposiciones-8",
+      "stage": 1,
+      "type": "mc",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"40\" y=\"62\" width=\"46\" height=\"38\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><circle cx=\"150\" cy=\"86\" r=\"14\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "¿Dónde está la pelota?",
+      "q": "Welcher Satz beschreibt das Bild?",
+      "options": [
+        "Está a la derecha de la caja.",
+        "Está a la izquierda de la caja.",
+        "Está encima de la caja."
+      ],
+      "answer": 0,
+      "ruleTag": "a la derecha de = rechts von",
+      "expl": "Der Ball liegt rechts von der Kiste: a la derecha de la caja."
+    },
+    {
+      "id": "preposiciones-9",
+      "stage": 2,
+      "type": "choice",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"52\" width=\"112\" height=\"8\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><rect x=\"52\" y=\"60\" width=\"8\" height=\"40\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><rect x=\"140\" y=\"60\" width=\"8\" height=\"40\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><g transform=\"translate(100,52) scale(0.95)\" fill=\"#78838f\" stroke=\"#2b323d\" stroke-width=\"2.2\" stroke-linejoin=\"round\"><path d=\"M-19 -14 q-11 -3 -8 -15\" fill=\"none\" stroke-width=\"3.5\" stroke-linecap=\"round\"/><ellipse cx=\"0\" cy=\"-10\" rx=\"20\" ry=\"10\"/><path d=\"M10 -30 L11 -39 L17 -31 Z\"/><path d=\"M19 -31 L25 -38 L26 -29 Z\"/><circle cx=\"16\" cy=\"-24\" r=\"8\"/></g></svg>",
+      "sentence": "El gato está ___ la mesa.",
+      "options": [
+        "encima de",
+        "debajo de"
+      ],
+      "answer": 0,
+      "ruleTag": "encima de = auf",
+      "expl": "Die Katze sitzt oben auf der Platte, also encima de la mesa."
+    },
+    {
+      "id": "preposiciones-10",
+      "stage": 2,
+      "type": "choice",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"52\" width=\"112\" height=\"8\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><rect x=\"52\" y=\"60\" width=\"8\" height=\"40\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><rect x=\"140\" y=\"60\" width=\"8\" height=\"40\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><g transform=\"translate(100,100) scale(0.95)\" fill=\"#78838f\" stroke=\"#2b323d\" stroke-width=\"2.2\" stroke-linejoin=\"round\"><path d=\"M-19 -14 q-11 -3 -8 -15\" fill=\"none\" stroke-width=\"3.5\" stroke-linecap=\"round\"/><ellipse cx=\"0\" cy=\"-10\" rx=\"20\" ry=\"10\"/><path d=\"M10 -30 L11 -39 L17 -31 Z\"/><path d=\"M19 -31 L25 -38 L26 -29 Z\"/><circle cx=\"16\" cy=\"-24\" r=\"8\"/></g></svg>",
+      "sentence": "El gato está ___ la mesa.",
+      "options": [
+        "debajo de",
+        "encima de"
+      ],
+      "answer": 0,
+      "ruleTag": "debajo de = unter",
+      "expl": "Die Katze sitzt unter dem Tisch: debajo de la mesa."
+    },
+    {
+      "id": "preposiciones-11",
+      "stage": 2,
+      "type": "choice",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"66\" y=\"54\" width=\"9\" height=\"46\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><rect x=\"125\" y=\"54\" width=\"9\" height=\"46\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><rect x=\"66\" y=\"91\" width=\"68\" height=\"9\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><circle cx=\"100\" cy=\"76\" r=\"13\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "La pelota está ___ la caja.",
+      "options": [
+        "fuera de",
+        "dentro de"
+      ],
+      "answer": 1,
+      "ruleTag": "dentro de = drinnen in",
+      "expl": "Der Ball ist im Inneren der Kiste, deshalb dentro de."
+    },
+    {
+      "id": "preposiciones-12",
+      "stage": 2,
+      "type": "choice",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"66\" y=\"54\" width=\"9\" height=\"46\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><rect x=\"125\" y=\"54\" width=\"9\" height=\"46\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><rect x=\"66\" y=\"91\" width=\"68\" height=\"9\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><circle cx=\"168\" cy=\"86\" r=\"14\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "La pelota está ___ la caja.",
+      "options": [
+        "dentro de",
+        "fuera de"
+      ],
+      "answer": 1,
+      "ruleTag": "fuera de = außerhalb von",
+      "expl": "Der Ball liegt draußen neben der Kiste, also fuera de la caja."
+    },
+    {
+      "id": "preposiciones-13",
+      "stage": 2,
+      "type": "choice",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"95\" cy=\"80\" rx=\"32\" ry=\"5\" fill=\"#8a9099\" opacity=\"0.45\"/><rect x=\"66\" y=\"34\" width=\"58\" height=\"44\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><ellipse cx=\"94\" cy=\"101\" rx=\"21\" ry=\"4.5\" fill=\"#8a9099\" opacity=\"0.45\"/><circle cx=\"94\" cy=\"80\" r=\"18\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "La pelota está ___ la caja.",
+      "options": [
+        "delante de",
+        "detrás de"
+      ],
+      "answer": 0,
+      "ruleTag": "delante de = vor",
+      "expl": "Der Ball ist vorne und verdeckt die Kiste: delante de."
+    },
+    {
+      "id": "preposiciones-14",
+      "stage": 2,
+      "type": "choice",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(104,86) scale(0.85)\" fill=\"#78838f\" stroke=\"#2b323d\" stroke-width=\"2.2\" stroke-linejoin=\"round\"><path d=\"M-19 -14 q-11 -3 -8 -15\" fill=\"none\" stroke-width=\"3.5\" stroke-linecap=\"round\"/><ellipse cx=\"0\" cy=\"-10\" rx=\"20\" ry=\"10\"/><path d=\"M10 -30 L11 -39 L17 -31 Z\"/><path d=\"M19 -31 L25 -38 L26 -29 Z\"/><circle cx=\"16\" cy=\"-24\" r=\"8\"/></g><ellipse cx=\"95\" cy=\"101\" rx=\"36\" ry=\"5\" fill=\"#8a9099\" opacity=\"0.45\"/><rect x=\"60\" y=\"68\" width=\"70\" height=\"30\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "El gato está ___ la caja.",
+      "options": [
+        "detrás de",
+        "delante de"
+      ],
+      "answer": 0,
+      "ruleTag": "detrás de = hinter",
+      "expl": "Nur der Kopf schaut über die Kiste: die Katze ist detrás de la caja."
+    },
+    {
+      "id": "preposiciones-15",
+      "stage": 2,
+      "type": "choice",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"6\" y=\"66\" width=\"38\" height=\"34\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><rect x=\"158\" y=\"66\" width=\"38\" height=\"34\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><g transform=\"translate(96,100) scale(0.9)\" fill=\"#78838f\" stroke=\"#2b323d\" stroke-width=\"2.2\" stroke-linejoin=\"round\"><path d=\"M-19 -14 q-11 -3 -8 -15\" fill=\"none\" stroke-width=\"3.5\" stroke-linecap=\"round\"/><ellipse cx=\"0\" cy=\"-10\" rx=\"20\" ry=\"10\"/><path d=\"M10 -30 L11 -39 L17 -31 Z\"/><path d=\"M19 -31 L25 -38 L26 -29 Z\"/><circle cx=\"16\" cy=\"-24\" r=\"8\"/></g></svg>",
+      "sentence": "El gato está ___ las dos cajas.",
+      "options": [
+        "al lado de",
+        "entre"
+      ],
+      "answer": 1,
+      "ruleTag": "entre = zwischen (ohne de)",
+      "expl": "Die Katze sitzt mitten zwischen beiden Kisten: entre, ohne de."
+    },
+    {
+      "id": "preposiciones-16",
+      "stage": 2,
+      "type": "choice",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"14\" y=\"56\" width=\"74\" height=\"8\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><rect x=\"22\" y=\"64\" width=\"8\" height=\"36\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><rect x=\"72\" y=\"64\" width=\"8\" height=\"36\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><g transform=\"translate(152,100) scale(0.9)\" fill=\"#78838f\" stroke=\"#2b323d\" stroke-width=\"2.2\" stroke-linejoin=\"round\"><path d=\"M-19 -14 q-11 -3 -8 -15\" fill=\"none\" stroke-width=\"3.5\" stroke-linecap=\"round\"/><ellipse cx=\"0\" cy=\"-10\" rx=\"20\" ry=\"10\"/><path d=\"M10 -30 L11 -39 L17 -31 Z\"/><path d=\"M19 -31 L25 -38 L26 -29 Z\"/><circle cx=\"16\" cy=\"-24\" r=\"8\"/></g></svg>",
+      "sentence": "El gato está ___ la mesa.",
+      "options": [
+        "a la derecha de",
+        "a la izquierda de"
+      ],
+      "answer": 0,
+      "ruleTag": "a la derecha de = rechts von",
+      "expl": "Die Katze sitzt rechts vom Tisch: a la derecha de la mesa."
+    },
+    {
+      "id": "preposiciones-17",
+      "stage": 2,
+      "type": "choice",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"8\" y=\"68\" width=\"40\" height=\"32\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><circle cx=\"180\" cy=\"88\" r=\"12\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "La pelota está ___ la caja.",
+      "options": [
+        "cerca de",
+        "lejos de"
+      ],
+      "answer": 1,
+      "ruleTag": "lejos de = weit weg von",
+      "expl": "Der Abstand ist groß, deshalb lejos de la caja."
+    },
+    {
+      "id": "preposiciones-18",
+      "stage": 2,
+      "type": "choice",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"110\" y=\"56\" width=\"78\" height=\"8\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><rect x=\"118\" y=\"64\" width=\"8\" height=\"36\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><rect x=\"172\" y=\"64\" width=\"8\" height=\"36\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><g transform=\"translate(84,100) scale(0.9)\" fill=\"#78838f\" stroke=\"#2b323d\" stroke-width=\"2.2\" stroke-linejoin=\"round\"><path d=\"M-19 -14 q-11 -3 -8 -15\" fill=\"none\" stroke-width=\"3.5\" stroke-linecap=\"round\"/><ellipse cx=\"0\" cy=\"-10\" rx=\"20\" ry=\"10\"/><path d=\"M10 -30 L11 -39 L17 -31 Z\"/><path d=\"M19 -31 L25 -38 L26 -29 Z\"/><circle cx=\"16\" cy=\"-24\" r=\"8\"/></g></svg>",
+      "sentence": "El gato está ___ la mesa.",
+      "options": [
+        "cerca de",
+        "lejos de"
+      ],
+      "answer": 0,
+      "ruleTag": "cerca de = nahe bei",
+      "expl": "Die Katze sitzt dicht beim Tisch: cerca de la mesa."
+    },
+    {
+      "id": "preposiciones-19",
+      "stage": 3,
+      "type": "cloze",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"52\" width=\"112\" height=\"8\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><rect x=\"52\" y=\"60\" width=\"8\" height=\"40\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><rect x=\"140\" y=\"60\" width=\"8\" height=\"40\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><circle cx=\"100\" cy=\"38\" r=\"14\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "La pelota está ___ la mesa.",
+      "hint": "(auf)",
+      "answers": [
+        "sobre",
+        "encima de",
+        "en"
+      ],
+      "ruleTag": "sobre / encima de / en = auf",
+      "expl": "Für auf kannst du sobre, encima de oder einfach en benutzen."
+    },
+    {
+      "id": "preposiciones-20",
+      "stage": 3,
+      "type": "cloze",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"66\" y=\"54\" width=\"9\" height=\"46\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><rect x=\"125\" y=\"54\" width=\"9\" height=\"46\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><rect x=\"66\" y=\"91\" width=\"68\" height=\"9\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><circle cx=\"100\" cy=\"76\" r=\"13\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "La pelota está ___ la caja.",
+      "hint": "(in)",
+      "answers": [
+        "dentro de",
+        "en"
+      ],
+      "ruleTag": "dentro de / en = in",
+      "expl": "en la caja reicht, dentro de la caja betont das Innere stärker."
+    },
+    {
+      "id": "preposiciones-21",
+      "stage": 3,
+      "type": "cloze",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"52\" width=\"112\" height=\"8\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><rect x=\"52\" y=\"60\" width=\"8\" height=\"40\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><rect x=\"140\" y=\"60\" width=\"8\" height=\"40\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><g transform=\"translate(100,100) scale(0.95)\" fill=\"#78838f\" stroke=\"#2b323d\" stroke-width=\"2.2\" stroke-linejoin=\"round\"><path d=\"M-19 -14 q-11 -3 -8 -15\" fill=\"none\" stroke-width=\"3.5\" stroke-linecap=\"round\"/><ellipse cx=\"0\" cy=\"-10\" rx=\"20\" ry=\"10\"/><path d=\"M10 -30 L11 -39 L17 -31 Z\"/><path d=\"M19 -31 L25 -38 L26 -29 Z\"/><circle cx=\"16\" cy=\"-24\" r=\"8\"/></g></svg>",
+      "sentence": "El gato está ___ la mesa.",
+      "hint": "(unter)",
+      "answers": [
+        "debajo de",
+        "bajo"
+      ],
+      "ruleTag": "debajo de = unter",
+      "expl": "debajo braucht immer de: debajo de la mesa."
+    },
+    {
+      "id": "preposiciones-22",
+      "stage": 3,
+      "type": "cloze",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"91\" cy=\"79\" rx=\"36\" ry=\"5\" fill=\"#8a9099\" opacity=\"0.45\"/><rect x=\"56\" y=\"32\" width=\"70\" height=\"44\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><ellipse cx=\"96\" cy=\"100\" rx=\"22\" ry=\"4.5\" fill=\"#8a9099\" opacity=\"0.45\"/><g transform=\"translate(96,98) scale(1.05)\" fill=\"#78838f\" stroke=\"#2b323d\" stroke-width=\"2.2\" stroke-linejoin=\"round\"><path d=\"M-19 -14 q-11 -3 -8 -15\" fill=\"none\" stroke-width=\"3.5\" stroke-linecap=\"round\"/><ellipse cx=\"0\" cy=\"-10\" rx=\"20\" ry=\"10\"/><path d=\"M10 -30 L11 -39 L17 -31 Z\"/><path d=\"M19 -31 L25 -38 L26 -29 Z\"/><circle cx=\"16\" cy=\"-24\" r=\"8\"/></g></svg>",
+      "sentence": "El gato está ___ la caja.",
+      "hint": "(vor)",
+      "answers": [
+        "delante de"
+      ],
+      "ruleTag": "delante de = vor",
+      "expl": "Die Katze steht vorne und verdeckt die Kiste: delante de la caja."
+    },
+    {
+      "id": "preposiciones-23",
+      "stage": 3,
+      "type": "cloze",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><circle cx=\"114\" cy=\"78\" r=\"15\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/><rect x=\"52\" y=\"52\" width=\"64\" height=\"48\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "La pelota está ___ la caja.",
+      "hint": "(hinter)",
+      "answers": [
+        "detrás de"
+      ],
+      "ruleTag": "detrás de = hinter",
+      "expl": "Der Ball verschwindet hinter der Kiste: detrás de, mit Akzent auf á."
+    },
+    {
+      "id": "preposiciones-24",
+      "stage": 3,
+      "type": "cloze",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"14\" y=\"64\" width=\"44\" height=\"36\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><rect x=\"142\" y=\"64\" width=\"44\" height=\"36\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><circle cx=\"100\" cy=\"86\" r=\"14\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "La pelota está ___ las dos cajas.",
+      "hint": "(zwischen)",
+      "answers": [
+        "entre"
+      ],
+      "ruleTag": "entre = zwischen (ohne de)",
+      "expl": "entre ist die Ausnahme: hier steht nie de."
+    },
+    {
+      "id": "preposiciones-25",
+      "stage": 3,
+      "type": "cloze",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"66\" width=\"44\" height=\"34\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><g transform=\"translate(104,100) scale(0.9)\" fill=\"#78838f\" stroke=\"#2b323d\" stroke-width=\"2.2\" stroke-linejoin=\"round\"><path d=\"M-19 -14 q-11 -3 -8 -15\" fill=\"none\" stroke-width=\"3.5\" stroke-linecap=\"round\"/><ellipse cx=\"0\" cy=\"-10\" rx=\"20\" ry=\"10\"/><path d=\"M10 -30 L11 -39 L17 -31 Z\"/><path d=\"M19 -31 L25 -38 L26 -29 Z\"/><circle cx=\"16\" cy=\"-24\" r=\"8\"/></g></svg>",
+      "sentence": "El gato está ___ la caja.",
+      "hint": "(neben)",
+      "answers": [
+        "al lado de",
+        "junto a"
+      ],
+      "ruleTag": "al lado de = neben",
+      "expl": "Direkt daneben heißt al lado de, wörtlich an der Seite von."
+    },
+    {
+      "id": "preposiciones-26",
+      "stage": 3,
+      "type": "cloze",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"66\" y=\"54\" width=\"9\" height=\"46\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><rect x=\"125\" y=\"54\" width=\"9\" height=\"46\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><rect x=\"66\" y=\"91\" width=\"68\" height=\"9\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><circle cx=\"168\" cy=\"86\" r=\"14\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "La pelota está ___ la caja.",
+      "hint": "(außerhalb von)",
+      "answers": [
+        "fuera de"
+      ],
+      "ruleTag": "fuera de = außerhalb von",
+      "expl": "Draußen vor der Kiste: fuera de la caja, das Gegenteil von dentro de."
+    },
+    {
+      "id": "preposiciones-27",
+      "stage": 3,
+      "type": "cloze",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"8\" y=\"68\" width=\"40\" height=\"32\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><circle cx=\"180\" cy=\"88\" r=\"12\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "La pelota está ___ la caja.",
+      "hint": "(weit weg von)",
+      "answers": [
+        "lejos de"
+      ],
+      "ruleTag": "lejos de = weit weg von",
+      "expl": "Großer Abstand heißt lejos de, auch das braucht de."
+    },
+    {
+      "id": "preposiciones-28",
+      "stage": 3,
+      "type": "cloze",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"104\" y=\"64\" width=\"50\" height=\"36\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><circle cx=\"62\" cy=\"86\" r=\"14\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "La pelota está ___ la caja.",
+      "hint": "(nahe bei)",
+      "answers": [
+        "cerca de"
+      ],
+      "ruleTag": "cerca de = nahe bei",
+      "expl": "Kleiner Abstand heißt cerca de la caja."
+    },
+    {
+      "id": "preposiciones-29",
+      "stage": 3,
+      "type": "cloze",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"40\" y=\"62\" width=\"46\" height=\"38\" rx=\"2\" fill=\"#b07a45\" stroke=\"#54361a\" stroke-width=\"2.5\"/><circle cx=\"150\" cy=\"86\" r=\"14\" fill=\"#e2823c\" stroke=\"#6b3a12\" stroke-width=\"2.5\"/></svg>",
+      "sentence": "La pelota está ___ la caja.",
+      "hint": "(rechts von)",
+      "answers": [
+        "a la derecha de"
+      ],
+      "ruleTag": "a la derecha de = rechts von",
+      "expl": "Die ganze Wendung lautet a la derecha de, mit a und de."
+    },
+    {
+      "id": "preposiciones-30",
+      "stage": 3,
+      "type": "cloze",
+      "img": "<svg viewBox=\"0 0 200 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"100\" x2=\"194\" y2=\"100\" stroke=\"#8a9099\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><rect x=\"112\" y=\"56\" width=\"74\" height=\"8\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><rect x=\"120\" y=\"64\" width=\"8\" height=\"36\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><rect x=\"170\" y=\"64\" width=\"8\" height=\"36\" rx=\"1.5\" fill=\"#7f93a8\" stroke=\"#3c4c5c\" stroke-width=\"2.5\"/><g transform=\"translate(52,100) scale(0.9)\" fill=\"#78838f\" stroke=\"#2b323d\" stroke-width=\"2.2\" stroke-linejoin=\"round\"><path d=\"M-19 -14 q-11 -3 -8 -15\" fill=\"none\" stroke-width=\"3.5\" stroke-linecap=\"round\"/><ellipse cx=\"0\" cy=\"-10\" rx=\"20\" ry=\"10\"/><path d=\"M10 -30 L11 -39 L17 -31 Z\"/><path d=\"M19 -31 L25 -38 L26 -29 Z\"/><circle cx=\"16\" cy=\"-24\" r=\"8\"/></g></svg>",
+      "sentence": "El gato está ___ la mesa.",
+      "hint": "(links von)",
+      "answers": [
+        "a la izquierda de"
+      ],
+      "ruleTag": "a la izquierda de = links von",
+      "expl": "Links von etwas heißt a la izquierda de, gebaut wie a la derecha de."
+    }
+  ]
+}

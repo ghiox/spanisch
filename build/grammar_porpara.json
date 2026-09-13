@@ -1,0 +1,329 @@
+{
+  "id": "porpara",
+  "title": "por vs. para",
+  "rule": {
+    "lines": [
+      "para = Zweck, Ziel, Empfänger, Frist (für, um zu): Es para ti. Salgo para Madrid.",
+      "por = Grund, Ursache (wegen): Gracias por tu ayuda. No salgo por la lluvia.",
+      "por = Tausch und Preis: Lo compro por diez euros.",
+      "por = Weg und Mittel: Paseo por el parque. Hablamos por teléfono.",
+      "por = Dauer und Tageszeit: por dos semanas, por la noche."
+    ],
+    "examples": [
+      { "es": "Este regalo es para mi madre.", "de": "Dieses Geschenk ist für meine Mutter." },
+      { "es": "Gracias por tu ayuda.", "de": "Danke für deine Hilfe." },
+      { "es": "Necesito dinero para comprar el billete.", "de": "Ich brauche Geld, um das Ticket zu kaufen." },
+      { "es": "Viajamos por España.", "de": "Wir reisen durch Spanien." }
+    ]
+  },
+  "items": [
+    {
+      "id": "porpara-1",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Lo hago por ti.",
+      "q": "Was bedeutet der Satz?",
+      "options": ["Ich mache es deinetwegen, dir zuliebe.", "Ich mache es, damit du es bekommst."],
+      "answer": 0,
+      "ruleTag": "por = Grund",
+      "expl": "por ti nennt den Grund: Du bist der Anlass, deinetwegen tue ich es."
+    },
+    {
+      "id": "porpara-2",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Este café es para ti.",
+      "q": "Was bedeutet der Satz?",
+      "options": ["Der Kaffee ist für dich bestimmt.", "Ich trinke den Kaffee deinetwegen."],
+      "answer": 0,
+      "ruleTag": "para = Empfänger",
+      "expl": "para ti zeigt den Empfänger: Der Kaffee ist für dich gedacht."
+    },
+    {
+      "id": "porpara-3",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Trabajo para Ana.",
+      "q": "Was bedeutet der Satz?",
+      "options": ["Ana ist meine Chefin.", "Ich vertrete Ana, weil sie heute fehlt."],
+      "answer": 0,
+      "ruleTag": "para = Arbeitgeber",
+      "expl": "trabajar para heißt bei jemandem angestellt sein: Ana ist deine Chefin."
+    },
+    {
+      "id": "porpara-4",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Trabajo por Ana.",
+      "q": "Was bedeutet der Satz?",
+      "options": ["Ich arbeite an Anas Stelle, als Vertretung.", "Ana ist meine Chefin."],
+      "answer": 0,
+      "ruleTag": "por = anstelle von",
+      "expl": "trabajar por heißt an ihrer Stelle arbeiten, also Ana vertreten."
+    },
+    {
+      "id": "porpara-5",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Salgo para Madrid.",
+      "q": "Was bedeutet der Satz?",
+      "options": ["Ich breche nach Madrid auf.", "Ich fahre durch Madrid."],
+      "answer": 0,
+      "ruleTag": "para = Ziel",
+      "expl": "para zeigt das Ziel der Reise: Madrid ist dein Zielort."
+    },
+    {
+      "id": "porpara-6",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Viajamos por España.",
+      "q": "Was bedeutet der Satz?",
+      "options": ["Wir reisen durch Spanien.", "Wir reisen nach Spanien."],
+      "answer": 0,
+      "ruleTag": "por = Weg",
+      "expl": "por beschreibt den Weg: Ihr bewegt euch kreuz und quer durch das Land."
+    },
+    {
+      "id": "porpara-7",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "Compro el libro por veinte euros.",
+      "q": "Was drückt por hier aus?",
+      "options": ["den Preis, den Tausch", "den Zweck", "die Frist"],
+      "answer": 0,
+      "ruleTag": "por = Tausch/Preis",
+      "expl": "Beim Tausch Geld gegen Ware steht immer por: für zwanzig Euro."
+    },
+    {
+      "id": "porpara-8",
+      "stage": 1,
+      "type": "mc",
+      "sentence": "El trabajo es para el lunes.",
+      "q": "Was drückt para hier aus?",
+      "options": ["die Frist: bis Montag fertig", "die Dauer: den ganzen Montag", "den Grund: wegen Montag"],
+      "answer": 0,
+      "ruleTag": "para = Frist",
+      "expl": "para nennt den Termin, bis zu dem etwas fertig sein muss."
+    },
+    {
+      "id": "porpara-9",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Gracias ___ tu ayuda.",
+      "options": ["por", "para"],
+      "answer": 0,
+      "ruleTag": "gracias por = Grund",
+      "expl": "Nach gracias steht immer por, auch wenn du auf Deutsch für sagst."
+    },
+    {
+      "id": "porpara-10",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Este regalo es ___ mi hermana.",
+      "options": ["por", "para"],
+      "answer": 1,
+      "ruleTag": "para = Empfänger",
+      "expl": "Wer etwas bekommt, steht mit para: das Geschenk für deine Schwester."
+    },
+    {
+      "id": "porpara-11",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Siempre estudio español ___ la noche.",
+      "options": ["por", "para"],
+      "answer": 0,
+      "ruleTag": "por = Tageszeit",
+      "expl": "Tageszeiten stehen mit por: por la mañana, por la tarde, por la noche."
+    },
+    {
+      "id": "porpara-12",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "La tarea es ___ mañana.",
+      "options": ["por", "para"],
+      "answer": 1,
+      "ruleTag": "para = Frist",
+      "expl": "Ein Abgabetermin steht mit para: bis morgen muss die Aufgabe fertig sein."
+    },
+    {
+      "id": "porpara-13",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Hablamos ___ teléfono cada domingo.",
+      "options": ["por", "para"],
+      "answer": 0,
+      "ruleTag": "por = Mittel",
+      "expl": "Das Mittel oder der Kanal steht mit por: por teléfono, por correo."
+    },
+    {
+      "id": "porpara-14",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Mi padre trabaja ___ una empresa grande.",
+      "options": ["por", "para"],
+      "answer": 1,
+      "ruleTag": "trabajar para = Arbeitgeber",
+      "expl": "Bei wem man angestellt ist, sagst du mit para, nicht mit por."
+    },
+    {
+      "id": "porpara-15",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Hoy no trabajo ___ la lluvia.",
+      "options": ["por", "para"],
+      "answer": 0,
+      "ruleTag": "por = Grund",
+      "expl": "Der Grund, warum etwas passiert, steht mit por: wegen des Regens."
+    },
+    {
+      "id": "porpara-16",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Compro este libro ___ diez euros.",
+      "options": ["por", "para"],
+      "answer": 0,
+      "ruleTag": "por = Preis",
+      "expl": "Preis und Tausch immer mit por, obwohl du auf Deutsch für sagst."
+    },
+    {
+      "id": "porpara-17",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Necesito el coche ___ ir al trabajo.",
+      "options": ["por", "para"],
+      "answer": 1,
+      "ruleTag": "para + Infinitiv = um zu",
+      "expl": "Vor einem Infinitiv mit Absicht steht para: um zur Arbeit zu fahren."
+    },
+    {
+      "id": "porpara-18",
+      "stage": 2,
+      "type": "choice",
+      "sentence": "Pasamos ___ el parque cada día.",
+      "options": ["por", "para"],
+      "answer": 0,
+      "ruleTag": "por = Weg",
+      "expl": "Wo ihr durchgeht, steht mit por: durch den Park hindurch."
+    },
+    {
+      "id": "porpara-19",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Gracias ___ tu regalo.",
+      "hint": "Dank: wofür (Grund)",
+      "answers": ["por"],
+      "ruleTag": "gracias por = Grund",
+      "expl": "Nach gracias steht por, das musst du dir als feste Wendung merken."
+    },
+    {
+      "id": "porpara-20",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Tengo un mensaje ___ ti.",
+      "hint": "Empfänger: für dich",
+      "answers": ["para"],
+      "ruleTag": "para = Empfänger",
+      "expl": "Die Nachricht ist für dich bestimmt, deshalb para ti."
+    },
+    {
+      "id": "porpara-21",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Mañana salimos ___ Barcelona.",
+      "hint": "Ziel: nach",
+      "answers": ["para"],
+      "ruleTag": "para = Ziel",
+      "expl": "Bei salir plus Zielort steht para: Ihr brecht nach Barcelona auf."
+    },
+    {
+      "id": "porpara-22",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Corremos ___ la playa cada mañana.",
+      "hint": "Weg: am Strand entlang",
+      "answers": ["por"],
+      "ruleTag": "por = Weg",
+      "expl": "Die Strecke, auf der ihr euch bewegt, steht mit por."
+    },
+    {
+      "id": "porpara-23",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Te llamo ___ teléfono esta tarde.",
+      "hint": "Mittel: per",
+      "answers": ["por"],
+      "ruleTag": "por = Mittel",
+      "expl": "Womit du etwas machst, steht mit por: per Telefon."
+    },
+    {
+      "id": "porpara-24",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Voy a España ___ dos semanas.",
+      "hint": "Dauer: zwei Wochen lang",
+      "answers": ["por"],
+      "ruleTag": "por = Dauer",
+      "expl": "Eine Zeitspanne steht mit por, auch wenn du auf Deutsch für sagst."
+    },
+    {
+      "id": "porpara-25",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Lo hago ___ ti, porque te quiero.",
+      "hint": "Grund: dir zuliebe",
+      "answers": ["por"],
+      "ruleTag": "por = Grund",
+      "expl": "Der Nebensatz mit porque zeigt: Es geht um den Grund, also por."
+    },
+    {
+      "id": "porpara-26",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Necesito dinero ___ comprar el billete.",
+      "hint": "Zweck: um zu",
+      "answers": ["para"],
+      "ruleTag": "para + Infinitiv = um zu",
+      "expl": "Vor dem Infinitiv mit Absicht steht para: um das Ticket zu kaufen."
+    },
+    {
+      "id": "porpara-27",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Mando la carta ___ correo.",
+      "hint": "Mittel: per Post",
+      "answers": ["por"],
+      "ruleTag": "por = Mittel",
+      "expl": "Der Weg der Übermittlung steht mit por: por correo."
+    },
+    {
+      "id": "porpara-28",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Tengo que terminar el trabajo ___ el viernes.",
+      "hint": "Frist: bis Freitag",
+      "answers": ["para"],
+      "ruleTag": "para = Frist",
+      "expl": "Ein Termin, bis zu dem etwas fertig ist, steht mit para."
+    },
+    {
+      "id": "porpara-29",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "María estudia ___ ser médica.",
+      "hint": "Ziel: um zu werden",
+      "answers": ["para"],
+      "ruleTag": "para = Ziel",
+      "expl": "Das Ziel einer Ausbildung steht mit para: um Ärztin zu werden."
+    },
+    {
+      "id": "porpara-30",
+      "stage": 3,
+      "type": "cloze",
+      "sentence": "Hoy no salgo ___ el mal tiempo.",
+      "hint": "Grund: wegen",
+      "answers": ["por"],
+      "ruleTag": "por = Grund",
+      "expl": "Das schlechte Wetter ist der Grund fürs Zuhausebleiben, deshalb por."
+    }
+  ]
+}
