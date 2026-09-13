@@ -8,7 +8,7 @@ var app, keyHandler = null, S;
 
 /* ---------- Speicher ---------- */
 function defState() {
-  return { cards: {}, notes: {}, settings: { newPerDay: 15 }, introDates: {}, gramIntroDates: {}, reviewLog: {}, seenRules: {}, listen: {}, read: {}, lesson: {}, lessonLog: {} };
+  return { cards: {}, notes: {}, settings: { newPerDay: 15 }, introDates: {}, gramIntroDates: {}, reviewLog: {}, seenRules: {}, listen: {}, read: {}, lesson: {}, lessonLog: {}, boost: {} };
 }
 function load() {
   S = defState();
@@ -150,13 +150,32 @@ function dueIds(prefix) {
 }
 
 /* ---------- HOME ---------- */
-function newWordQuota() { return Math.max(0, (S.settings.newPerDay | 0) - (S.introDates[today()] || 0)); }
+/* Tageslast: viele faellige Wiederholungen -> weniger neue Woerter, sonst waechst der Stapel
+   ueber die 20 Minuten hinaus. ponytail: lineare Bremse, volle Quote bis 35 faellig, 0 ab 80. */
+function newWordQuota() {
+  var due = dueIds('w:').length;
+  var cap = Math.min(S.settings.newPerDay | 0, Math.floor((80 - due) / 3));
+  return Math.max(0, cap - (S.introDates[today()] || 0));
+}
+/* Signal "kannte ich nicht" (Diktat falsch, Gloss angetippt): Hoer-Karte sofort wieder
+   faellig; noch keine Karte -> bevorzugt als naechstes neues Wort (S.boost). */
+function boostWord(tok) {
+  if (typeof readLookup !== 'function') return;
+  var w = readLookup(tok);
+  if (!w || !w.r) return;
+  var c = S.cards['w:' + w.r + ':r'];
+  if (c) { if (c.due > Date.now()) c.due = Date.now(); }
+  else if (!S.cards['w:' + w.r + ':p']) S.boost[w.r] = 1;
+  save();
+}
 function newWords(limit, prefer) {
   if (!haveWords()) return [];
-  var out = [], pref = {};
+  var out = [], pref = {}, B = S.boost || {};
   (prefer || []).forEach(function (x) { pref[norm(x)] = 1; });
-  // bevorzugte Woerter (Zielwoerter des Lektionstexts) zuerst, dann nach Haeufigkeit
-  var ws = WORDS.slice().sort(function (a, b) { return (pref[norm(b.es)] || 0) - (pref[norm(a.es)] || 0) || a.r - b.r; });
+  // Reihenfolge: nicht gekannte (boost), Zielwoerter des Lektionstexts, dann Haeufigkeit
+  var ws = WORDS.slice().sort(function (a, b) {
+    return (B[b.r] ? 1 : 0) - (B[a.r] ? 1 : 0) || (pref[norm(b.es)] || 0) - (pref[norm(a.es)] || 0) || a.r - b.r;
+  });
   for (var i = 0; i < ws.length && out.length < limit; i++) if (!S.cards['w:' + ws[i].r + ':p']) out.push(ws[i]);
   return out;
 }
@@ -204,16 +223,22 @@ function lessonGramPoint() {
 function lessonBack(id) { return function () { lessonMark(id); home(); }; }
 function lessonSteps() {
   var L = lessonToday(), t = textById(L.textId), steps = [], pool = t && haveWords() ? lessonPool(t) : null;
-  if (haveWords()) steps.push({ id: 'vocab', label: 'Vokabeln', sub: dueIds('w:').length + ' fällig + ' + newWords(newWordQuota()).length + ' neu',
-    go: function () { startVocab(t ? t.targets : null); } });
-  if (t) steps.push({ id: 'read', label: 'Lesen', sub: t.title + ' · Stufe ' + (t.level || 1), go: function () { rReader(t); } });
-  if (t && typeof lDiktat === 'function') steps.push({ id: 'dik', label: 'Diktat', sub: '5 Sätze aus dem Text',
+  // min = grobe Zeitschaetzung (Sekunden pro Karte/Wort aus Erfahrungswerten), nur Orientierung
+  if (haveWords()) {
+    var vd = dueIds('w:').length, vn = newWords(newWordQuota()).length;
+    steps.push({ id: 'vocab', label: 'Vokabeln', sub: vd + ' fällig + ' + vn + ' neu', min: (vd * 15 + vn * 35) / 60,
+      go: function () { startVocab(t ? t.targets : null); } });
+  }
+  if (t) steps.push({ id: 'read', label: 'Lesen', sub: t.title + ' · Stufe ' + (t.level || 1), min: t.text.split(/\s+/).length / 90 + 1.5,
+    go: function () { rReader(t); } });
+  if (t && typeof lDiktat === 'function') steps.push({ id: 'dik', label: 'Diktat', sub: '5 Sätze aus dem Text', min: 4,
     go: function () { lDiktat({ n: 0, ok: 0, pool: pool, max: 5, onDone: lessonBack('dik') }); } });
   if (haveGrammar()) {
-    var g = lessonGramPoint();
-    steps.push({ id: 'gram', label: 'Grammatik', sub: g.p.title + ' · ' + (g.due ? g.due + ' fällig' : 'neue Aufgaben'), go: function () { gramOpen(g.p.id); } });
+    var g = lessonGramPoint(), gn = Math.min(gramQuota(), g.p.items.filter(function (it) { return !S.cards['g:' + it.id]; }).length);
+    steps.push({ id: 'gram', label: 'Grammatik', sub: g.p.title + ' · ' + (g.due ? g.due + ' fällig' : 'neue Aufgaben'), min: (g.due * 20 + gn * 30) / 60,
+      go: function () { gramOpen(g.p.id); } });
   }
-  if (t && typeof lShadow === 'function') steps.push({ id: 'sha', label: 'Shadowing', sub: '3 Sätze · optional', opt: true,
+  if (t && typeof lShadow === 'function') steps.push({ id: 'sha', label: 'Shadowing', sub: '3 Sätze · optional', min: 3, opt: true,
     go: function () { lShadow({ n: 0, step: 0, w: null, pool: pool, max: 3, onDone: lessonBack('sha') }); } });
   return steps;
 }
@@ -254,17 +279,19 @@ function heatHtml() {
 function lessonCard(steps) {
   if (!steps.length) return '';
   var L = lessonToday(), st = streak();
-  var left = steps.filter(function (s) { return !s.opt && !L.done[s.id]; }).length;
+  var open = steps.filter(function (s) { return !s.opt && !L.done[s.id]; }), left = open.length;
+  var mins = Math.max(1, Math.round(open.reduce(function (n, s) { return n + (s.min || 0); }, 0)));
   var cur = steps.filter(function (s) { return !L.done[s.id]; })[0];
   return '<h2>Heutige Lektion</h2><div class="card">' +
-    '<div class="bar-row"><b>' + (left ? 'Noch ' + left + ' Schritt' + (left > 1 ? 'e' : '') : 'Lektion geschafft ✓') + '</b>' +
+    '<div class="bar-row"><b>' + (left ? 'Noch ' + left + ' Schritt' + (left > 1 ? 'e' : '') + ' · ~' + mins + ' min' : 'Lektion geschafft ✓') + '</b>' +
     '<span>&#128293; ' + st.cur + ' Tag' + (st.cur === 1 ? '' : 'e') +
     (st.best > st.cur ? ' <span class="muted small">· Rekord ' + st.best + '</span>' : '') + '</span></div>' +
     heatHtml() +
     '<div class="stack" style="margin-top:12px">' + steps.map(function (s, i) {
       var done = !!L.done[s.id], isCur = s === cur;
       return '<button data-ls="' + i + '"' + (isCur ? ' class="primary"' : '') + (done ? ' style="opacity:.6"' : '') + '>' +
-        (done ? '✓ ' : (i + 1) + ' · ') + esc(s.label) + '<br><span class="small' + (isCur ? '' : ' muted') + '">' + esc(s.sub) + '</span></button>';
+        (done ? '✓ ' : (i + 1) + ' · ') + esc(s.label) + '<br><span class="small' + (isCur ? '' : ' muted') + '">' + esc(s.sub) +
+        (done || !s.min ? '' : ' · ~' + Math.max(1, Math.round(s.min)) + ' min') + '</span></button>';
     }).join('') + '</div>' +
     (cur ? '<p class="muted small">Enter startet den nächsten Schritt.</p>' : '') + '</div>';
 }
@@ -394,6 +421,7 @@ function vIntro(w) {
     S.cards['w:' + w.r + ':p'] = fsrsInit(3, Date.now());
     S.cards['w:' + w.r + ':r'] = fsrsInit(3, Date.now());
     S.introDates[today()] = (S.introDates[today()] || 0) + 1;
+    delete S.boost[w.r];
     save();
     vs.q.shift();
     // produktive Karte spaeter in dieser Session abfragen

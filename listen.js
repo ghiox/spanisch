@@ -176,6 +176,8 @@ function lDiktat(st) {
 }
 function lDikFeedback(st, w, d) {
   var target = w.ej.es;
+  // falsch/fehlend gehoerte Woerter -> Vokabelkarte frueher (app.js), Akzentfehler zaehlen nicht
+  if (typeof boostWord === 'function') d.words.forEach(function (x) { if (x.s === 'bad' || x.s === 'miss') boostWord(x.w); });
   var head = d.ok ? '<p class="ok">Richtig!</p>'
     : (d.score >= 0.999 ? '<p class="ok">Fast richtig &ndash; nur die Akzente.</p>'
       : '<p class="bad">Nicht ganz &ndash; ' + Math.round(d.score * 100) + '% der W&ouml;rter.</p>');

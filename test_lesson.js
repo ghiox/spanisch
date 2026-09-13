@@ -31,6 +31,24 @@ setTimeout(function () {
   t(tg[norm(pref[0].es)], 'newWords/Zielwort zuerst (' + pref[0].es + ')');
   t(newWords(3).length === 3 && newWords(3)[0].r === 1, 'newWords/ohne prefer nach Rang');
 
+  /* --- b2) Signal "nicht gekannt": boost + Tageslast-Bremse --- */
+  var fam = readLookup('familia');
+  t(fam && fam.r, 'boost/familia im Wortschatz');
+  boostWord('familia');
+  t(S.boost[fam.r] === 1, 'boost/ohne Karte -> vorgemerkt');
+  t(newWords(1)[0].r === fam.r, 'boost/kommt als naechstes neues Wort');
+  S.cards['w:' + fam.r + ':r'] = fsrsInit(3, Date.now()); S.cards['w:' + fam.r + ':r'].due = Date.now() + 5 * DAY;
+  S.cards['w:' + fam.r + ':p'] = fsrsInit(3, Date.now());
+  boostWord('familia');
+  t(S.cards['w:' + fam.r + ':r'].due <= Date.now(), 'boost/mit Karte -> sofort faellig');
+  t(newWordQuota() === 15, 'last/0 faellig -> 15 neu (' + newWordQuota() + ')');
+  for (var bi = 0; bi < 60; bi++) { S.cards['w:' + (5000 + bi) + ':p'] = fsrsInit(3, Date.now()); S.cards['w:' + (5000 + bi) + ':p'].due = Date.now() - 1; }
+  t(newWordQuota() === 6, 'last/60 faellig -> 6 neu (' + newWordQuota() + ')');
+  for (bi = 60; bi < 90; bi++) { S.cards['w:' + (5000 + bi) + ':p'] = fsrsInit(3, Date.now()); S.cards['w:' + (5000 + bi) + ':p'].due = Date.now() - 1; }
+  t(newWordQuota() === 0, 'last/90 faellig -> 0 neu');
+  Object.keys(S.cards).forEach(function (k) { if (+k.split(':')[1] >= 5000) delete S.cards[k]; });
+  t(/~\d+ min/.test(lessonCard(lessonSteps())), 'lektion/zeitschaetzung sichtbar');
+
   /* --- c) Abschluss + Serie --- */
   var s0 = streak();
   t(s0.cur === 0 && s0.best === 0, 'serie/leer = 0');

@@ -190,6 +190,7 @@ function rReader(t) {
     el.className = 'w tap';
     st.taps[t.id] = (st.taps[t.id] || 0) + 1;
     save();
+    if (typeof boostWord === 'function') boostWord(el.getAttribute('data-g')); // angetippt = nicht gekannt
     if (g) rPopWord(el, g);
     else rPopWord(el, 'kein Gloss', 'Dieses Wort steht nicht in der Gloss-Liste des Textes.', 'muted');
   });
