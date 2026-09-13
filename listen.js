@@ -1,6 +1,6 @@
 'use strict';
 /* Hoeren & Aussprache - eigenes Modul, nutzt die Helfer aus app.js
-   (show, esc, norm, shuffle, spk, keys, accBar, wireAcc, backBtn, $, on, S, save, ttsVoice).
+   (show, esc, norm, shuffle, spk, keys, accBar, wireAcc, backBtn, $, on, S, save, playText).
    Alle Drills sind endlos/Session-Style, kein FSRS, kein Scheduler. */
 
 /* ---------- Zustand ---------- */
@@ -14,14 +14,7 @@ function lS() {
 function lRate() { var r = +S.settings.ttsRate; return (r >= 0.5 && r <= 2) ? r : 0.9; }
 
 /* ---------- TTS mit eigenem Tempo ---------- */
-function lVoice() { return ttsVoice(); }
-function lSpeak(t, rate, voice) {
-  if (!t || !window.speechSynthesis) return;
-  var u = new SpeechSynthesisUtterance(t);
-  u.lang = 'es-ES'; u.rate = rate || lRate();
-  var v = voice || lVoice(); if (v) u.voice = v;
-  speechSynthesis.cancel(); speechSynthesis.speak(u);
-}
+function lSpeak(t, rate) { playText(t, rate || lRate()); }
 /* Forschung: Pausen zwischen Abschnitten helfen mehr als langsameres Sprechen. */
 function lChunks(s) {
   var t = String(s || '').replace(/([,;:])/g, '$1|').replace(/\s+(y|pero|porque|que|cuando)\s+/gi, ' |$1 ');
@@ -34,13 +27,8 @@ function lChunks(s) {
   return res;
 }
 function lSeq(list, i) {
-  if (!window.speechSynthesis || i >= list.length) return;
-  var u = new SpeechSynthesisUtterance(list[i]);
-  u.lang = 'es-ES'; u.rate = Math.max(0.6, lRate() - 0.1);
-  var v = lVoice(); if (v) u.voice = v;
-  u.onend = function () { setTimeout(function () { lSeq(list, i + 1); }, 700); };
-  if (i === 0) speechSynthesis.cancel();
-  speechSynthesis.speak(u);
+  if (i >= list.length) return;
+  playText(list[i], Math.max(0.6, lRate() - 0.1), function () { setTimeout(function () { lSeq(list, i + 1); }, 700); });
 }
 function lSpeakChunks(s) { lSeq(lChunks(s), 0); }
 

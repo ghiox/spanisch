@@ -88,13 +88,29 @@ function voiceInfo() {
   if (IOS) return 'Stimme: Systemauswahl für Spanisch – wählen unter Einstellungen › Bedienungshilfen › Gesprochene Inhalte › Stimmen › Spanisch (Mónica Erweitert/Premium).';
   return 'Stimme: keine spanische gefunden – Systemstimme';
 }
-function speak(t) {
+function ttsRate() { var r = (S && S.settings) ? +S.settings.ttsRate : 0; return (r >= 0.5 && r <= 2) ? r : 0.9; }
+/* Browser-Sprachausgabe - nur noch Fallback, wenn kein Clip da ist (audio.js). */
+function ttsSpeak(t, rate, onend) {
   if (!t || !window.speechSynthesis) return;
   var u = new SpeechSynthesisUtterance(t);
-  u.lang = 'es-ES'; u.rate = (S && S.settings && S.settings.ttsRate) || 0.9;
+  u.lang = 'es-ES'; u.rate = rate || ttsRate();
   var v = ttsVoice(); if (v) u.voice = v;
+  if (onend) u.onend = onend;
   speechSynthesis.cancel(); speechSynthesis.speak(u);
 }
+/* Alles Sprechen laeuft hier durch. onend/fallback nur fuer den zuletzt gestarteten Text -
+   sonst laufen alte "langsam in Abschnitten"-Ketten weiter, wenn man dazwischen tippt. */
+var playId = 0;
+function playText(t, rate, onend) {
+  if (!t) return;
+  var id = ++playId;
+  rate = rate || ttsRate();
+  var done = function () { if (id === playId && onend) onend(); };
+  if (window.speechSynthesis) speechSynthesis.cancel();
+  if (typeof audioPlay !== 'function') return ttsSpeak(t, rate, done);
+  audioPlay(t, rate, done, function (t2, r2, cb) { if (id === playId) ttsSpeak(t2, r2, cb); });
+}
+function speak(t) { playText(t); }
 function spk(t, label) { return '<button class="spk" data-t="' + esc(t) + '">&#128266; ' + esc(label || 'Anhören') + '</button>'; }
 function boldWord(sent, word) {
   var re = new RegExp('(' + String(word).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'i');
