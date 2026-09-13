@@ -1,6 +1,6 @@
 'use strict';
 /* Hoeren & Aussprache - eigenes Modul, nutzt die Helfer aus app.js
-   (show, esc, norm, shuffle, spk, keys, accBar, wireAcc, backBtn, $, on, S, save, esVoices).
+   (show, esc, norm, shuffle, spk, keys, accBar, wireAcc, backBtn, $, on, S, save, ttsVoice).
    Alle Drills sind endlos/Session-Style, kein FSRS, kein Scheduler. */
 
 /* ---------- Zustand ---------- */
@@ -14,7 +14,7 @@ function lS() {
 function lRate() { var r = +S.settings.ttsRate; return (r >= 0.5 && r <= 2) ? r : 0.9; }
 
 /* ---------- TTS mit eigenem Tempo ---------- */
-function lVoice() { return (typeof esVoice !== 'undefined' && esVoice) ? esVoice : (esVoices()[0] || null); }
+function lVoice() { return ttsVoice(); }
 function lSpeak(t, rate, voice) {
   if (!t || !window.speechSynthesis) return;
   var u = new SpeechSynthesisUtterance(t);

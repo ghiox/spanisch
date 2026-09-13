@@ -72,18 +72,27 @@ function pickVoice() {
   esVoices().forEach(function (v) { if (!best || vScore(v) > vScore(best)) best = v; });
   esVoice = best;
 }
+/* iOS zeigt Web-Apps nur die Kompaktstimmen (Fingerprinting-Schutz); die heruntergeladene
+   Mónica fehlt in getVoices(). Ohne u.voice nimmt iOS die in Einstellungen > Bedienungshilfen >
+   Gesprochene Inhalte > Stimmen fuer Spanisch gewaehlte Stimme - also dort nichts setzen,
+   solange nur eine Kompaktstimme (Score < 20) zur Wahl steht. */
+var IOS = /iP(hone|ad|od)/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+function ttsVoice() {
+  if (!esVoice) pickVoice();
+  return (esVoice && !(IOS && vScore(esVoice) < 20)) ? esVoice : null;
+}
 function voiceInfo() {
   if (!window.speechSynthesis) return 'Keine Sprachausgabe in diesem Browser.';
-  var n = esVoices().length;
-  return 'Stimme: ' + (esVoice ? esVoice.name + ' (' + vLang(esVoice) + (/premium|enhanced/i.test(esVoice.voiceURI || '') ? ', erweitert' : '') + ')'
-    : 'keine spanische gefunden – Systemstimme') + ' · ' + n + ' spanische verfügbar';
+  var v = ttsVoice(), n = esVoices().length;
+  if (v) return 'Stimme: ' + v.name + ' (' + vLang(v) + (/premium|enhanced/i.test(v.voiceURI || '') ? ', erweitert' : '') + ') · ' + n + ' spanische verfügbar';
+  if (IOS) return 'Stimme: Systemauswahl für Spanisch – wählen unter Einstellungen › Bedienungshilfen › Gesprochene Inhalte › Stimmen › Spanisch (Mónica Erweitert/Premium).';
+  return 'Stimme: keine spanische gefunden – Systemstimme';
 }
 function speak(t) {
   if (!t || !window.speechSynthesis) return;
-  if (!esVoice) pickVoice();
   var u = new SpeechSynthesisUtterance(t);
   u.lang = 'es-ES'; u.rate = (S && S.settings && S.settings.ttsRate) || 0.9;
-  if (esVoice) u.voice = esVoice;
+  var v = ttsVoice(); if (v) u.voice = v;
   speechSynthesis.cancel(); speechSynthesis.speak(u);
 }
 function spk(t, label) { return '<button class="spk" data-t="' + esc(t) + '">&#128266; ' + esc(label || 'Anhören') + '</button>'; }
