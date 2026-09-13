@@ -36,7 +36,7 @@ function lSpeakChunks(s) { lSeq(lChunks(s), 0); }
 function lHdr(right) {
   return '<div class="hdr"><span style="display:flex;gap:6px;flex:0 0 auto">' +
     '<button class="lmenu" style="width:auto;min-height:40px;padding:8px 12px;font-size:14px">&larr; H&ouml;ren</button>' +
-    backBtn() + '</span><span class="muted small">' + esc(right) + '</span></div>';
+    backBtn() + '</span><span class="muted small">' + right + '</span></div>';
 }
 function lCnt(st) { return st.ok + '/' + st.n + ' richtig'; }
 function lRateRow() {
@@ -72,6 +72,12 @@ function lPool() {
   return out;
 }
 function lPick(a) { return a[Math.floor(Math.random() * a.length)]; }
+/* Lektions-Pool: ohne Zuruecklegen (st.q), sonst zufaellig. */
+function lDraw(st, pool) {
+  if (!st.pool) return lPick(pool);
+  if (!st.q || !st.q.length) st.q = shuffle(pool.slice());
+  return st.q.shift();
+}
 function lDe(es) {
   if (!haveWords()) return '';
   var n = norm(es);
@@ -143,7 +149,7 @@ function lDiktat(st) {
   st = st || { n: 0, ok: 0 }; // Lektion: st.pool, st.max, st.onDone
   var pool = st.pool || lPool();
   if (!pool.length) return lNoData('Die Datei data/words.js wurde noch nicht erzeugt.');
-  var w = lPick(pool), target = w.ej.es;
+  var w = lDraw(st, pool), target = w.ej.es;
   lShow(lHdr('Diktat &middot; ' + lCnt(st) + (st.max ? ' &middot; Satz ' + (st.n + 1) + '/' + st.max : '')) +
     '<div class="card"><p class="muted small">H&ouml;r zu und schreib den Satz. Der Text bleibt verdeckt.</p>' +
     '<div class="row"><button id="lplay">&#128266; Nochmal</button><button id="lchunk">Langsam in Abschnitten</button></div>' +
@@ -182,7 +188,7 @@ function lDikFeedback(st, w, d) {
   lShow(lHdr('Diktat &middot; ' + lCnt(st) + (st.max ? ' &middot; ' + st.n + '/' + st.max : '')) +
     '<div class="card">' + head +
     '<p class="es">' + lDiffHtml(d) + '</p>' +
-    '<p class="muted">' + esc(w.ej.de) + '</p>' +
+    (w.ej.de ? '<p class="muted">' + esc(w.ej.de) + '</p>' : '') +
     '<p class="muted small">Gelb = nur Akzent falsch &middot; Rot = falsch, [in Klammern] = fehlt.</p>' +
     '<div class="row"><button id="lplay">&#128266; Nochmal</button><button id="lchunk">Langsam in Abschnitten</button></div>' +
     lRateRow() + '</div>' + tags +
@@ -425,7 +431,7 @@ function lShadow(st) {
   if (!st.w) {
     var pool = st.pool || lPool();
     if (!pool.length) return lNoData('Die Datei data/words.js wurde noch nicht erzeugt.');
-    st.w = lPick(pool); st.step = 0;
+    st.w = lDraw(st, pool); st.step = 0;
   }
   var w = st.w, target = w.ej.es, rate = LSHADOW_RATES[st.step] || 1.0, hidden = st.step >= 2;
   var last = st.max && st.n + 1 >= st.max;
@@ -440,7 +446,7 @@ function lShadow(st) {
     '<div class="card"><p class="muted small">Sprich gleichzeitig mit &ndash; Tempo ' + rate.toFixed(1) + 'x' +
     (hidden ? ' &middot; ohne Text' : '') + '</p>' +
     (hidden ? '<div class="big muted">&middot; &middot; &middot;</div>' : '<p class="es">' + esc(target) + '</p>') +
-    '<p class="muted">' + esc(w.ej.de) + '</p>' +
+    (w.ej.de ? '<p class="muted">' + esc(w.ej.de) + '</p>' : '') +
     '<div class="row"><button id="lplay">&#128266; Nochmal (' + rate.toFixed(1) + 'x)</button>' +
     '<button id="lchunk">Langsam in Abschnitten</button></div>' + rec + '</div>' +
     '<div class="row"><button class="primary" id="go">' + nextLabel + ' (Enter)</button></div>' +
@@ -450,8 +456,9 @@ function lShadow(st) {
   on('#lchunk', 'click', function () { lSpeakChunks(target); });
   on('#lplaymodel', 'click', play);
   on('#lplayrec', 'click', function () { if (lRecUrl) new Audio(lRecUrl).play(); });
-  on('#lrec', 'click', function () { lRecToggle(function () { lShadow(st); }); });
-  play();
+  on('#lrec', 'click', function () { lRecToggle(function () { st.quiet = true; lShadow(st); }); });
+  if (!st.quiet) play(); // nach Aufnahme-Start/-Stopp nicht automatisch vorsprechen
+  st.quiet = false;
   var nx = function () {
     if (st.step >= 2) {
       st.n++; st.w = null; st.step = 0;
@@ -465,13 +472,15 @@ function lShadow(st) {
 /* nur die letzte Aufnahme, im Speicher, keine Persistenz. */
 function lRecToggle(done) {
   if (lMR) { try { lMR.stop(); } catch (e) {} return; }
+  if (typeof audioStop === 'function') audioStop();
+  if (window.speechSynthesis) speechSynthesis.cancel();
   navigator.mediaDevices.getUserMedia({ audio: true }).then(function (stream) {
     var chunks = [], mr = new MediaRecorder(stream);
     mr.ondataavailable = function (e) { if (e.data && e.data.size) chunks.push(e.data); };
     mr.onstop = function () {
       stream.getTracks().forEach(function (t) { t.stop(); });
       if (lRecUrl) URL.revokeObjectURL(lRecUrl);
-      lRecUrl = chunks.length ? URL.createObjectURL(new Blob(chunks)) : null;
+      lRecUrl = chunks.length ? URL.createObjectURL(new Blob(chunks, { type: mr.mimeType || 'audio/mp4' })) : null;
       lMR = null; done();
     };
     lMR = mr; mr.start(); done();

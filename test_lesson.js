@@ -20,7 +20,11 @@ setTimeout(function () {
 
   /* --- b) Pool + Vokabel-Priorisierung aus den Zielwoertern --- */
   var T = TEXTS[0], pool = lessonPool(T);
-  t(pool && pool.length >= 3, 'pool/>=3 Saetze aus Zielwoertern (' + (pool && pool.length) + ')');
+  t(pool && pool.length >= 5, 'pool/>=5 Saetze aus dem Text (' + (pool && pool.length) + ')');
+  t(pool && pool.every(function (x) { return x.ej && x.ej.es && T.text.indexOf(x.ej.es) >= 0; }), 'pool/Saetze stammen aus dem Text');
+  var seen = {}, dupe = false, stq = { n: 0, ok: 0, pool: pool, max: 5 };
+  for (var di = 0; di < 5; di++) { var w = lDraw(stq, pool); if (seen[w.ej.es]) dupe = true; seen[w.ej.es] = 1; }
+  t(!dupe, 'diktat/5 Ziehungen ohne Wiederholung');
   var pref = newWords(5, T.targets);
   t(pref.length === 5, 'newWords/5 Woerter');
   var tg = {}; T.targets.forEach(function (x) { tg[norm(x)] = 1; });

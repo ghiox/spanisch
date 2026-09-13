@@ -31,6 +31,16 @@ var RCSS = '<style>' +
   '#rpop{position:fixed;z-index:50}' +
   '</style>';
 
+/* Saetze eines Texts (fuer Diktat/Shadowing der Lektion). Auch build/tts.js nutzt das -
+   die Clips muessen zu genau diesen Strings passen. */
+function textSentences(text) {
+  var out = [];
+  String(text || '').split(/\n+/).forEach(function (p) {
+    p.split(/(?<=[.!?…])\s+(?=[¿¡"“(A-ZÁÉÍÓÚÑ])/).forEach(function (x) { x = x.trim(); if (x) out.push(x); });
+  });
+  return out;
+}
+
 /* Wort/Trenner-Split: ungerade Indizes sind Woerter. */
 var R_SPLIT = /([0-9A-Za-zÁÉÍÓÚÜÑÇáéíóúüñç]+)/;
 function rTokens(s) { return String(s == null ? '' : s).split(R_SPLIT); }

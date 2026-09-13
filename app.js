@@ -184,11 +184,10 @@ function lessonToday() {
   }
   return L;
 }
-/* Beispielsaetze der Zielwoerter - haben deutsche Uebersetzung, Textsaetze nicht. */
+/* Saetze des Lektionstexts im Pool-Format der Hoer-Drills ({ej:{es,de}}); keine Uebersetzung,
+   der Text wurde gerade mit Glossen gelesen. */
 function lessonPool(t) {
-  var want = {};
-  (t.targets || []).forEach(function (x) { want[norm(x)] = 1; });
-  var out = WORDS.filter(function (w) { return want[norm(w.es)] && w.ej && w.ej.es; });
+  var out = textSentences(t.text).map(function (x) { return { es: '', ej: { es: x, de: '' } }; });
   return out.length >= 3 ? out : null; // null -> Modul nimmt seinen Standard-Pool
 }
 function lessonGramPoint() {
@@ -208,7 +207,7 @@ function lessonSteps() {
   if (haveWords()) steps.push({ id: 'vocab', label: 'Vokabeln', sub: dueIds('w:').length + ' fällig + ' + newWords(newWordQuota()).length + ' neu',
     go: function () { startVocab(t ? t.targets : null); } });
   if (t) steps.push({ id: 'read', label: 'Lesen', sub: t.title + ' · Stufe ' + (t.level || 1), go: function () { rReader(t); } });
-  if (t && typeof lDiktat === 'function') steps.push({ id: 'dik', label: 'Diktat', sub: '5 Sätze mit Wörtern aus dem Text',
+  if (t && typeof lDiktat === 'function') steps.push({ id: 'dik', label: 'Diktat', sub: '5 Sätze aus dem Text',
     go: function () { lDiktat({ n: 0, ok: 0, pool: pool, max: 5, onDone: lessonBack('dik') }); } });
   if (haveGrammar()) {
     var g = lessonGramPoint();

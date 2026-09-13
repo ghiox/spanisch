@@ -15,7 +15,7 @@ const limit = args.includes('--limit') ? +args[args.indexOf('--limit') + 1] : In
 
 // App-Dateien im Sandkasten laden: Daten, audioKey(), lChunks() und die festen Hoer-Listen.
 const ctx = vm.createContext({});
-for (const f of ['data/words.js', 'data/grammar.js', 'data/verbs.js', 'data/house.js', 'data/texts.js', 'audio.js', 'listen.js'])
+for (const f of ['data/words.js', 'data/grammar.js', 'data/verbs.js', 'data/house.js', 'data/texts.js', 'audio.js', 'listen.js', 'read.js'])
   vm.runInContext(fs.readFileSync(path.join(ROOT, f), 'utf8').replace(/^const /m, 'var '), ctx, { filename: f });
 const OUT = path.join(ROOT, ctx.AUDIO_DIR);
 
@@ -23,7 +23,7 @@ const texts = new Map(); // key -> text
 const add = s => { s = String(s == null ? '' : s).trim().replace(/\s+/g, ' '); if (s) texts.set(ctx.audioKey(s), s); };
 const chunks = s => ctx.lChunks(s).forEach(add);
 ctx.WORDS.forEach(w => { add(w.es); if (w.ej && w.ej.es) { add(w.ej.es); chunks(w.ej.es); } });
-ctx.TEXTS.forEach(t => String(t.text).split(/\n+/).forEach(add));
+ctx.TEXTS.forEach(t => { String(t.text).split(/\n+/).forEach(add); ctx.textSentences(t.text).forEach(x => { add(x); chunks(x); }); });
 ctx.GRAMMAR.forEach(p => { (p.rule.examples || []).forEach(e => add(e.es)); p.items.forEach(it => { if (it.type === 'mc') add(it.sentence); }); });
 Object.values(ctx.VERBS).forEach(v => ['presente', 'preterito', 'imperfecto'].forEach(t => (v[t] || []).forEach(f => { add(f); add(String(f).toLowerCase()); })));
 ctx.HOUSE.forEach(r => { add(r.es); (r.items || []).forEach(it => add(it.es)); });
