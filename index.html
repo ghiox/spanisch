@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <title>Spanisch lernen</title>
 <!-- PWA: "Zum Home-Bildschirm" auf iOS/Android, offline via sw.js (nur ueber http(s)) -->
 <meta name="theme-color" content="#b4460f">
@@ -23,7 +23,7 @@
     }
   }
   *{box-sizing:border-box}
-  html,body{margin:0;padding:0}
+  html,body{margin:0;padding:0;touch-action:pan-x pan-y} /* kein Kneif-/Doppeltipp-Zoom in der App */
   body{
     background:var(--bg); color:var(--fg);
     font:17px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
@@ -114,6 +114,9 @@
 <script src="listen.js"></script>
 <script src="read.js"></script>
 <script src="app.js"></script>
-<script>if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register('sw.js');</script>
+<script>
+if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register('sw.js');
+document.addEventListener('gesturestart', function (e) { e.preventDefault(); }); // iOS: Kneif-Zoom
+</script>
 </body>
 </html>
