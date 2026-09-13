@@ -51,19 +51,32 @@ function keys(map) {
 }
 /* Chrome/Safari ignorieren u.lang oft und nehmen die Systemstimme (deutsch),
    solange u.voice nicht gesetzt ist. Stimmen laden asynchron -> onvoiceschanged.
-   Feste Wahl: "Google español"; Fallback es-ES / irgendeine es-Stimme, falls sie fehlt. */
+   Feste Wahl: "Google español" (Chrome). iOS hat sie nicht: dort heissen kompakte und
+   heruntergeladene Stimme gleich ("Mónica"), nur die voiceURI unterscheidet sie
+   (…enhanced… / …premium…) - deshalb Punktesystem statt erster Treffer. */
 var esVoice = null;
 function vLang(v) { return (v.lang || '').replace('_', '-'); }
 function esVoices() {
   if (!window.speechSynthesis) return [];
   return (speechSynthesis.getVoices() || []).filter(function (v) { return /^es(-|$)/i.test(vLang(v)); });
 }
+function vScore(v) {
+  var id = (v.voiceURI || '') + ' ' + (v.name || ''), s = 0;
+  if (/^google español$/i.test((v.name || '').trim())) s += 100;
+  if (/premium/i.test(id)) s += 30; else if (/enhanced|erweitert/i.test(id)) s += 20;
+  if (/^es-ES/i.test(vLang(v))) s += 10;
+  return s;
+}
 function pickVoice() {
-  var es = esVoices();
-  esVoice = null;
-  for (var i = 0; i < es.length && !esVoice; i++) if (/^google español$/i.test(es[i].name.trim())) esVoice = es[i];
-  for (var j = 0; j < es.length && !esVoice; j++) if (/^es-ES/i.test(vLang(es[j]))) esVoice = es[j];
-  if (!esVoice) esVoice = es[0] || null;
+  var best = null;
+  esVoices().forEach(function (v) { if (!best || vScore(v) > vScore(best)) best = v; });
+  esVoice = best;
+}
+function voiceInfo() {
+  if (!window.speechSynthesis) return 'Keine Sprachausgabe in diesem Browser.';
+  var n = esVoices().length;
+  return 'Stimme: ' + (esVoice ? esVoice.name + ' (' + vLang(esVoice) + (/premium|enhanced/i.test(esVoice.voiceURI || '') ? ', erweitert' : '') + ')'
+    : 'keine spanische gefunden – Systemstimme') + ' · ' + n + ' spanische verfügbar';
 }
 function speak(t) {
   if (!t || !window.speechSynthesis) return;
@@ -279,6 +292,7 @@ function home() {
        '<label class="bar-row"><span>Sprechtempo</span><span><input id="rate" type="range" min="0.7" max="1.5" step="0.1" value="' + rate + '" style="width:150px;vertical-align:middle"> <b id="rateV">' + rate.toFixed(1) + '×</b></span></label>' +
        '<label class="bar-row"><span>Mündlich üben<br><span class="muted small">produktive Karten laut sprechen statt tippen</span></span>' +
        '<input id="oral" type="checkbox"' + (S.settings.oral ? ' checked' : '') + ' style="width:auto;min-height:0"></label>' +
+       '<p class="muted small" id="vinfo">' + esc(voiceInfo()) + '</p>' +
        '<p class="muted small">Heute schon eingeführt: ' + (S.introDates[today()] || 0) + '</p></div>';
 
   h += '<footer>Frequenzliste: hermitdave/FrequencyWords (CC BY-SA 3.0) · Verben: Fred Jehle via ghidinelli (CC BY-NC-SA 3.0)</footer>';
@@ -734,7 +748,10 @@ document.addEventListener('keydown', function (e) { if (keyHandler) keyHandler(e
 window.addEventListener('resize', renderPins);
 app = document.getElementById('app');
 load();
-if (window.speechSynthesis) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
+if (window.speechSynthesis) {
+  pickVoice();
+  speechSynthesis.onvoiceschanged = function () { pickVoice(); var el = $('#vinfo'); if (el) el.textContent = voiceInfo(); };
+}
 var hash = location.hash;
 if (hash.indexOf('#casa') === 0 && haveHouse()) {
   var rid = hash.slice(6);
